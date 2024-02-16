@@ -24,55 +24,48 @@
 {%- endif -%}
 
 {%- style -%}
-  #Banner-{{ section.id }}::after {
-    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
-  }
+ 
 
-.superhumn-main-banner{background: #130D09 url('{{ section.settings.image |  image_url: width: 2000 }}') repeat; 
 
+  .superhuman-banner-bg{ 
+
+  background:#000 url('{{  section.settings.image_bg |  image_url: width: 2000  }}');
+
+  
     background-size: 100%;
     height: 100vh;
 
     position:relative;
 
-}
 
-.banner__media-second-image{    width: 100%;
-   position: absolute;
-   }
-
-    .banner__media-second-image img{ width:100%;  bottom: 0;
-        position: absolute;
-    bottom: 0;
   }
+
+  .full-screen{ width:100%; height:100vh;}
 
   
 {%- endstyle -%}
 
-{%- liquid
-  assign full_width = '100vw'
-  assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 
-  if section.settings.image_behavior == 'ambient'
-    assign half_width = '60vw'
-    assign full_width = '120vw'
-    assign stacked_sizes = '(min-width: 750px) 60vw, 120vw'
-    assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-  elsif section.settings.image_behavior == 'fixed' or section.settings.image_behavior == 'zoom-in'
-    assign half_width = '100vw'
-    assign stacked_sizes = '100vw'
-  else
-    assign half_width = '50vw'
-    assign stacked_sizes = '(min-width: 750px) 50vw, 100vw'
-  endif
-  assign fetch_priority = 'auto'
-  if section.index == 1
-    assign fetch_priority = 'high'
-  endif
--%}
+<div
+  id="Banner-{{ section.id }}"
+  class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}
+    
+
+    {%- if section.settings.image_bg != blank -%}
+ superhuman-banner-bg
+    {% endif %}
+   
+
+    full-screen
+    
+    "
+>
 
 
 
+
+
+</div>
 
 
 {% schema %}
@@ -84,7 +77,16 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-   
+    {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Add Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Add main hero image"
+    }
   ],
   "blocks": [
     
