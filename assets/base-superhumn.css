@@ -180,6 +180,10 @@ h2,
   text-decoration: none;
 }
 
+.superhumn-form {
+  max-width: 100% !important;
+}
+
 .btn-full:after,
 .field__input_superhumn:after,
 .field__input_superhumn:before,
