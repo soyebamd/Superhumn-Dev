@@ -133,13 +133,16 @@ h2,
 } */
 .para-1 {
   color: #272727;
-
-  font-family: HeliosExt;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1.12px;
+  width: 230px;
+  text-align: left;
+  transform: rotate(90deg);
+  top: 22.8rem;
+  position: absolute;
+  right: 66px;
 }
 .mt-40 {
   margin-top: 40px;
