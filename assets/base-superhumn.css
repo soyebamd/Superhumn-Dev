@@ -61,3 +61,10 @@ h2,
   max-width: 800px;
   margin: auto;
 }
+
+.center-box-content .titleEffectStrock {
+  margin: 0;
+}
+.center-box-content .title {
+  margin: 0;
+}
