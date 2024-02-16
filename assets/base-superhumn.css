@@ -53,7 +53,7 @@ h2,
 .titleEffectStrock {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-
+  position: relative;
   color: #130d09;
 }
 
@@ -67,4 +67,18 @@ h2,
 }
 .center-box-content .title {
   margin: 0;
+}
+.titleEffectStrock .h2 {
+  position: absolute;
+}
+
+.titleEffectStrock .h2:first-child {
+}
+
+.titleEffectStrock .h2:nth-child(2) {
+  top: 10px;
+}
+
+.titleEffectStrock .h2:last-child {
+  top: 20px;
 }
