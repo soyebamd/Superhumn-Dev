@@ -1,5 +1,7 @@
 .header__menu-item {
   position: relative;
+}
+.header__menu-item span {
   text-decoration: none;
 }
 .header__active-menu-item:after,
