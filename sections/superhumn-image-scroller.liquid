@@ -1,0 +1,93 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
+  {%- style -%}
+    @media screen and (max-width: 749px) {
+      #Banner-{{ section.id }}::before,
+      #Banner-{{ section.id }} .banner__media::before,
+      #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
+        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        content: '';
+        display: block;
+      }
+    }
+
+    @media screen and (min-width: 750px) {
+      #Banner-{{ section.id }}::before,
+      #Banner-{{ section.id }} .banner__media::before {
+        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        content: '';
+        display: block;
+      }
+    }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- style -%}
+ 
+
+
+
+  
+{%- endstyle -%}
+
+
+<div
+  id="Banner-{{ section.id }}"
+  class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+>
+
+
+<div class="page-width full-width">
+
+
+<div class="card">
+
+<h2 class="titleEffectStrock">Join the </h2>
+<h1 class="title highlight">SUPER ⚡ Squad</h1>
+<p>Ready to join our SUPERHUMN squad of absolutely-not-ordinary brand ambassadors? Apply now! (cape not included)</p>
+
+<a href="#" class="btn btn-full">starlord_777@superhumn.co</a>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+{% schema %}
+{
+  "name": "SUPERHUMN IMAGE SCROLLER WITH BOX CONTENT",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Add Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Add main hero image"
+    }
+  ],
+  "blocks": [
+    
+  ],
+  "presets": [
+    {
+      "name": "SUPERHUMN BANNER SECTION"
+  
+    }
+  ]
+}
+{% endschema %}
