@@ -183,14 +183,11 @@ h2,
 .superhumn-form,
 .superhumn-form .newsletter-form__field-wrapper {
   max-width: 462px !important;
+  margin: 0 !important;
 }
 
 .superhumn-form .newsletter-form__button {
   right: 24px;
-}
-
-.superhumn-form .newsletter-form {
-  margin: 0;
 }
 
 .btn-full:after,
