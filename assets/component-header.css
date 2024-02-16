@@ -4,7 +4,6 @@
 }
 
 .header__menu-item:hover span {
-  text-decoration: none !important;
 }
 .header__active-menu-item:after,
 .header__menu-item:hover:after {
@@ -17,6 +16,7 @@
   transform: translate(-50%, 50%);
   bottom: -4px;
   background-color: #f00;
+  text-decoration: none !important;
 }
 
 @media screen and (min-width: 990px) {
