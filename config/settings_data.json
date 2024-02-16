@@ -384,5 +384,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "body{background:black}"
+    ]
   }
 }
