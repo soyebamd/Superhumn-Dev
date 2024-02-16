@@ -182,7 +182,9 @@ h2,
 
 .btn-full:after,
 .field__input_superhumn:after,
-.field__input_superhumn:before {
+.field__input_superhumn:before,
+.superhumn-field:before,
+.superhumn-field::after {
   display: none !important;
 }
 
