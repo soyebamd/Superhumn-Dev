@@ -2,6 +2,7 @@
   position: relative;
   color: #fff;
   transition: all 600ms;
+  text-decoration: none !important;
 }
 .list-menu__item {
   font-family: "Work Sans", sans-serif;
