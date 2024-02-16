@@ -71,6 +71,10 @@ h2,
   transform: translateY(-50%);
 }
 
+.card__title {
+  font-size: 48px;
+}
+
 .card {
   max-width: 528px;
 }
