@@ -58,6 +58,10 @@ h2,
   color: #130d09;
 }
 
+.highlight {
+  text-shadow: -3px -3px 1px #f00, 3px 3px 1px #00ffd1;
+}
+
 .center-box-content {
   max-width: 800px;
   margin: auto;
