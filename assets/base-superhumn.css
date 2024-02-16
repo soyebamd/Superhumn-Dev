@@ -189,6 +189,10 @@ h2,
   right: 24px;
 }
 
+.superhumn-form .newsletter-form {
+  margin: 0;
+}
+
 .btn-full:after,
 .field__input_superhumn:after,
 .field__input_superhumn:before,
