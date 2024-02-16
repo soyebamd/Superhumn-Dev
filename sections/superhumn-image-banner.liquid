@@ -27,6 +27,10 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+.superhumn-main-banner{background: #ccc url('{{ section.settings.image |  image_url: master }}') repeat; }
+
+  
 {%- endstyle -%}
 
 {%- liquid
@@ -51,21 +55,7 @@
   endif
 -%}
 
-.superhumn-main-banner{
-{%- if section.settings.image != blank -%}
-background:#ccc url( {{
-        section.settings.image
-        | image_url: width: 3840
-       
-      }})
 
-{%  else %}
-
-background:#ccc;
-
-{% endif %}
-
-}
 
 <div
   id="Banner-{{ section.id }}"
