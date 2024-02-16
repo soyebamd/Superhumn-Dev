@@ -32,9 +32,11 @@ h4,
 h5,
 h6 {
   font-family: "phonkcontrast_demo";
+  color: #fff;
 }
 h2 {
   font-family: "phonkregular_demo";
+  color: #fff;
 }
 .titleEffect {
 }
