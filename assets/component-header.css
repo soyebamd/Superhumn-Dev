@@ -3,7 +3,8 @@
   color: #fff;
 }
 
-.header__menu-item:hover span {
+.header__menu-item:hover span,
+.header__active-menu-item {
   text-decoration: none !important;
 }
 .header__active-menu-item:after,
