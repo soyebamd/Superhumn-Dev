@@ -41,6 +41,8 @@
     bottom: 0;
     position: absolute;}
 
+    .banner__media-second-image img{ width:100%; }
+
   
 {%- endstyle -%}
 
@@ -99,7 +101,7 @@ banner banner--content-align-{{ section.settings.desktop_content_alignment }} ba
       -%}
       {{
         section.settings.image_2
-        | image_url: width: '100%' | image_tag      }}
+        | image_url: width: 2000 | image_tag      }}
     </div>
   {%- endif -%}
 
