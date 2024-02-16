@@ -26,7 +26,7 @@
   left: 50%;
   transform: translate(-50%, 50%);
   position: absolute;
-
+  text-decoration: none !important;
   bottom: -4px;
 }
 
@@ -34,6 +34,7 @@
 .list-menu__item span.header__active-menu-item::after {
   content: "";
   width: 100%;
+  text-decoration: none !important;
 }
 
 /* .header__menu-item:hover span,
