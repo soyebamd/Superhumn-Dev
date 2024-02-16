@@ -13,7 +13,7 @@
   padding: 0 2rem;
 }
 
-header__menu-item:after {
+.list-menu__item:after {
   background: #f00;
   width: 100px;
   transition: all 600ms;
