@@ -41,7 +41,8 @@ h1 {
   line-height: normal;
   letter-spacing: 0.96px;
 }
-h2 {
+h2,
+.h2 {
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
