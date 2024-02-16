@@ -77,6 +77,10 @@ h3,
   transform: scaleY(-1);
 }
 
+.first-slider img {
+  transform: scaleY(1);
+}
+
 .center-box-content {
   max-width: 800px;
   margin: auto;
