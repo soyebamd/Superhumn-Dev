@@ -1,6 +1,7 @@
 .header__menu-item {
   position: relative;
   color: #fff;
+  transition: all 600ms;
 }
 .list-menu__item {
   font-family: "Work Sans", sans-serif;
