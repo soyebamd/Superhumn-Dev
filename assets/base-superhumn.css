@@ -38,5 +38,8 @@ h2 {
   font-family: "phonkregular_demo";
   color: #fff;
 }
-.titleEffect {
+.titleEffectStrock {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
 }
