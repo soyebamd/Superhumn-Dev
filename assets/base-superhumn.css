@@ -74,8 +74,14 @@ h2,
   position: relative;
 }
 
+.animation-strock-effect {
+  width: 100%;
+  min-height: 81px;
+}
 .animation-strock-effect h3 {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .animation-strock-effect h3:nth-child(2) {
