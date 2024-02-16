@@ -2,11 +2,6 @@
   position: relative;
   color: #fff;
 }
-.header__menu-item span {
-  background: #f00;
-  min-width: 0px;
-  transition: all 600ms;
-}
 .list-menu__item {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
@@ -17,6 +12,11 @@
   padding: 0 2rem;
 }
 
+header__menu-item:after {
+  background: #f00;
+  min-width: 0px;
+  transition: all 600ms;
+}
 .header__menu-item:hover span,
 .header__active-menu-item {
   text-decoration: none !important;
