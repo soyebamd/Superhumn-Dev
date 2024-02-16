@@ -10,7 +10,7 @@
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.44px;
-  padding: 0;
+  padding: 0;a
   margin: 0 2rem;
 }
 .list-menu__item {
@@ -31,9 +31,8 @@
   background-color: #f00;
 }
 .header__menu-item:hover span,
-.header__active-menu-item:after {
+.header__active-menu-item {
   text-decoration: none !important;
-  background-color: #f00;
 }
 .header__active-menu-item:after,
 .header__menu-item:hover:after {
