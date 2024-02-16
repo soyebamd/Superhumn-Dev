@@ -34,12 +34,28 @@ h6 {
   font-family: "phonkcontrast_demo";
   color: #fff;
 }
+h1 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
 h2 {
-  font-family: "phonkregular_demo";
-  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.84px;
 }
 .titleEffectStrock {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  color: transparent;
+
+  color: #130d09;
+}
+
+.center-box-content {
+  max-width: 800px;
+  margin: auto;
 }
