@@ -73,6 +73,22 @@ h3,
   text-shadow: -3px -3px 1px #f00, 3px 3px 1px #00ffd1;
 }
 
+.image-gallery {
+  max-width: 1160px;
+  width: 100%;
+  position: relative;
+  left: -269px;
+  display: block;
+}
+.slider img {
+  max-width: 100%;
+}
+
+.first-slider,
+.forth-slider {
+  opacity: 0.13;
+}
+
 .first-slider,
 .third-slider {
   transform: scaleY(-1);
