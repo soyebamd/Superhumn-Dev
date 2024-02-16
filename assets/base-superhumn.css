@@ -54,6 +54,11 @@ h2,
   line-height: normal;
   letter-spacing: 3.84px;
 }
+
+.h3 {
+  font-size: 40px;
+}
+
 .titleEffectStrock,
 .titleEffectStrock *,
 .card__tag {
@@ -84,7 +89,7 @@ h2,
 }
 
 .cart__tag {
-  font-size: 40px;
+  font-size: 40px !important;
 
   font-weight: 600;
 }
