@@ -50,7 +50,8 @@ h2,
   line-height: normal;
   letter-spacing: 3.84px;
 }
-.titleEffectStrock {
+.titleEffectStrock,
+.titleEffectStrock * {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   position: relative;
