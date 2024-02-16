@@ -10,13 +10,15 @@
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.44px;
-  padding: 0 2rem;
+  padding: 0;
+  margin: 0 2rem;
 }
 .list-menu__item {
   position: relative;
 }
 
-.list-menu__item:after {
+.list-menu__item:after,
+.header__active-menu-item {
   background: #f00;
   width: 0;
   content: "";
@@ -29,10 +31,7 @@
   bottom: -4px;
   background-color: #f00;
 }
-.header__menu-item:hover span,
-.header__active-menu-item {
-  text-decoration: none !important;
-}
+
 .header__active-menu-item:after,
 .header__menu-item:hover:after {
   content: "";
