@@ -17,7 +17,11 @@
   background: #f00;
   width: 100px;
   content: "";
+  height: 0.25rem;
   transition: all 600ms;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: absolute;
 }
 .header__menu-item:hover span,
 .header__active-menu-item {
