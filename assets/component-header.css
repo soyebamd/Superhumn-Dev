@@ -1,5 +1,6 @@
 span.header__active-menu-item {
   position: relative;
+  text-decoration: none;
 }
 span.header__active-menu-item:after {
   background: #f00;
