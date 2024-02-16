@@ -180,8 +180,13 @@ h2,
   text-decoration: none;
 }
 
-.superhumn-form {
-  max-width: 100% !important;
+.superhumn-form,
+.superhumn-form .newsletter-form__field-wrapper {
+  max-width: 462px !important;
+}
+
+.superhumn-form .newsletter-form__button {
+  right: 24px;
 }
 
 .btn-full:after,
