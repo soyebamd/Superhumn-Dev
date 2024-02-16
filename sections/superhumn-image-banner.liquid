@@ -46,6 +46,21 @@
 
   .secondImg img{ width:100%; height:auto }
 
+  @keyframes animateLines {
+    0% {
+        stroke-dashoffset: 100%;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg path {
+    stroke-dasharray: 100%;
+    animation: animateLines 5s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+
   
 {%- endstyle -%}
 
