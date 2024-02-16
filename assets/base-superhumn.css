@@ -160,7 +160,7 @@ h2,
 }
 
 .email-field,
-.field__input {
+.field__input_superhumn {
   min-width: 462px;
   height: 76px;
   width: 100%;
