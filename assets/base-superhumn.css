@@ -131,6 +131,16 @@ h2,
   height: 2px;
   background: #ff8a00;
 } */
+.para-1 {
+  color: #272727;
+
+  font-family: HeliosExt;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.12px;
+}
 .mt-40 {
   margin-top: 40px;
 }
