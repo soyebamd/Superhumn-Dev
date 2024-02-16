@@ -69,17 +69,18 @@ h2,
 .center-box-content .title {
   margin: 0;
 }
-.titleEffectStrock .h2 {
-  position: absolute;
+
+.position-relative {
+  position: relative;
 }
 
-.titleEffectStrock .h2:first-child {
+.animation-strock-effect h3:first-child {
 }
 
-.titleEffectStrock .h2:nth-child(2) {
+.animation-strock-effect h3:nth-child(2) {
   top: 10px;
 }
 
-.titleEffectStrock .h2:last-child {
+.animation-strock-effect h3:last-child {
   top: 20px;
 }
