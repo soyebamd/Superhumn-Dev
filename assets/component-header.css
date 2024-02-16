@@ -17,8 +17,7 @@
   position: relative;
 }
 
-.list-menu__item:after,
-.header__active-menu-item {
+.list-menu__item:after {
   background: #f00;
   width: 0;
   content: "";
@@ -32,7 +31,7 @@
   background-color: #f00;
 }
 .header__menu-item:hover span,
-.header__active-menu-item {
+.header__active-menu-item:after {
   text-decoration: none !important;
   background-color: #f00;
 }
