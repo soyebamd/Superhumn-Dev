@@ -1,3 +1,18 @@
+span.header__active-menu-item {
+  position: relative;
+}
+span.header__active-menu-item:after {
+  background: #f00;
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 0.25rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: -4px;
+  background-color: #f00;
+}
+
 @media screen and (min-width: 990px) {
   .header {
     min-height: 123px;
