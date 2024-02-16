@@ -17,8 +17,7 @@
   position: relative;
 }
 
-.list-menu__item:after,
-.header__active-menu-item {
+.list-menu__item:after {
   background: #f00;
   width: 0;
   content: "";
