@@ -45,21 +45,7 @@
   .secondImg{ position:absolute; bottom:0; left:0; width:100%;  }
 
   .secondImg img{ width:100%; height:auto }
-
-  @keyframes animateLines {
-    0% {
-        stroke-dashoffset: 100%;
-    }
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
-
-svg path {
-    stroke-dasharray: 100%;
-    animation: animateLines 5s linear infinite; /* Adjust duration and timing function as needed */
-}
-
+  
 
   
 {%- endstyle -%}
@@ -79,6 +65,20 @@ svg path {
     
     "
 >
+
+
+<div class="center-box-content">
+
+<h2 class="titleEffect">ENTER THE</h2>
+
+<h1 class="title">SUPER</h1>
+
+<h3 class="titleEffect">DIMENSION</h3>
+
+<a href="#" class="btn">Activate</a>
+
+
+</div>
 
  {%- if section.settings.image_bg != blank -%}
  <div class="secondImg">

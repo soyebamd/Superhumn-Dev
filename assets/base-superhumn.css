@@ -1,6 +1,40 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap";
 
+@font-face {
+  font-family: "phonkcontrast_demo";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_contrast_demo-webfont.woff2?v=1708067204")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_contrast_demo-webfont.woff?v=1708067204")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "phonkregular_demo";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_regular_demo-webfont.woff2?v=1708067204")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_regular_demo-webfont.woff?v=1708067204")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #0c0c0c;
   color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "phonkcontrast_demo";
+}
+h2 {
+  font-family: "phonkregular_demo";
+}
+.titleEffect {
 }
