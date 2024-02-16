@@ -38,6 +38,7 @@
     "superhumn_image_scroller_GBEMaz": {
       "type": "superhumn-image-scroller",
       "settings": {
+        "color_scheme": "scheme-3"
       }
     }
   },
