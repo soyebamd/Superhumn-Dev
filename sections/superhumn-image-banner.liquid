@@ -29,18 +29,13 @@
 
   .superhuman-banner-bg{ 
 
-  background:#130D09 url('{{  section.settings.image_bg |  image_url: width: 2000  }}') 
-  
-
-  url({{'3D_Morph_Lines_12.svg' |  file_url}});
-
-  
-   
-    background-size: 100%;
-    height: 100vh;
-    position: relative;
-    background-position: center;
+  background: #130D09 url('{{ section.settings.image_bg | image_url: width: 2000 }}') no-repeat, url('{{ '3D_Morph_Lines_12.svg' | file_url }}') no-repeat; 
+  background-size: 100%, cover; /* Adjusted background sizes */
+  height: 100vh;
+  position: relative;
+  background-position: center, center; /* Adjusted background positions */
 }
+
 
   
 
