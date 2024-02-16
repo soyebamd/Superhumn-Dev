@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-.header__menu-item:hover span.header__active-menu-item:after {
+.header__menu-item:hover .header__active-menu-item:after {
   background: #f00;
   content: "";
   height: 3px;
