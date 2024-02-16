@@ -29,6 +29,12 @@
 
   bottom: -4px;
 }
+
+.list-menu__item:hover span:after {
+  content: "";
+  width: 100%;
+}
+
 /* .header__menu-item:hover span,
 .header__active-menu-item {
   text-decoration: none !important;
