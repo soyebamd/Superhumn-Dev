@@ -21,6 +21,7 @@ header__menu-item:after {
 .header__menu-item:hover span,
 .header__active-menu-item {
   text-decoration: none !important;
+  transition: all 600ms;
 }
 .header__active-menu-item:after,
 .header__menu-item:hover:after {
