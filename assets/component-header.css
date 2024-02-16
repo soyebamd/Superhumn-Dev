@@ -16,6 +16,7 @@
 .list-menu__item:after {
   background: #f00;
   width: 100px;
+  content: "";
   transition: all 600ms;
 }
 .header__menu-item:hover span,
