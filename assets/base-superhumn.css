@@ -78,7 +78,7 @@ h3,
 }
 
 .first-slider img {
-  transform: scaleY(1);
+  transform: rotate(180deg);
 }
 
 .center-box-content {
