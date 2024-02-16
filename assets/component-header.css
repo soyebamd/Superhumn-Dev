@@ -1,5 +1,6 @@
 .header__menu-item {
   position: relative;
+  color: #fff;
 }
 
 .header__menu-item:hover span {
