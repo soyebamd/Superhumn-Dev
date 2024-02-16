@@ -12,6 +12,9 @@
   letter-spacing: 1.44px;
   padding: 0 2rem;
 }
+.list-menu__item {
+  position: relative;
+}
 
 .list-menu__item:after {
   background: #f00;
