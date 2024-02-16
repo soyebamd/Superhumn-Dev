@@ -159,7 +159,8 @@ h2,
   background: #1d1d1d;
 }
 
-.email {
+.email,
+.newsletter-form {
   min-width: 462px;
   height: 76px;
   width: 100%;
