@@ -170,11 +170,17 @@ h2,
   background: #ff4667;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3) inset;
   color: #fff;
+  font-family: "Rubik", sans-serif;
 
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
+}
+
+.btn-full:after {
+  display: none;
 }
 
 /* .btn-line {
