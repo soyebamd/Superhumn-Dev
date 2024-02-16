@@ -1,8 +1,9 @@
-span.header__active-menu-item {
+.header__active-menu-item {
   position: relative;
   text-decoration: none;
 }
-span.header__active-menu-item:after {
+span.header__active-menu-item:after,
+.header__menu-item:hover:after {
   background: #f00;
   position: absolute;
   content: "";
