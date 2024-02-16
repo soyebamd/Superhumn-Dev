@@ -72,7 +72,12 @@ h3,
 .highlight {
   text-shadow: -3px -3px 1px #f00, 3px 3px 1px #00ffd1;
 }
-
+.super-human-absolute {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
 .image-gallery {
   max-width: 1160px;
   width: 100%;
