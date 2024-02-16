@@ -31,7 +31,10 @@
   bottom: -4px;
   background-color: #f00;
 }
-
+.header__menu-item:hover span,
+.header__active-menu-item {
+  text-decoration: none !important;
+}
 .header__active-menu-item:after,
 .header__menu-item:hover:after {
   content: "";
