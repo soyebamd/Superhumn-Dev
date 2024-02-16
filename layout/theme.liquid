@@ -362,19 +362,19 @@
 
 jQuery(function($){
 $('.first-slider').slick({
-  slidesToShow: 4,
+  slidesToShow: 6,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000, // Adjust as needed
+      autoplay: true, // Set to true to enable autoplay
+      autoplaySpeed: 50, // Set autoplay speed (lower values scroll faster)
       vertical: true, // Set to true to enable vertical sliding
       verticalSwiping: true, // Set to true to enable vertical swiping
       arrows: false, // Remove arrows if not needed
       dots: false, // Remove dots if not needed
       infinite: true, // Enable infinite loop
-      speed: 1000, // Adjust speed of scrolling
+      speed: 5000, // Set speed of scrolling between slides
       pauseOnHover: false, // Disable pause on hover
       cssEase: 'linear', // Use linear easing for smooth scrolling
-      touchMove: false, // Disable touch move for better scrolling experience
+      touchMove: false // Disable touch move for better scrolling experience
 });
 })
 
