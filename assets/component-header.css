@@ -30,7 +30,8 @@
   bottom: -4px;
 }
 
-.list-menu__item:hover span:after {
+.list-menu__item:hover span:after,
+.list-menu__item span.header__active-menu-item::after {
   content: "";
   width: 100%;
 }
