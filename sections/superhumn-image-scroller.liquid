@@ -56,7 +56,7 @@
  {% form 'customer', class: 'newsletter-form' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
-                  <div class="field__super-input">
+                  <div class="field superhumn-field">
                     <input
                       id="NewsletterForm--{{ section.id }}"
                       type="email"
@@ -74,7 +74,7 @@
                       {% elsif form.posted_successfully? %}
                         aria-describedby="Newsletter-success--{{ section.id }}"
                       {% endif %}
-                    
+                      placeholder="{{ 'newsletter.label' | t }}"
                       required
                     >
                     <label class="field__label" for="NewsletterForm--{{ section.id }}">
