@@ -89,13 +89,13 @@ h3,
   max-width: 576px;
 }
 
-.cart__tag {
+.card__tag {
   font-size: 40px !important;
 
   font-weight: 600;
 }
 
-.cart__title {
+.card__title {
   font-size: 48px;
 
   font-weight: 600;
