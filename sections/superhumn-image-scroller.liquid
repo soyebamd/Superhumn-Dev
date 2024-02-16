@@ -73,8 +73,9 @@
                       {% endif %}                     
                       required
                     >
+                    
                     <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                      {{ 'newsletter.label' | t }}
+                      {{ 'email.svg' |  file_url |  img_tag}}
                     </label>
                     <button
                       type="submit"
@@ -83,7 +84,7 @@
                       id="Subscribe"
                       aria-label="{{ 'newsletter.button_label' | t }}"
                     >
-                      {% render 'icon-arrow' %}
+                     {{ 'Arrow_right.svg' |  file_url |  img_tag}}
                     </button>
                   </div>
                   {%- if form.errors -%}

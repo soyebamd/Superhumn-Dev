@@ -188,6 +188,12 @@ h2,
   display: none !important;
 }
 
+@media screen and (min-width: 750px) {
+  .newsletter-form {
+    max-width: auto;
+  }
+}
+
 /* .btn-line {
   width: 65px;
   height: 2px;
