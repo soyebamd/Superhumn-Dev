@@ -28,7 +28,12 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 
-.superhumn-main-banner{background: #130D09 url('{{ section.settings.image |  image_url: width: 2000 }}') repeat; }
+.superhumn-main-banner{background: #130D09 url('{{ section.settings.image |  image_url: width: 2000 }}') repeat; 
+
+    background-size: 100%;
+    height: 100vh
+
+}
 
   
 {%- endstyle -%}
