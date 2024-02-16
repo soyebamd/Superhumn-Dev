@@ -28,7 +28,7 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 
-.superhumn-main-banner{background: #ccc url('{{ section.settings.image  }}') repeat; }
+.superhumn-main-banner{background: #ccc url('{{ section.settings.image |  file_url }}') repeat; }
 
   
 {%- endstyle -%}
