@@ -1,4 +1,7 @@
 @media screen and (min-width: 990px) {
+  .header {
+    min-height: 123px;
+  }
   .header--middle-left {
     grid-template-columns: 1fr 5fr auto;
     text-align: right;
