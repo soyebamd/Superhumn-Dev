@@ -1,1 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap";
+
+body {
+  background-color: #0c0c0c;
+  color: #fff;
+}
+
+.list-menu__item {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.44px;
+}
