@@ -65,6 +65,9 @@ h2,
 .center-box-content {
   max-width: 800px;
   margin: auto;
+  top: 30%;
+  position: relative;
+  transform: translateY(-50%);
 }
 
 .center-box-content .titleEffectStrock {
