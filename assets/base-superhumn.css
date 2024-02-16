@@ -131,7 +131,9 @@ h2,
   height: 2px;
   background: #ff8a00;
 } */
-
+.mt-40 {
+  margin-top: 40px;
+}
 .btn:after {
   content: "";
   width: 65px;
