@@ -15,7 +15,7 @@
 
 header__menu-item:after {
   background: #f00;
-  width: 10px;
+  width: 100px;
   transition: all 600ms;
 }
 .header__menu-item:hover span,
