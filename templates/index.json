@@ -46,6 +46,7 @@
         "button_kiLKVX"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Moonshot_Graphic.png",
         "background_image": "shopify:\/\/shop_images\/Grid_Background.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
