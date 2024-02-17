@@ -165,6 +165,10 @@ h3,
   width: 100%;
   min-height: 81px;
 }
+.animation-strock-effect h3:first-child {
+  position: relative;
+}
+
 .animation-strock-effect h3 {
   position: absolute;
   width: 100%;
