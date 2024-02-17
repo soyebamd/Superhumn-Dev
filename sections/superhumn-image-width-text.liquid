@@ -11,7 +11,7 @@
   
   background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
 
-
+ background-position: {{ section.settings.background_image_alignment }};
     background-size: 100%;
     background-repeat: repeat;
    
@@ -25,7 +25,7 @@
         content: '';
         background: {{ section.settings.background_image_color }};
         width: {{ section.settings.background_image_size  }}%;
-         background-position: {{ section.settings.background_image_alignment }};
+        
         height: 100%;
         position: absolute;
         top: 0;
@@ -327,7 +327,7 @@
       "id": "background_image_size",
       "min": 0,
       "max": 100,
-      "step": 10,
+      "step": 5,
       "unit": "%",
       "label": "Background Size",
       "default": 50
