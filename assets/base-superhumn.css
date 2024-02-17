@@ -159,6 +159,11 @@ h3,
   font-family: "phonkregular_demo";
 }
 
+.block-v2 .animation-strock-effect {
+  position: relative;
+  top: -37px;
+}
+
 .block-v2 .super-human-card__title {
   position: relative;
   z-index: 2;
@@ -199,7 +204,7 @@ h3,
 
 .animation-strock-effect h3:last-child {
   top: 25px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .text-uppercase {
