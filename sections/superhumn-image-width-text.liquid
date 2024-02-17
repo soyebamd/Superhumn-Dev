@@ -6,6 +6,8 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .image-width-text__background-image{ background:url('{{section.settings.background_image}}' ); }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -32,6 +34,8 @@
         
 
 section-{{ section.id }}-padding
+
+image-width-text__background-image
         
         
         ">
@@ -126,6 +130,14 @@ section-{{ section.id }}-padding
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+
+     {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+
+    
     {
       "type": "select",
       "id": "height",
