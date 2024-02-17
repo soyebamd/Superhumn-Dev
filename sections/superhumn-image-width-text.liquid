@@ -168,7 +168,7 @@
 
 
 
-  .custom-button{
+  .custom{{ block.id }}-button{
     background-color: 
 
      
@@ -186,19 +186,19 @@
 
   }
 
-  .custom-button .layer-1 {
+  .custom{{ block.id }}-button .layer-1 {
        width: calc(100% - 6px);
     height: calc(100% - 6px);
     background: #0E0E0E;
 }
 
- .custom-button .layer-2 {
+ .custom{{ block.id }}-button .layer-2 {
     
     background:  {{ block.settings.button_color | escape }};
 
 }
 
-.custom-button:after {
+.custom{{ block.id }}-button:after {
        content: "";
     height: 3px;
     background: {{ block.settings.button_color | escape }};
@@ -225,7 +225,7 @@
                         
                         btn text-uppercase position-relative mt-40
 
-                        custom-button
+                        custom{{ block.id }}-button
                         
                         
                         "
