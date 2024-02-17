@@ -121,8 +121,8 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
-            "button_color": "#836BEA",
-            "button_color_border": "#836BEA"
+            "button_color": "#836bea",
+            "button_color_border": "#836bea"
           }
         }
       },
@@ -132,10 +132,12 @@
         "button_ndciEN"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Jerky_Graphic.png",
         "image_padding_top": 36,
         "image_padding_bottom": 36,
         "image_padding_left": 36,
         "image_padding_right": 36,
+        "background_image": "shopify:\/\/shop_images\/Frame.png",
         "background_image_color": "#161616",
         "background_image_alignment": "left",
         "height": "adapt",
