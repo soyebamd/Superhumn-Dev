@@ -321,3 +321,7 @@ h3,
   width: 100%;
   max-width: 100%;
 }
+
+.text-center {
+  text-align: center;
+}
