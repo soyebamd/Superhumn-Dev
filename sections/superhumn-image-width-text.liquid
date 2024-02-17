@@ -7,9 +7,12 @@
   }
 
   .section-{{ section.id }}-image-width-text__background-image{
+
+
+  background-color:{{ section.settings.background_image_color }} ;
     
   
-  background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
+  background-image: url('{{section.settings.background_image | img_url: 'master' }}' ); 
 
 
     background-size: 50%;
