@@ -12,12 +12,27 @@
   background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
 
 
-    background-size: {{ section.settings.background_image_size  }}%;
-    background-repeat: repeat-y;
+    background-size: 100%;
+    background-repeat: repeat;
     background-position: {{ section.settings.background_image_alignment }};
+
+    position:relative;
 
 
 }
+
+ .section-{{ section.id }}-image-width-text__background-image:after{
+        content: '';
+        background: {{ section.settings.background_image_color }};
+        width: {{ section.settings.background_image_size  }}%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+  }
+
+  .z-2{ z-index:2; position:relative;}
 
   .section-{{ section.id }}-image_padding {
 
@@ -52,7 +67,7 @@
 -%}
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} section-{{ section.id }}-image-width-text__background-image">
-  <div class="page-width">
+  <div class="page-width z-2">
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item
