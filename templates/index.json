@@ -70,60 +70,6 @@
         "padding_bottom": 0
       }
     },
-    "superhumn_image_width_text_N739tL": {
-      "type": "superhumn-image-width-text",
-      "blocks": {
-        "heading_YFrYdk": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_JRLMRj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_mct38h": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_color": "#836BEA",
-            "button_color_border": "#836BEA"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YFrYdk",
-        "text_JRLMRj",
-        "button_mct38h"
-      ],
-      "settings": {
-        "image_padding_top": 36,
-        "image_padding_bottom": 36,
-        "image_padding_left": 36,
-        "image_padding_right": 36,
-        "background_image_color": "#161616",
-        "background_image_alignment": "right",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -157,7 +103,6 @@
     "superhumn_image_banner_igDRcb",
     "superhumn_image_scroller_GBEMaz",
     "superhumn_image_width_text_dxr7Ba",
-    "superhumn_image_width_text_N739tL",
     "featured_collection"
   ]
 }
