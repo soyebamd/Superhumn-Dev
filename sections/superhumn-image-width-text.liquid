@@ -26,6 +26,36 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  .custom-button{
+    background-color:#9684E5;
+
+  }
+
+  .custom-button .layer-1 {
+   
+    background: #0E0E0E;
+}
+
+ .custom-button .layer-2 {
+    
+    background: #836BEA;
+
+}
+
+.custom-button:after {
+    content: "";
+   
+    height: 4px;
+    background: #836bea;
+  
+    top: -1px;
+   
+    outline: none;
+    box-shadow: none;
+}
+
 {%- endstyle -%}
 
 {%- liquid
@@ -138,6 +168,8 @@ image-width-text__background-image
                       class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}
                         
                         btn text-uppercase position-relative mt-40
+
+                        custom-button
                         
                         
                         "
