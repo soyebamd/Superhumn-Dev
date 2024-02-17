@@ -60,6 +60,10 @@ h3,
   font-size: 40px;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .titleEffectStrock,
 .titleEffectStrock *,
 .super-human-card__tag {
