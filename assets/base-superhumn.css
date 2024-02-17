@@ -164,6 +164,16 @@ h3,
   top: -37px;
 }
 
+.block-v2 .animation-strock-effect {
+  z-index: 1;
+}
+.block-v2 .animation-strock-effect:nth-child(2) {
+  z-index: 2;
+}
+.block-v2 .animation-strock-effect:last-child {
+  z-index: 3;
+}
+
 .block-v2 .super-human-card__title {
   position: relative;
   z-index: 2;
