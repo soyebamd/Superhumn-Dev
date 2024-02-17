@@ -163,6 +163,7 @@ h3,
 }
 .animation-strock-effect h3 {
   position: absolute;
+  width: 100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
