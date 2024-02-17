@@ -12,8 +12,8 @@
   background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
 
 
-    background-size: 50%;
-    background-repeat: no-repeat;
+    background-size: {{ section.settings.background_image_size  }};
+    background-repeat: repeat-y;
     background-position: {{ section.settings.background_image_alignment }};
 
 
@@ -255,6 +255,8 @@
       "label": "t:sections.image-with-text.settings.image.label"
     },
 
+   
+
    {
       "type": "range",
       "id": "image_padding_top",
@@ -306,6 +308,19 @@
       "id": "background_image",
       "label": "Bakground Image"
     },
+
+     {
+      "type": "range",
+      "id": "background_image_size",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "%",
+      "label": "Background Size",
+      "default": 50
+    },
+
+
 
       {
   "type": "color",
