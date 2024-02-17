@@ -6,7 +6,21 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .image-width-text__background-image{ background:url('{{section.settings.background_image | img_url: 'master' }}' ); }
+  .image-width-text__background-image{
+    
+  
+  background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
+
+
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: {{ section.settings.background_image_alignment }};
+
+
+
+
+
+}
 
   .section-{{ section.id }}-image_padding {
 
@@ -293,6 +307,34 @@
       "label": "Bakground Image"
     },
 
+      {
+  "type": "color",
+  "id": "background_image_color",
+  "label": "Background Image Color",
+  "default": "#836BEA"
+},
+
+
+ {
+      "type": "select",
+      "id": "background_image_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
+    },
     
     {
       "type": "select",
