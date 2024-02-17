@@ -29,7 +29,14 @@
         height: 100%;
         position: absolute;
         top: 0;
+
+        {% if section.settings.background_image_align == 'left' %}
         left: 0;
+        right:auto;
+        {% else  %}
+         left: auto;
+        right:0;
+        {% endif %}
         z-index: 1;
   }
 
@@ -331,6 +338,24 @@
       "unit": "%",
       "label": "Background Size",
       "default": 50
+    },
+
+     {
+      "type": "select",
+      "id": "background_image_align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Show background on Right Side"
+        },
+        
+        {
+          "value": "right",
+          "label": "Show background on Left Side"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
     },
 
 
