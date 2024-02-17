@@ -46,6 +46,8 @@
         "button_kiLKVX"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_27.png",
+        "background_image": "shopify:\/\/shop_images\/pilu.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
