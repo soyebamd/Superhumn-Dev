@@ -54,6 +54,8 @@
         "image_padding_left": 88,
         "image_padding_right": 100,
         "background_image": "shopify:\/\/shop_images\/Grid_Background.svg",
+        "background_image_color": "#161616",
+        "background_image_alignment": "right",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
