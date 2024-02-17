@@ -118,7 +118,7 @@ image-width-text__background-image
                     class="super-human-card__content super-human-card__title image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.caption | escape }}
+                 #{{ block.settings.button_color }}   {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
                   <div class="super-human-card__content image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
@@ -131,7 +131,7 @@ image-width-text__background-image
 
                         
 /* Custom Button */
-#{{ block.settings.button_color }}
+
 
 
   .custom-button{
