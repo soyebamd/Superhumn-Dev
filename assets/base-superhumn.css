@@ -204,7 +204,7 @@ h3,
 
 .animation-strock-effect h3:last-child {
   top: 25px;
-  z-index: 3;
+  z-index: 1;
 }
 
 .text-uppercase {
