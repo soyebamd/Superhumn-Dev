@@ -38,7 +38,8 @@ h6 {
   font-family: "phonkcontrast_demo";
   color: #fff;
 }
-h1 {
+h1,
+.H1 {
   font-size: 96px;
   font-style: normal;
   font-weight: 600;
