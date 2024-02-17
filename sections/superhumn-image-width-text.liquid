@@ -14,7 +14,7 @@
 
     background-size: 100%;
     background-repeat: repeat;
-    background-position: {{ section.settings.background_image_alignment }};
+   
 
     position:relative;
 
@@ -25,6 +25,7 @@
         content: '';
         background: {{ section.settings.background_image_color }};
         width: {{ section.settings.background_image_size  }}%;
+         background-position: {{ section.settings.background_image_alignment }};
         height: 100%;
         position: absolute;
         top: 0;
@@ -337,7 +338,7 @@
       {
   "type": "color",
   "id": "background_image_color",
-  "label": "Background Image Color",
+  "label": "Slider Background Color",
   "default": "#161616"
 },
     
