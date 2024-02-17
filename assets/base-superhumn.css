@@ -176,11 +176,7 @@ h3,
 
 .block-v2 .super-human-card__title {
   position: relative;
-  z-index: 2;
-}
-
-.block-v2 .titleEffectStrock {
-  z-index: 1;
+  z-index: 4;
 }
 
 .center-box-content .titleEffectStrock {
