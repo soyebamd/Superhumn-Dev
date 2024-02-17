@@ -28,33 +28,6 @@
   }
 
 
-  .custom-button{
-    background-color:#836BEA;
-    color:#fff;
-
-  }
-
-  .custom-button .layer-1 {
-       width: calc(100% - 6px);
-    height: calc(100% - 6px);
-    background: #0E0E0E;
-}
-
- .custom-button .layer-2 {
-    
-    background: #836BEA;
-
-}
-
-.custom-button:after {
-       content: "";
-    height: 3px;
-    background: #836bea;
-    top: 0px;
-    outline: none;
-    box-shadow: none;
-}
-
 {%- endstyle -%}
 
 {%- liquid
@@ -152,6 +125,56 @@ image-width-text__background-image
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
+
+
+                    <style>
+
+                        
+/* Custom Button */
+button_color
+  .custom-button{
+    background-color: 
+
+      {% if block.settings.button_link == blank %}
+       
+
+         #{{ block.settings.button_link }}
+
+         {% else %}
+
+          #836BEA;
+
+      {% endif %}
+    
+    
+
+    color:#fff;
+
+  }
+
+  .custom-button .layer-1 {
+       width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background: #0E0E0E;
+}
+
+ .custom-button .layer-2 {
+    
+    background: #836BEA;
+
+}
+
+.custom-button:after {
+       content: "";
+    height: 3px;
+    background: #836bea;
+    top: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+
+                    </style>
                   {%- if block.settings.button_label != blank -%}
 
 
@@ -603,7 +626,15 @@ image-width-text__background-image
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
-        }
+        },
+
+       {
+  "type": "color",
+  "id": "button_color",
+  "label": "Button Color",
+  "default": "#836BEA"
+}
+
       ]
     }
   ],
