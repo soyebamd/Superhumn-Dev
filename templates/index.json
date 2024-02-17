@@ -37,7 +37,8 @@
             "button_label": "BUY NOW",
             "button_link": "#",
             "button_style_secondary": false,
-            "button_color": "#ff0000"
+            "button_color": "#836bea",
+            "button_color_border": "#51439b"
           }
         }
       },
