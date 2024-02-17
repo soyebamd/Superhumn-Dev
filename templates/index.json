@@ -47,6 +47,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Moonshot_Graphic.png",
+        "image_padding_top": 100,
+        "image_padding_bottom": 36,
+        "image_padding_left": 36,
+        "image_padding_right": 36,
         "background_image": "shopify:\/\/shop_images\/Grid_Background.svg",
         "height": "adapt",
         "desktop_image_width": "medium",
