@@ -154,10 +154,8 @@ h3,
 .block-v2 {
 }
 
-.block-v2 {
-  .h1 {
-    font-size: 5rem !important;
-  }
+.block-v2 .h1 {
+  font-size: 5rem !important;
 }
 
 .center-box-content .titleEffectStrock {
