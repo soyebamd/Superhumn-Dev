@@ -28,6 +28,55 @@
   }
 
 
+
+                        
+/* Custom Button */
+
+
+
+  .custom-button{
+    background-color: 
+
+     
+       
+
+        {{ block.settings.button_color_border | escape }};
+
+        
+
+        
+    
+    
+
+    color:#fff;
+
+  }
+
+  .custom-button .layer-1 {
+       width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background: #0E0E0E;
+}
+
+ .custom-button .layer-2 {
+    
+    background:  {{ block.settings.button_color | escape }};
+
+}
+
+.custom-button:after {
+       content: "";
+    height: 3px;
+    background: {{ block.settings.button_color | escape }};
+    top: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+
+                   
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -127,54 +176,7 @@ image-width-text__background-image
                 {%- when 'button' -%}
 
 
-                    <style>
-
-                        
-/* Custom Button */
-
-
-
-  .custom-button{
-    background-color: 
-
-     
-       
-
-        {{ block.settings.button_color | escape }};
-
-        
-
-        
-    
-    
-
-    color:#fff;
-
-  }
-
-  .custom-button .layer-1 {
-       width: calc(100% - 6px);
-    height: calc(100% - 6px);
-    background: #0E0E0E;
-}
-
- .custom-button .layer-2 {
-    
-    background:  {{ block.settings.button_color | escape }};
-
-}
-
-.custom-button:after {
-       content: "";
-    height: 3px;
-    background: {{ block.settings.button_color | escape }};
-    top: 0px;
-    outline: none;
-    box-shadow: none;
-}
-
-
-                    </style>
+                  
                   {%- if block.settings.button_label != blank -%}
 
 
@@ -638,7 +640,16 @@ image-width-text__background-image
   "id": "button_color",
   "label": "Button Color",
   "default": "#836BEA"
+},
+
+  {
+  "type": "color",
+  "id": "button_color_border",
+  "label": "Button Color Border",
+  "default": "#836BEA"
 }
+
+
 
       ]
     }
