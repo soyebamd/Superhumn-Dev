@@ -36,7 +36,8 @@
           "settings": {
             "button_label": "BUY NOW",
             "button_link": "#",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_color": "#dd1d1d"
           }
         }
       },
