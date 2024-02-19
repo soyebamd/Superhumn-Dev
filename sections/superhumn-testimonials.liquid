@@ -211,7 +211,7 @@ fill:{{ block.settings.testi_svg_BG }}
 
                     <div class="stars">
 
-                        {{ block.settings.image  | image_url: width: 78 | img_tag}}
+                        {{ block.settings.start_image  | image_url: width: 78 | img_tag}}
                 
                     </div>
 
@@ -575,6 +575,11 @@ fill:{{ block.settings.testi_svg_BG }}
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+         {
+          "type": "image_picker",
+          "id": "start_image",
+          "label": "Ranking Image"
         },
         {
           "type": "inline_richtext",
