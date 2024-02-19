@@ -31,9 +31,9 @@
 
 
 .title-bg-{{ section.id }}{
-    background:url();
+    background:url('{{section.settings.heading_image | img_url: 'master' }}' );
     repeat:no-repeat;
-    
+
 }
 
 .superhumn-title{
@@ -330,6 +330,14 @@ text-transform: uppercase;
   "label": "Slider Background Color",
   "default": "#161616"
 },
+
+    
+     {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "Bakground Image"
+    },
+
 
 
      {
