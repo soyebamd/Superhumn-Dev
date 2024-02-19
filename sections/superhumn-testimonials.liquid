@@ -145,6 +145,18 @@ text-transform: uppercase;
           endfor
         -%}
         {%- for block in section.blocks -%}
+
+{%- style -%}
+
+
+            .testimonials__{{ block.id }}-bg path{
+
+fill:{{ block.settings.testi_svg_BG }}  
+
+}
+
+{%- endstyle -%}
+
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
             and block.settings.title == blank
@@ -179,11 +191,7 @@ text-transform: uppercase;
                 
               
               {%- if block.settings.title != blank -%}
-.testimonials__{{ block.id }}-bg path{
 
-fill:{{ block.settings.testi_svg_BG }}  
-
-}
 
                 
               <svg  class="testimonials__{{ block.id }}-bg"  width="437" height="265" viewBox="0 0 437 265" fill="red" xmlns="http://www.w3.org/2000/svg">
