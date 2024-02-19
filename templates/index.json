@@ -196,6 +196,8 @@
       ],
       "settings": {
         "title": "RAVING",
+        "title_before": "wer",
+        "title_after": "wer",
         "heading_before": "h1",
         "heading_size": "h1",
         "heading_after": "h1",
