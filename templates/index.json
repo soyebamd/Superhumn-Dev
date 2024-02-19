@@ -157,6 +157,59 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "superhumn_testimonials_k6VXhh": {
+      "type": "superhumn-testimonials",
+      "blocks": {
+        "column_UbQFMD": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WypeCN": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mcTtC6": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UbQFMD",
+        "column_WypeCN",
+        "column_mcTtC6"
+      ],
+      "settings": {
+        "title": "RAVING",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -164,6 +217,7 @@
     "superhumn_image_scroller_GBEMaz",
     "superhumn_image_width_text_dxr7Ba",
     "superhumn_image_width_text_NJFYPX",
-    "featured_collection"
+    "featured_collection",
+    "superhumn_testimonials_k6VXhh"
   ]
 }
