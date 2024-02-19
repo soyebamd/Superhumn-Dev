@@ -30,6 +30,12 @@
 }
 
 
+.title-bg-{{ section.id }}{
+    background:url();
+    repeat:no-repeat;
+    
+}
+
 .superhumn-title{
     position:relative;
     margin:auto; 
@@ -103,7 +109,7 @@ text-transform: uppercase;
 
 
 
-        <h2 class="superhumn-title inline-richtext {{ section.settings.heading_size }}">
+        <h2 class="superhumn-title inline-richtext {{ section.settings.heading_size }} title-bg-{{ section.id }} ">
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
