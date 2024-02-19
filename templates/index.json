@@ -196,7 +196,11 @@
       ],
       "settings": {
         "title": "RAVING",
+        "heading_before": "h1",
         "heading_size": "h1",
+        "heading_after": "h1",
+        "background_image_color": "#111111",
+        "background_image": "shopify:\/\/shop_images\/Group_4_1.png",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
