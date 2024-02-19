@@ -29,7 +29,11 @@
 
 }
 
+.testimonials__{{ block.id }}-bg path{
 
+fill:{{ block.settings.testi_svg_BG }}  
+
+}
 
 
 .title-bg-{{ section.id }}{
@@ -179,17 +183,6 @@ text-transform: uppercase;
                 
               
               {%- if block.settings.title != blank -%}
-
-                <style>
-
-                    .testimonials__{{ block.id }}-bg path{
-
-background:{{ block.settings.testi_svg_BG }}  
-
-}
-
-
-                </style>
 
 
                 
