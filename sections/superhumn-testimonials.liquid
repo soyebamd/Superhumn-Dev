@@ -208,12 +208,14 @@ fill:{{ block.settings.testi_svg_BG }}
                 <div class="testimonials__title">
 
                     <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-
+ {% if block.settings.start_image %}
                     <div class="stars">
 
                         {{ block.settings.start_image  | image_url: width: 78 | img_tag}}
                 
                     </div>
+
+ {% endif %}
 
                 </div>
 
