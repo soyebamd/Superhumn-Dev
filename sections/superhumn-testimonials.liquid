@@ -30,13 +30,29 @@
 }
 
 
-.superhumn-title{position:relative; }
+.superhumn-title{position:relative; margin:auto; }
 
 .superhumn-title:before{
     content:  "{{ section.settings.title_before }}";
     position:relative;
     display:block;
     text-transform:uppercase;
+     -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  position: relative;
+  color: #130d09;
+    font-family: "phonkregular_demo";
+
+
+   
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.99px;
+text-transform: uppercase; 
+
+
 
 
 }
@@ -267,26 +283,7 @@
     },
 
 
-       {
-      "type": "select",
-      "id": "heading_before",
-      "options": [
-        {
-          "value": "h3",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading Berore"
-    },
+     
     {
       "type": "select",
       "id": "heading_size",
@@ -307,26 +304,7 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
-          {
-      "type": "select",
-      "id": "heading_after",
-      "options": [
-        {
-          "value": "h3",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "Heading After"
-    },
+         
 
     
       {
