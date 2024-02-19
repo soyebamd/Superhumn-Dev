@@ -208,7 +208,7 @@
         "title_before": "everyone is",
         "title_after": "about our food",
         "heading_size": "h1",
-        "background_image_color": "#111111",
+        "background_image_color": "#0d0d0d",
         "heading_image": "shopify:\/\/shop_images\/Vector_1.svg",
         "background_image": "shopify:\/\/shop_images\/Group_4_1.png",
         "image_width": "full",
@@ -216,13 +216,13 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 88,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
