@@ -165,10 +165,10 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#2dffd9",
-            "image": "shopify:\/\/shop_images\/Ellipse_16.png",
+            "image": "shopify:\/\/shop_images\/Ellipse_16_1.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Gwen Singer",
+            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -179,8 +179,8 @@
             "testi_svg_BG": "#ff4667",
             "image": "shopify:\/\/shop_images\/Ellipse_16.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Paul Jacobs",
+            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -189,10 +189,10 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#836bea",
-            "image": "shopify:\/\/shop_images\/Ellipse_16.png",
+            "image": "shopify:\/\/shop_images\/Ellipse_16_2.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Tyrone Woods",
+            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
             "link_label": "",
             "link": ""
           }
