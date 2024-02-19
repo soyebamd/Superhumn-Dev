@@ -205,6 +205,10 @@ fill:{{ block.settings.testi_svg_BG }}
               {% comment %}
                Testimonials Title
               {% endcomment %}
+
+               <div class="testimonials__wrapper">
+
+                {% if block.settings.title %}
                 <div class="testimonials__title">
 
                     <h3 class="inline-richtext">{{ block.settings.title }}</h3>
@@ -217,7 +221,11 @@ fill:{{ block.settings.testi_svg_BG }}
 
  {% endif %}
 
+
+
                 </div>
+
+                {% endif %}
 
                  {% comment %}
                Testimonials Paragraph
@@ -234,6 +242,8 @@ fill:{{ block.settings.testi_svg_BG }}
               </div>
 
  {%- endif -%}
+
+ </div>
                   {%- endif -%}
 
              {% comment %}
