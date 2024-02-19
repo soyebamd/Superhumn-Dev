@@ -32,9 +32,15 @@
 
 .superhumn-title{position:relative; margin:auto; }
 
-.superhumn-title:before{
-    content:  "{{ section.settings.title_before }}";
-    position:relative;
+.superhumn-title:before, .superhumn-title:after{
+
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.99px;
+text-transform: uppercase; 
+  position:relative;
     display:block;
     text-transform:uppercase;
      -webkit-text-stroke-width: 1px;
@@ -43,14 +49,14 @@
   color: #130d09;
     font-family: "phonkregular_demo";
 
+}
+
+.superhumn-title:before{
+    content:  "{{ section.settings.title_before }}";
+  
+
 
    
-font-size: 33px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.99px;
-text-transform: uppercase; 
 
 
 
@@ -60,9 +66,7 @@ text-transform: uppercase;
 
 .superhumn-title:after{
     content:  "{{ section.settings.title_after }}";
-     position:relative;
-    display:block;
- text-transform:uppercase;
+     p
 }
 
 
