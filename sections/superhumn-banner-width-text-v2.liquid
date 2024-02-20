@@ -682,7 +682,12 @@ text-transform: uppercase;
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
-        
+         {
+          "type": "inline_richtext",
+          "id": "heading2",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
 
           {
       "type": "image_picker",
@@ -712,61 +717,38 @@ text-transform: uppercase;
           "id": "heading_size",
           "options": [
             {
-              "value": "h3",
+              "value": "h2",
               "label": "t:sections.all.heading_size.options__1.label"
             },
             {
-              "value": "h2",
+              "value": "h1",
               "label": "t:sections.all.heading_size.options__2.label"
             },
             {
-              "value": "h1",
+              "value": "h0",
               "label": "t:sections.all.heading_size.options__3.label"
             }
           ],
           "default": "h1",
           "label": "Hedaind Size 1"
-        }
-
-        
-
-        
-
-      ]
-    },
-
-
-
-    {
-      "type": "text",
-      "name": "t:sections.image-with-text.blocks.heading.name",
-      "limit": 1,
-      "settings": [
-       
-         {
-          "type": "inline_richtext",
-          "id": "heading2",
-          "default": "Image with text",
-          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
 
         
-
 
          {
           "type": "select",
           "id": "heading_size2",
           "options": [
             {
-              "value": "h3",
+              "value": "h2",
               "label": "t:sections.all.heading_size.options__1.label"
             },
             {
-              "value": "h2",
+              "value": "h1",
               "label": "t:sections.all.heading_size.options__2.label"
             },
             {
-              "value": "h1",
+              "value": "h0",
               "label": "t:sections.all.heading_size.options__3.label"
             }
           ],
@@ -776,10 +758,6 @@ text-transform: uppercase;
 
       ]
     },
-
-
-
-
     {
       "type": "caption",
       "name": "t:sections.image-with-text.blocks.caption.name",
@@ -907,9 +885,6 @@ text-transform: uppercase;
       "blocks": [
         {
           "type": "heading"
-        },
-        {
-          "type": "heading2"
         },
         {
           "type": "text"
