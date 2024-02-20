@@ -162,7 +162,13 @@ text-transform: uppercase;
             {%- for block in section.blocks -%}
 
 
-                <style>
+               
+
+               
+              {% case block.type %}
+                {%- when 'heading' -%}
+
+                     <style>
                     
 .superhumn-title:before{
     content:  "{{ block.settings.title_before }}";
@@ -183,10 +189,6 @@ text-transform: uppercase;
 }
                 </style>
 
-               
-              {% case block.type %}
-                {%- when 'heading' -%}
-
 
 {% comment  %}   <h2 class="super-human-card__tag text-uppercase">Join the </h2> {% endcomment %}
 
@@ -195,13 +197,20 @@ text-transform: uppercase;
 
 
 
-        <h2 class="superhumn-title inline-richtext {{ block.settings.heading_size }} title-bg-{{ block.id }} {{ block.shopify_attributes }} ">
+        <h2 class="superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }} {{ block.shopify_attributes }} ">
          {{ block.settings.heading }}
         </h2>
     
       </div>
                     
-                 
+                  <h1 class="h1 super-human-card__title" {{ block.shopify_attributes }}>
+                    {{ block.settings.heading }}
+                  </h1>                  
+                   <div class="animation-strock-effect position-relative">
+                    <h3 class="h1 titleEffectStrock m-0"> {{ block.settings.heading }}</h3>
+                    <h3 class="h1 titleEffectStrock m-0"> {{ block.settings.heading }}</h3>
+                    <h3 class="h1 titleEffectStrock m-0"> {{ block.settings.heading }}</h3>
+                  </div>
 
                 {%- when 'caption' -%}
                   <p
