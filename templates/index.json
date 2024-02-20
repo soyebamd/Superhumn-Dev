@@ -232,6 +232,8 @@
           "type": "heading",
           "settings": {
             "heading": "Let's be friends",
+            "title_before": "",
+            "title_after": "with benefits",
             "heading_size": "h1"
           }
         },
