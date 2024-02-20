@@ -211,6 +211,10 @@ h3,
   position: relative;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 .animation-strock-effect {
   width: 100%;
   min-height: 81px;
@@ -383,7 +387,11 @@ h3,
 }
 
 .testimonials_tag {
-  position: absolute;
-  bottom: 0;
-  left: 30px;
+  bottom: 48px;
+  left: 62px;
+}
+
+.slash_tag {
+  bottom: 48px;
+  right: 62px;
 }
