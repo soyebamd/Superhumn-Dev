@@ -381,3 +381,9 @@ h3,
 .text-center {
   text-align: center !important;
 }
+
+.testimonials_tag {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
