@@ -232,11 +232,11 @@
           "type": "heading",
           "settings": {
             "heading": "FRIENDS",
+            "heading2": "LET'S BE",
             "heading_image": "shopify:\/\/shop_images\/Vector_2.svg",
             "title_before": "",
             "title_after": "with benefits",
-            "heading_size": "h1",
-            "heading2": "LET'S BE",
+            "heading_size": "h0",
             "heading_size2": "h1"
           }
         },
