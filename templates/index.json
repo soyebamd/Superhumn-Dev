@@ -231,7 +231,7 @@
         "heading_KAtyLd": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Let’s be friends",
             "heading_size": "h1"
           }
         },
@@ -248,8 +248,8 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style_secondary": false,
-            "button_color": "#836BEA",
-            "button_color_border": "#836BEA"
+            "button_color": "#836bea",
+            "button_color_border": "#836bea"
           }
         }
       },
