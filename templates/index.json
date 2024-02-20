@@ -224,6 +224,64 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "superhumn_banner_width_text_v2_gNzTyN": {
+      "type": "superhumn-banner-width-text-v2",
+      "blocks": {
+        "heading_KAtyLd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_NiQHWA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CfUKTN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_color": "#836BEA",
+            "button_color_border": "#836BEA"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KAtyLd",
+        "text_NiQHWA",
+        "button_CfUKTN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ellipse_16_2.png",
+        "image_padding_top": 36,
+        "image_padding_bottom": 36,
+        "image_padding_left": 36,
+        "image_padding_right": 36,
+        "background_image": "shopify:\/\/shop_images\/Group_4_1.png",
+        "background_image_size": 50,
+        "background_image_align": "left",
+        "background_image_color": "#161616",
+        "background_image_alignment": "left",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -232,6 +290,7 @@
     "superhumn_image_width_text_dxr7Ba",
     "superhumn_image_width_text_NJFYPX",
     "superhumn_testimonials_k6VXhh",
-    "featured_collection"
+    "featured_collection",
+    "superhumn_banner_width_text_v2_gNzTyN"
   ]
 }
