@@ -108,6 +108,8 @@ text-transform: uppercase;
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} section-{{ section.id }}-image-width-text__background-image">
   <div class="page-width z-2">
+
+
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item
@@ -166,6 +168,19 @@ text-transform: uppercase;
 
                
               {% case block.type %}
+
+
+              
+                {%- when 'caption' -%}
+                  <p
+                    class="super-human-card__content super-human-card__title image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    {{ block.shopify_attributes }}
+                  >
+                 #{{ block.settings.button_color }}   {{ block.settings.caption | escape }}
+                  </p>
+
+
+
                 {%- when 'heading' -%}
 
                      <style>
@@ -213,9 +228,7 @@ text-transform: uppercase;
 
         <div class="title-wrapper-with-link mb-100 title-wrapper--self-padded-mobile title-wrapper--no-top-margin ">
 
-<h2 class="inline-richtext {{ block.heading_size2 }}" {{ block.shopify_attributes }}>
-         {{ block.settings.heading2 }}
-        </h2>
+
 
         <h1 class="superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
          {{ block.settings.heading }}
@@ -225,13 +238,6 @@ text-transform: uppercase;
                     
                   
 
-                {%- when 'caption' -%}
-                  <p
-                    class="super-human-card__content super-human-card__title image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
-                    {{ block.shopify_attributes }}
-                  >
-                 #{{ block.settings.button_color }}   {{ block.settings.caption | escape }}
-                  </p>
                 {%- when 'text' -%}
                   <div class="super-human-card__content image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
@@ -682,12 +688,7 @@ text-transform: uppercase;
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
-         {
-          "type": "inline_richtext",
-          "id": "heading2",
-          "default": "Image with text",
-          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-        },
+        
 
           {
       "type": "image_picker",
@@ -731,30 +732,11 @@ text-transform: uppercase;
           ],
           "default": "h1",
           "label": "Hedaind Size 1"
-        },
+        }
 
         
 
-         {
-          "type": "select",
-          "id": "heading_size2",
-          "options": [
-            {
-              "value": "h3",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
+      
 
       ]
     },
