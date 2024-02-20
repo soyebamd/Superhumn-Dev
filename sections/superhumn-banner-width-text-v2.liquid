@@ -73,7 +73,7 @@
 
 .superhumn-title:before, .superhumn-title:after{
 
-font-size: 33px;
+
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -213,11 +213,13 @@ text-transform: uppercase;
 
         <div class="title-wrapper-with-link mb-100 title-wrapper--self-padded-mobile title-wrapper--no-top-margin ">
 
-
-
-        <h2 class="superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}  title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
-         {{ block.settings.heading }}
+<h2 class="inline-richtext {{ block.heading_size2 }}" {{ block.shopify_attributes }}>
+         {{ block.settings.heading2 }}
         </h2>
+
+        <h1 class="superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
+         {{ block.settings.heading }}
+        </h1>
     
       </div>
                     
@@ -723,7 +725,36 @@ text-transform: uppercase;
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+
+         {
+          "type": "inline_richtext",
+          "id": "heading2",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+
+         {
+          "type": "select",
+          "id": "heading_size2",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
         }
+
       ]
     },
     {
