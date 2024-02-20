@@ -184,7 +184,7 @@ text-transform: uppercase;
 
 
 .superhumn-title:after{
-    content:  "{{ block.settings.heading }}";
+    content:  "{{ block.settings.title_after }}";
    
 }
                 </style>
@@ -662,6 +662,24 @@ text-transform: uppercase;
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
+
+         {
+      "type": "inline_richtext",
+      "id": "title_before",
+      "default": "Before Text",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+
+
+       {
+      "type": "inline_richtext",
+      "id": "title_after",
+      "default": "Before After",
+      "label": "t:sections.multicolumn.settings.title.label"
+    },
+
+
+
         {
           "type": "select",
           "id": "heading_size",
