@@ -228,6 +228,14 @@
     "superhumn_banner_width_text_v2_gNzTyN": {
       "type": "superhumn-banner-width-text-v2",
       "blocks": {
+        "caption_HfMNWW": {
+          "type": "caption",
+          "settings": {
+            "caption": "Let's",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "heading_KAtyLd": {
           "type": "heading",
           "settings": {
@@ -254,21 +262,13 @@
             "button_color": "#836bea",
             "button_color_border": "#836bea"
           }
-        },
-        "caption_HfMNWW": {
-          "type": "caption",
-          "settings": {
-            "caption": "Let's",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
         }
       },
       "block_order": [
+        "caption_HfMNWW",
         "heading_KAtyLd",
         "text_NiQHWA",
-        "button_CfUKTN",
-        "caption_HfMNWW"
+        "button_CfUKTN"
       ],
       "settings": {
         "image_padding_top": 36,
