@@ -243,10 +243,10 @@
         "button_CfUKTN"
       ],
       "settings": {
-        "image_padding_top": 36,
-        "image_padding_bottom": 36,
-        "image_padding_left": 36,
-        "image_padding_right": 36,
+        "image_padding_top": 0,
+        "image_padding_bottom": 0,
+        "image_padding_left": 84,
+        "image_padding_right": 0,
         "background_image": "shopify:\/\/shop_images\/Group.svg",
         "background_image_size": 0,
         "background_image_align": "left",
@@ -262,8 +262,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 92,
+        "padding_bottom": 92
       }
     }
   },
