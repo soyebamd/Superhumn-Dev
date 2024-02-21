@@ -277,6 +277,10 @@ h3,
   padding: auto;
 }
 
+.ps-5 {
+  padding-left: 3rem;
+}
+
 .titleEffectStrock,
 .titleEffectStrock *,
 .super-human-card__tag {
