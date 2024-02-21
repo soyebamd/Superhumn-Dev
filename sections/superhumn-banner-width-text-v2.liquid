@@ -95,7 +95,7 @@ text-transform: uppercase;
 .frame{
   position:relative;
   display:inline-block;
-  overflow:visible;
+  overflow: visible!important;
 }
 
 .frame .emailForm{
@@ -132,15 +132,24 @@ line-height: normal;
 
   }
 
+  .field__input{ background:transparent;color: #000;}
+
+  .newsletter-form__field-wrapper {
+  max-width: 40rem;
+}
+
+.newsletter-form__button {
+  width: auto;
+      }
+
 .fill-frame{
-  position:absolute;
-  background:#FF4667;
-  right:4px;
-  top:50%;
-  transform:translateY(-50%);
-  width:55px;
-  text-align:center;
-  
+ position: absolute;
+  background: #FF4667;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  text-align: center;
   
 }
 
