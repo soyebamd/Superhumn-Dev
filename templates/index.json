@@ -276,7 +276,7 @@
         "image_padding_left": 36,
         "image_padding_right": 36,
         "background_image": "shopify:\/\/shop_images\/Group.svg",
-        "background_image_size": 50,
+        "background_image_size": 0,
         "background_image_align": "left",
         "background_image_color": "#161616",
         "background_image_alignment": "left",
