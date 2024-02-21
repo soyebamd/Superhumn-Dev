@@ -84,8 +84,12 @@ text-transform: uppercase;
   position:relative;
     display:block;
     text-transform:uppercase;
-     -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
+   font-size: 30px;
+  
+  -webkit-text-stroke-width: .3px;
+  text-shadow: none;
+
+    
   position: relative;
   color: transparent;
     font-family: "phonkregular_demo";
@@ -348,7 +352,8 @@ line-height: normal; }
 
 
 .superhumn-title:after{
-    content:  "{{ block.settings.title_after }}";
+    content:  "{{ block.settings.title_after }}"; text-align: right;
+  right: -109px;
    
 
 
