@@ -95,7 +95,42 @@ text-transform: uppercase;
 .frame{
   position:relative;
   display:inline-block;
+  overflow:visible;
 }
+
+.frame .emailForm{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 570px;
+  height: 76px;
+  background: ;
+  left: -74px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: -4px 4px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.frame   .newsletter-form {
+   
+    max-width: 52rem;
+    height: 100%;
+  }
+
+  .field{
+    height: 100%;
+  background: transparent;
+  }
+
+  .field__label{
+    color: #353535;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+
+  }
 
 .fill-frame{
   position:absolute;
@@ -109,7 +144,12 @@ text-transform: uppercase;
   
 }
 
-
+.join-btn{color: #F00;
+ font-family: "phonkregular_demo";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; }
 
 {%- endstyle -%}
 
@@ -134,13 +174,7 @@ text-transform: uppercase;
 
   section-{{ section.id }}-image_padding
 
-
-
-
-
-  
-
-        
+      
         
         ">
           
@@ -186,12 +220,12 @@ text-transform: uppercase;
                   </label>
                   <button
                     type="submit"
-                    class="newsletter-form__button field__button"
+                    class="newsletter-form__button field__button join-btn"
                     name="commit"
                     id="Subscribe"
                     aria-label="{{ 'newsletter.button_label' | t }}"
                   >
-                    {% render 'icon-arrow' %}
+                  JOIN
                   </button>
                 </div>
                 {%- if form.errors -%}
@@ -215,7 +249,7 @@ text-transform: uppercase;
               {%- endif -%}
             {% endform %}
        
-            
+
        </div>
   
   
