@@ -372,7 +372,7 @@ line-height: normal; }
 
 }
 
-.arrow-bg { background:url({{'Arrow_4.svg' |  file_url }}) no-repeat;   }
+.arrow-bg {  }
 
 
                 </style>
@@ -394,9 +394,12 @@ line-height: normal; }
                   
 
                 {%- when 'text' -%}
-                  <div class="super-human-card__content arrow-bg image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                    {{ block.settings.text }}
-                  </div>
+                  <div class="super-human-card__content image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+
+
+                
+                  {{ block.settings.text }} <div class="arrow-bg">{{'Arrow_4.svg' |  file_url | img_tag:'master' }}</div>
+
                 {%- when 'button' -%}
 
 
