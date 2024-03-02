@@ -294,6 +294,13 @@ h3,
   text-shadow: -3px -3px 1px #f00, 3px 3px 1px #00ffd1;
 }
 
+.heading-style-2 {
+  text-shadow: -1px 0px 1px red, -2px 1px 1px red, -3px 2px 1px red,
+    -4px 3px 1px red, -5px 4px 1px red, -6px 5px 1px red, -8px 6px 1px red,
+    -8px 7px 1px red, -9px 8px 1px red, -10px 9px 1px red, -11px 10px 1px red,
+    -12px 11px 1px red;
+}
+
 .super-human-absolute {
   position: absolute;
   top: 50%;
