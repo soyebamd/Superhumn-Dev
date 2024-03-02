@@ -268,14 +268,36 @@
     },
     "superhumn_power_slider_Ab7HF3": {
       "type": "superhumn-power-slider",
+      "blocks": {
+        "column_7KY4Pb": {
+          "type": "column",
+          "settings": {
+            "title": "Title",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        },
+        "column_U8xybA": {
+          "type": "column",
+          "settings": {
+            "title": "Title",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        }
+      },
+      "block_order": [
+        "column_7KY4Pb",
+        "column_U8xybA"
+      ],
       "settings": {
+        "heading_title": "POWER HOUR",
         "padding_top": 100,
         "padding_bottom": 100,
         "background_image": "shopify:\/\/shop_images\/Group_24.svg",
-        "background_image_size": 25,
-        "background_image_align": "left",
-        "background_image_color": "#161616",
-        "background_image_alignment": "left"
+        "background_image_color": "#161616"
       }
     }
   },
