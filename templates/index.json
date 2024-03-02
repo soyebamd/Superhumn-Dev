@@ -269,33 +269,24 @@
     "superhumn_power_slider_Ab7HF3": {
       "type": "superhumn-power-slider",
       "blocks": {
-        "column_7KY4Pb": {
+        "column_rXKrE7": {
           "type": "column",
           "settings": {
-            "title": "Title",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
-            "rotate_desc": 1
-          }
-        },
-        "column_U8xybA": {
-          "type": "column",
-          "settings": {
-            "title": "Title",
-            "text": "<p>Post Text<\/p>",
+            "image": "shopify:\/\/shop_images\/arnold-protein-meme_1.png",
+            "title": "WHY ARE SHROOM & HEMP PROTEINTHE BEST?",
+            "text": "<p>You may be familiar with the popular options like soy or pea protein. However...<\/p>",
             "link": "",
             "rotate_desc": 1
           }
         }
       },
       "block_order": [
-        "column_7KY4Pb",
-        "column_U8xybA"
+        "column_rXKrE7"
       ],
       "settings": {
-        "heading_title": "POWER HOUR",
         "padding_top": 100,
         "padding_bottom": 100,
+        "heading_title": "POWER HOUR",
         "background_image": "shopify:\/\/shop_images\/Group_24.svg",
         "background_image_color": "#161616"
       }
