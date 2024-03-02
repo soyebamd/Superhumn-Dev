@@ -1,0 +1,31 @@
+.power-slider {
+}
+
+.slider {
+  min-height: 390px;
+  position: relative;
+}
+
+.slider__text {
+  position: absolute;
+  bottom: 10px;
+  min-width: 359px;
+  min-height: 87px;
+  display: flex;
+  padding: 15px;
+}
+
+.slider__text h3 {
+  color: #fff;
+
+  font-size: 16px;
+}
+
+.slider__text p {
+  color: #fff;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
