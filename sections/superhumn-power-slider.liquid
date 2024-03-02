@@ -20,11 +20,10 @@
     
 
   
- background: url('{{section.settings.background_image | img_url: 'master' }}' );
+ background: url('{{section.settings.background_image | img_url: 'master' }}');
 
  background-color:{{ section.settings.background_image_color }} ;
 
- background-position: top {{ section.settings.background_image_alignment }}, left bottom;
     
     
 
@@ -34,7 +33,9 @@
 
 {%- endstyle -%}
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
+<section class="page-width--narrow section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
+
+<div class="page-width ">
  
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
@@ -42,7 +43,7 @@
 
 
 </div>
-
+</section>
 
 
 
@@ -89,65 +90,16 @@
       "label": "Bakground Image"
     },
 
-     {
-      "type": "range",
-      "id": "background_image_size",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "unit": "%",
-      "label": "Background Size",
-      "default": 50
-    },
+    
 
-     {
-      "type": "select",
-      "id": "background_image_align",
-      "options": [
-        {
-          "value": "left",
-          "label": "Show background on Right Side"
-        },
-        
-        {
-          "value": "right",
-          "label": "Show background on Left Side"
-        }
-      ],
-      "default": "left",
-      "label": "Background Image Alignment"
-    },
-
-
+    
 
       {
   "type": "color",
   "id": "background_image_color",
   "label": "Slider Background Color",
   "default": "#161616"
-},
-    
-
- {
-      "type": "select",
-      "id": "background_image_alignment",
-      "options": [
-        {
-          "value": "left",
-          "label": "Background Image Left"
-        },
-        {
-          "value": "center",
-          "label": "Background Image Center"
-        },
-        {
-          "value": "right",
-          "label": "Background Image right"
-        }
-      ],
-      "default": "left",
-      "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
-    }
+}
     
 
 
