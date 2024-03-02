@@ -3,7 +3,6 @@
 
 .slider {
   position: relative;
-  padding: 60px;
 }
 .slider__img {
   min-height: 380px;
@@ -17,6 +16,7 @@
   padding: 15px;
   border: 1px solid #fff;
   background: #2d2d2d;
+  margin: 0 15px;
 }
 
 .slider__img img {
