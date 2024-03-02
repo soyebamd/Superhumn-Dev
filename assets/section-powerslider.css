@@ -2,11 +2,12 @@
 }
 
 .slider {
-  min-height: 390px;
   position: relative;
   padding: 60px;
 }
-
+.slider__img {
+  min-height: 380px;
+}
 .slider__text {
   position: absolute;
   bottom: 60px;
