@@ -288,11 +288,22 @@
             "link": "#",
             "rotate_desc": 1
           }
+        },
+        "column_f6NmNk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1bbl7z_1.png",
+            "title": "COW FARTS",
+            "text": "<p>Greenhouse gases? More like Cowhouse gases.<\/p>",
+            "link": "#",
+            "rotate_desc": 1
+          }
         }
       },
       "block_order": [
         "column_rXKrE7",
-        "column_AmbQTT"
+        "column_AmbQTT",
+        "column_f6NmNk"
       ],
       "settings": {
         "padding_top": 100,
