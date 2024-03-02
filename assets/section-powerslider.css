@@ -18,9 +18,9 @@
   background: #2d2d2d;
 }
 
-.slick-slide img {
+.slider__img img {
   display: block;
-  margin: auto;
+  margin: auto !important;
 }
 
 .slider__text h3 {
