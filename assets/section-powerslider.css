@@ -9,13 +9,18 @@
 
 .slider__text {
   position: absolute;
-  bottom: 10px;
+  bottom: 60px;
 
   min-height: 87px;
   display: flex;
   padding: 15px;
   border: 1px solid #fff;
   background: #2d2d2d;
+}
+
+.slick-slide img {
+  display: block;
+  margin: auto;
 }
 
 .slider__text h3 {
