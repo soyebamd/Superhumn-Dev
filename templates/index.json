@@ -197,34 +197,6 @@
         "padding_bottom": 100
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "superhumn_banner_width_text_v2_gNzTyN": {
       "type": "superhumn-banner-width-text-v2",
       "blocks": {
@@ -271,10 +243,10 @@
         "button_CfUKTN"
       ],
       "settings": {
-        "image_padding_top": 36,
-        "image_padding_bottom": 36,
-        "image_padding_left": 36,
-        "image_padding_right": 36,
+        "image_padding_top": 0,
+        "image_padding_bottom": 0,
+        "image_padding_left": 84,
+        "image_padding_right": 0,
         "background_image": "shopify:\/\/shop_images\/Group.svg",
         "background_image_size": 0,
         "background_image_align": "left",
@@ -290,8 +262,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 92,
+        "padding_bottom": 92
       }
     }
   },
@@ -301,7 +273,6 @@
     "superhumn_image_width_text_dxr7Ba",
     "superhumn_image_width_text_NJFYPX",
     "superhumn_testimonials_k6VXhh",
-    "featured_collection",
     "superhumn_banner_width_text_v2_gNzTyN"
   ]
 }
