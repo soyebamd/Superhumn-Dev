@@ -15,8 +15,9 @@
         "column_MR9xVy": {
           "type": "column",
           "settings": {
-            "title": "slider",
-            "text": "<p>Post Text<\/p>",
+            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
+            "title": "Jade Cheng",
+            "text": "<p>Jade Cheng<\/p>",
             "link": "",
             "rotate_desc": 1
           }
