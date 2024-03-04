@@ -98,10 +98,10 @@
 .tean__img {
   overflow: hidden;
   height: 382px;
+  position: relative;
 }
 .tean__img img {
   display: block;
-  position: relative;
 }
 
 .tean__img::after {
