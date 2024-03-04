@@ -284,10 +284,6 @@ h3,
   padding: auto;
 }
 
-.me-5 {
-  margin-right: 5rem;
-}
-
 .ms-5 {
   padding-left: 3rem;
 }
@@ -621,4 +617,7 @@ h3,
 .page-1100 {
   max-width: 1100px;
   width: 100%;
+}
+.me-5 {
+  margin-right: 5rem !important;
 }
