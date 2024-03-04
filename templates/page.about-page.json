@@ -37,10 +37,11 @@
         "column_tWqACe": {
           "type": "column",
           "settings": {
-            "title": "slider",
-            "position": "<p>CE)<\/p>",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
+            "title": "Paul Johnson",
+            "position": "<p>CEO<\/p>",
+            "text": "<p>Built successful products for dozens of startups and Fortune 100 companies. Scaled a software development agency from 12 to 165 full time engineers in 3 years.<\/p>",
+            "link": "#",
             "rotate_desc": 1
           }
         }
