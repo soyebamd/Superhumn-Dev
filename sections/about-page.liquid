@@ -9,10 +9,10 @@
     .section-{{ section.id }}-background {
 
     
-
+{% if section.settings.background_image  %}
   
  background: url('{{section.settings.background_image | img_url: 'master' }}');
-
+{% endif %}
  background-color:{{ section.settings.background_image_color }} ;
 
     
