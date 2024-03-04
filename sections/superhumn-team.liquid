@@ -40,7 +40,28 @@
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
    
 
+
+    
+
+
+     {% if section.settings.first_title %}
+
+        
+
+
+    <h1 class="heading-style-1 text-center">
+      {{section.settings.first_title}}
+    </h1>
+
+    {% endif %}
+
+
+
     {% if section.settings.heading_title %}
+
+        
+
+
     <h1 class="heading-style-2 text-center">
       {{section.settings.heading_title}}
     </h1>
@@ -57,11 +78,9 @@
     
         <li  {{ block.shopify_attributes }} >
 
-        {% if block.settings.first_title %}
-          <h3>{{ block.settings.first_title  }}</h3>
-  {% endif %}
+      
 
-  
+
   {% if block.settings.title %}
           <h3>{{ block.settings.title  }}</h3>
   {% endif %}
