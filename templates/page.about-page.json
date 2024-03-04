@@ -8,71 +8,9 @@
         "padding_top": 168,
         "padding_bottom": 264
       }
-    },
-    "superhumn_testimonials_7aNzTE": {
-      "type": "superhumn-testimonials",
-      "blocks": {
-        "column_EwBRNh": {
-          "type": "column",
-          "settings": {
-            "testi_svg_BG": "#ff4667",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9jfApi": {
-          "type": "column",
-          "settings": {
-            "testi_svg_BG": "#ff4667",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_UwpXc7": {
-          "type": "column",
-          "settings": {
-            "testi_svg_BG": "#ff4667",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_EwBRNh",
-        "column_9jfApi",
-        "column_UwpXc7"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "title_before": "Multicolumn",
-        "title_after": "Multicolumn",
-        "heading_size": "h1",
-        "background_image_color": "#130d09",
-        "heading_image": "shopify:\/\/shop_images\/Group_24.svg",
-        "background_image": "shopify:\/\/shop_images\/Rectangle_26_5c84161f-e548-4f92-8fa2-62da77a7a9b4.png",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "superhumn_testimonials_7aNzTE"
+    "main"
   ]
 }
