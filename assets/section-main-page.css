@@ -52,3 +52,35 @@
   left: 0;
   bottom: 0;
 }
+
+.page-title-wrapper {
+  margin-bottom: 6rem;
+}
+
+.page-title-wrapper h3 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 44.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56;
+}
+
+.team-slider p.post {
+  color: #ededed;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+
+.team-slider p {
+  color: #a5a5a5;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.18px;
+}
