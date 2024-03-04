@@ -3,8 +3,28 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ s
+    
+    
+    ection.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  
+    .section-{{ section.id }}-image-width-text__background-image{
+    
+
+  
+ background: url('{{section.settings.background_image | img_url: 'master' }}');
+
+ background-color:{{ section.settings.background_image_color }} ;
+
+    
+    
+
+
+}
+
+
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -14,6 +34,8 @@
   }
 {%- endstyle -%}
 
+<section class="section-{{ section.id }}-image-width-text__background-image">
+
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}This is about page tempatgel sfd
@@ -22,7 +44,7 @@
     {{ page.content }}
   </div>
 </div>
-
+</section>
 
 {% schema %}
 {
@@ -34,6 +56,27 @@
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
+
+     {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Bakground Image"
+    },
+
+    
+
+    
+
+      {
+  "type": "color",
+  "id": "background_image_color",
+  "label": "Slider Background Color",
+  "default": "#161616"
+}
+    
+
+
+,
     {
       "type": "range",
       "id": "padding_top",
