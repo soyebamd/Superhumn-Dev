@@ -11,12 +11,12 @@
     
 {% if section.settings.background_image  %}
   
- background: url('{{section.settings.background_image | img_url: 'master' }}');
+ background: url('{{section.settings.background_image | img_url: 'master' }}'), url({{'Rectangle_86.png' |  file_url }});
 {% endif %}
  background-color:{{ section.settings.background_image_color }} ;
 
- background-repeat: no-repeat;
-  background-position: center;
+ background-repeat: no-repeat, repeat-x;
+  background-position: center, bottom left;
 
     
     
