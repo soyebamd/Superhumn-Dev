@@ -9,51 +9,6 @@
         "padding_bottom": 264
       }
     },
-    "superhumn_power_slider_VQAt7b": {
-      "type": "superhumn-power-slider",
-      "blocks": {
-        "column_MR9xVy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
-            "title": "Jade Cheng",
-            "text": "<p>Jade Cheng<\/p>",
-            "link": "",
-            "rotate_desc": 1
-          }
-        },
-        "column_ERbcAe": {
-          "type": "column",
-          "settings": {
-            "title": "slider",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
-            "rotate_desc": 1
-          }
-        },
-        "column_gBDxb9": {
-          "type": "column",
-          "settings": {
-            "title": "slider",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
-            "rotate_desc": 1
-          }
-        }
-      },
-      "block_order": [
-        "column_MR9xVy",
-        "column_ERbcAe",
-        "column_gBDxb9"
-      ],
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "heading_title": "TEAM",
-        "background_image": "shopify:\/\/shop_images\/Group_24.svg",
-        "background_image_color": "#161616"
-      }
-    },
     "superhumn_team_cYFQrL": {
       "type": "superhumn-team",
       "blocks": {
@@ -103,7 +58,6 @@
   },
   "order": [
     "main",
-    "superhumn_power_slider_VQAt7b",
     "superhumn_team_cYFQrL"
   ]
 }
