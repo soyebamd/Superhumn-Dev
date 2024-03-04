@@ -70,6 +70,7 @@
   font-size: 44.8px;
   font-style: normal;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .team-slider p.post {
@@ -89,6 +90,7 @@
   font-weight: 700;
   line-height: 24px; /* 133.333% */
   letter-spacing: -0.18px;
+  margin: 0;
 }
 
 .team-text {
