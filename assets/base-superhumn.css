@@ -39,9 +39,14 @@
 
 */
 body {
-  background-color: #0c0c0c;
+  background: #151515;
   color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+.gradient {
+  background: #151515;
+  color: #fff;
 }
 
 p {
