@@ -15,6 +15,9 @@
 {% endif %}
  background-color:{{ section.settings.background_image_color }} ;
 
+ background-repeat: no-repeat;
+  background-position: center;
+
     
     
 
@@ -30,10 +33,10 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-background">
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+<div class="page-width page-1100 page-width--narrow section-{{ section.id }}-padding">
+  <h2 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}This is about page tempatgel sfd
-  </h1>
+  </h2>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
   </div>
