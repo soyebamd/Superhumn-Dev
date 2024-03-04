@@ -3,6 +3,7 @@
     "main": {
       "type": "about-page",
       "settings": {
+        "background_image_color": "#261010",
         "padding_top": 28,
         "padding_bottom": 28
       }
