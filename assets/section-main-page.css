@@ -125,3 +125,7 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
+.super-human-card__tag {
+  font-size: 48px !important;
+}
