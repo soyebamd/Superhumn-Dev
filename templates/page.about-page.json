@@ -26,10 +26,11 @@
         "column_bNFDrj": {
           "type": "column",
           "settings": {
-            "title": "slider",
-            "position": "<p>CE)<\/p>",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/94f903ac-305f-424b-81eb-5cc9aa639c01_1.png",
+            "title": "Tim Bernard",
+            "position": "<p>CEO<\/p>",
+            "text": "<p>Built successful products for dozens of startups and Fortune 100 companies. Scaled a software development agency from 12 to 165 full time engineers in 3 years.<\/p>",
+            "link": "#",
             "rotate_desc": 1
           }
         },
