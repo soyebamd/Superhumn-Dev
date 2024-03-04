@@ -15,10 +15,11 @@
         "column_Jbi6zJ": {
           "type": "column",
           "settings": {
-            "title": "slider",
-            "position": "<p>CE)<\/p>",
-            "text": "<p>Post Text<\/p>",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
+            "title": "Jade Cheng",
+            "position": "<p>CEO<\/p>",
+            "text": "<p>Built successful products for dozens of startups and Fortune 100 companies. Scaled a software development agency from 12 to 165 full time engineers in 3 years.<\/p>",
+            "link": "#",
             "rotate_desc": 1
           }
         },
@@ -51,7 +52,8 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36,
-        "heading_title": "Title",
+        "first_title": "MEET THE DREAM",
+        "heading_title": "TEAM",
         "background_image_color": "#161616"
       }
     }
