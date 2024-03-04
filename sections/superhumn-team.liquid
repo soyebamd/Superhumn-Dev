@@ -57,9 +57,13 @@
     
         <li  {{ block.shopify_attributes }} >
 
-        {% if block.settings.title %}
+        {% if block.settings.first_title %}
+          <h3>{{ block.settings.first_title  }}</h3>
+  {% endif %}
+  {% if block.settings.title %}
           <h3>{{ block.settings.title  }}</h3>
   {% endif %}
+  
 
     {% if block.settings.position %}
           <p>{{ block.settings.position  }}</p>
@@ -154,6 +158,7 @@
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
     },
+    
 
   {
           "type": "inline_richtext",
@@ -197,6 +202,13 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+
+         {
+          "type": "inline_richtext",
+          "id": "first_title",
+          "default": "First Title",
+          "label": "First Title"
         },
         
         {
