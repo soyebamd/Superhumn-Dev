@@ -53,10 +53,57 @@
         "background_image": "shopify:\/\/shop_images\/Group_24.svg",
         "background_image_color": "#161616"
       }
+    },
+    "superhumn_team_cYFQrL": {
+      "type": "superhumn-team",
+      "blocks": {
+        "column_Jbi6zJ": {
+          "type": "column",
+          "settings": {
+            "title": "slider",
+            "position": "<p>CE)<\/p>",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        },
+        "column_bNFDrj": {
+          "type": "column",
+          "settings": {
+            "title": "slider",
+            "position": "<p>CE)<\/p>",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        },
+        "column_tWqACe": {
+          "type": "column",
+          "settings": {
+            "title": "slider",
+            "position": "<p>CE)<\/p>",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        }
+      },
+      "block_order": [
+        "column_Jbi6zJ",
+        "column_bNFDrj",
+        "column_tWqACe"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "heading_title": "Title",
+        "background_image_color": "#161616"
+      }
     }
   },
   "order": [
     "main",
-    "superhumn_power_slider_VQAt7b"
+    "superhumn_power_slider_VQAt7b",
+    "superhumn_team_cYFQrL"
   ]
 }
