@@ -31,8 +31,15 @@
 }
 
 .desc {
-  max-width: 600px;
+  max-width: 680px;
   padding-left: 66px;
+
+  color: #c7c7c7;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .bottom-bg {
   position: relative;
@@ -117,13 +124,4 @@
   z-index: -1;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.desc {
-  color: #c7c7c7;
-  font-family: "Work Sans", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
