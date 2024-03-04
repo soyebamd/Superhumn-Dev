@@ -1,0 +1,262 @@
+{{ 'section-powerslider.css' | asset_url | stylesheet_tag }}
+
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+
+    .section-{{ section.id }}-image-width-text__background-image{
+    
+
+  
+ background: url('{{section.settings.background_image | img_url: 'master' }}');
+
+ background-color:{{ section.settings.background_image_color }} ;
+
+    
+    
+
+
+}
+
+
+{%- endstyle -%}
+
+<section class="section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
+
+<div class="page-width ">
+ 
+  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+   
+
+    {% if section.settings.heading_title %}
+    <h1 class="heading-style-2 text-center">
+      {{section.settings.heading_title}}
+    </h1>
+
+    {% endif %}
+
+
+    <ul class="team-slider">
+
+  {%- for block in section.blocks -%}
+
+   
+
+    
+        <li  {{ block.shopify_attributes }} >
+
+        {% if block.settings.title %}
+          <h3>{{ block.settings.title  }}</h3>
+  {% endif %}
+
+    {% if block.settings.position %}
+          <p>{{ block.settings.position  }}</p>
+  {% endif %}
+
+
+  
+
+        <div class="team">
+
+
+ {% if block.settings.image %}
+         <div class="tean__img">
+
+ {{ block.settings.image  | img_url: 'master' | img_tag }}
+
+</div>
+
+    {% endif %}
+
+
+          <div class="team">
+
+{% if block.settings.text %}
+{{  block.settings.text  }}
+  {% endif %}
+
+          </div>
+
+
+
+        </div>
+
+
+        {% if block.settings.link %}
+          <a href="{{ block.settings.link }}" class="link-streched"></a>
+  {% endif %}
+
+
+
+
+        </li>
+
+
+  {% endfor %}
+    
+
+    </ul>
+
+    
+  </div>
+
+
+</div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Team Slider",
+  "tag": "section",
+  "class": "section",
+    "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+
+  
+
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+
+  {
+          "type": "inline_richtext",
+          "id": "heading_title",
+          "default": "Title",
+          "label": "Title"
+        },
+    
+
+     {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Bakground Image"
+    },
+
+    
+
+    
+
+      {
+  "type": "color",
+  "id": "background_image_color",
+  "label": "Slider Background Color",
+  "default": "#161616"
+}
+    
+
+
+
+  ],
+
+   "blocks": [
+    {
+      "type": "column",
+      "name": "t:sections.multicolumn.blocks.column.name",
+      "settings": [
+       
+           
+
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "default": "slider",
+          "label": "slider"
+        },
+        {
+          "type": "richtext",
+          "id": "position",
+          "default": "<p>CE)</p>",
+          "label": "Position Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Post Text</p>",
+          "label": "Description text"
+        },
+        
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+
+         {
+      "type": "range",
+      "id": "rotate_desc",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 1,
+      "label": "Rotate Description"
+    }
+
+
+      ]
+    }
+  ],
+
+  
+    "presets": [
+    {
+      "name": "Team Slider",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+  
+    }
+  ]
+}
+{% endschema %}
+
