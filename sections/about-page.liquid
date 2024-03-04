@@ -3,14 +3,11 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ s
-    
-    
-    ection.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  
-    .section-{{ section.id }}-image-width-text__background-image{
+    .section-{{ section.id }}-background {
+
     
 
   
@@ -24,8 +21,6 @@
 
 }
 
-
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -34,8 +29,7 @@
   }
 {%- endstyle -%}
 
-<section class="section-{{ section.id }}-image-width-text__background-image">
-
+<section class="section-{{ section.id }}-background">
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     {{ page.title | escape }}This is about page tempatgel sfd
@@ -73,10 +67,9 @@
   "label": "Slider Background Color",
   "default": "#161616"
 }
-    
+   , 
 
 
-,
     {
       "type": "range",
       "id": "padding_top",
