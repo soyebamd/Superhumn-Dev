@@ -38,18 +38,20 @@
   position:absolute;
 }
 
-.sprite-1{}
+.sprite-1{top: 92px;
+  left: 63px;}
 
 
-.sprite-2{}
+.sprite-2{bottom: 92px;
+  left: 63px;}
 
-.sprite-3{}
+.sprite-3{ right:63px; top: 92px;}
 
-.sprite-4{}
+.sprite-4{right:63px; bottom: 92px;}
 
 {%- endstyle -%}
 
-<section class="section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
+<section class="position-relative section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
 
 <div class="page-width ">
  
@@ -125,12 +127,13 @@
 
 
 <span class="sprite sprite-1">
-
+<div>
 {{'Vector_4.svg' |  file_url |  img_tag }}
-
+</div>
+<div>
 {{'Layer_9.svg' |  file_url |  img_tag }}
 
-
+</div>
 
 </span>
 <span class="sprite sprite-2">
