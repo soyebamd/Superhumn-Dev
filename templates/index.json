@@ -298,12 +298,23 @@
             "link": "#",
             "rotate_desc": 1
           }
+        },
+        "column_4X77Lg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
+            "title": "The is new test",
+            "text": "<p>Keep description here<\/p>",
+            "link": "#",
+            "rotate_desc": 1
+          }
         }
       },
       "block_order": [
         "column_rXKrE7",
         "column_AmbQTT",
-        "column_f6NmNk"
+        "column_f6NmNk",
+        "column_4X77Lg"
       ],
       "settings": {
         "padding_top": 144,
