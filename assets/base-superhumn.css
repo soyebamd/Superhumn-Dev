@@ -633,7 +633,7 @@ h3,
   background-position: center;
   height: 20px;
 }
-
-.dotnav li.slick-active button {
-  background: red !important;
+ul.slick-dots li.slick-active button {
+  background-color: red;
+  border: solid #fff 4px;
 }
