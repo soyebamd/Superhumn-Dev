@@ -2,7 +2,6 @@
   "sections": {
     "superhumn_image_banner_igDRcb": {
       "type": "superhumn-image-banner",
-      "disabled": true,
       "settings": {
         "image_bg": "shopify:\/\/shop_images\/image_1_1.jpg",
         "color_scheme": "scheme-5d9ad1aa-d266-469d-b13e-392897f630e6"
@@ -42,6 +41,7 @@
         "text_kDrU4E",
         "buttons_AntWxK"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_1.jpg",
         "image_overlay_opacity": 0,
