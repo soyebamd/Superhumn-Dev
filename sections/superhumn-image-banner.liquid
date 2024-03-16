@@ -111,7 +111,14 @@ Activate
 
  {%- if section.settings.image_bg != blank -%}
  <div class="secondImg">
-{{ section.settings.image_2 |  image_url: width: 2000 |  image_tag }}
+
+ {{
+        section.settings.image_2
+        | image_url: width: 3840
+        | image_tag
+      }}
+
+
 
 </div>   
 {% endif %}
