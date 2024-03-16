@@ -349,7 +349,7 @@
 {% javascript %}
   class StickyHeader extends HTMLElement {
     constructor() {
-      super();
+    //  super();
     }
 
     connectedCallback() {
@@ -383,8 +383,8 @@
     }
 
     disconnectedCallback() {
-      this.removeEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
-      window.removeEventListener('scroll', this.onScrollHandler);
+   //   this.removeEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
+    //  window.removeEventListener('scroll', this.onScrollHandler);
     }
 
     createObserver() {
