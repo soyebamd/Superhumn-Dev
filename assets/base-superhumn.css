@@ -312,7 +312,7 @@ h3,
 .super-human-absolute {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 7%;
   transform: translate(-0, -50%);
 }
 
@@ -330,7 +330,7 @@ h3,
   position: relative;
   display: block;
   transform: rotate(28deg);
-  right: 0px;
+  right: -40%;
   top: -157px;
 }
 
