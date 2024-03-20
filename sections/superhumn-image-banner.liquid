@@ -80,7 +80,7 @@ background-attachment: fixed;
 {{ 'pilu.svg' |  file_url | img_tag }}
 </div>
 
- {%- if section.settings.image_2 == blank -%}
+
 <div class="center-box-content center text-center">
 
 <h2 class="titleEffectStrock">ENTER THE</h2>
@@ -95,11 +95,19 @@ background-attachment: fixed;
   
   </div>
 
+<a href="#" class="btn text-uppercase position-relative mt-40">
+
+<span class="layer-1 ">
+
+<span class="layer-2 ">
+
+Activate
+</span>
+</span>
+</a>
 
 
 </div>
-
-  {% endif %}
 
  {%- if section.settings.image_2 != blank -%}
  <div class="secondImg">
@@ -114,20 +122,6 @@ background-attachment: fixed;
 
 </div>   
 {% endif %}
-
-
-<a href="#" class="btn text-uppercase position-relative mt-40">
-
-<span class="layer-1 ">
-
-<span class="layer-2 ">
-
-Activate
-</span>
-</span>
-</a>
-
-
 
 
 </div>
