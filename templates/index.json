@@ -7,7 +7,7 @@
         "image_2": "shopify:\/\/shop_images\/Group_1000011060.svg",
         "button_label": "Button label",
         "button_link": "#",
-        "button_style_secondary": false,
+        "button_style_secondary": true,
         "button_color": "#432012",
         "button_color_border": "#2e0318",
         "image_overlay_opacity": 0
