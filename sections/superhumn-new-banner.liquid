@@ -1,72 +1,51 @@
 {%- style -%}
+.full-screen {
+    height: 100vh;
+    width: 100%;
+}
 
-.full-screen { height:100vh;  width:100%}
-
-
-  #banner-Image-{{ section.id }}{
-
-        background:url({{  section.settings.image| image_url: width: 3840 }});
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size: cover;
-
-  }
+#banner-Image-{{ section.id }} {
+    background: url({{ section.settings.image| image_url: width: 3840 }});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .superhumn-banner__content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width:100%;
-      display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
-.pos-50{
-    position:relative;
-    top:-35px;
+.pos-50 {
+    position: relative;
+    top: -35px;
 }
 
-                        
 /* Custom Button */
+.custom{{ section.id }}-button {
+    background-color: {{ section.settings.button_color_border | escape }};
+    color: #fff;
+}
 
-
-
-  .custom{{ section.id }}-button{
-    background-color: 
-
-     
-       
-
-        {{ section.settings.button_color_border | escape }};
-
-        
-
-        
-    
-    
-
-    color:#fff;
-
-  }
-
-  .custom{{ section.id }}-button .layer-1 {
-       width: calc(100% - 6px);
+.custom{{ section.id }}-button .layer-1 {
+    width: calc(100% - 6px);
     height: calc(100% - 6px);
     background: #0E0E0E;
 }
 
- .custom{{ section.id }}-button .layer-2 {
-    
-    background:  {{ section.settings.button_color | escape }};
-
+.custom{{ section.id }}-button .layer-2 {
+    background: {{ section.settings.button_color | escape }};
 }
 
 .custom{{ section.id }}-button:after {
-       content: "";
+    content: "";
     height: 3px;
     background: {{ section.settings.button_color | escape }};
     top: 0px;
@@ -74,129 +53,49 @@
     box-shadow: none;
 }
 
-
-
-
-@media(max-width:1000px){
-    
-.pos-50{top:0;}
-
+@media(max-width: 1000px) {
+    .pos-50 {
+        top: 0;
+    }
 }
 
-.superhumn-banner__content img{ max-width:1000px; width:100%;     height: auto;}
-
+.superhumn-banner__content img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
 {%- endstyle -%}
 
-
-
-
-
-
-
-
-  {%- if section.settings.image != blank -%}
-
-
-  <div class="superhumn-banner full-screen BannerID-{{ section.id }} {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-        
-        id="banner-Image-{{ section.id }}"
-        
-        >
-
-
-
-<div class="superhumn-banner__content text-center">
-
-
-  {%- if section.settings.image_2 != blank -%}
- 
-
- {{
+{%- if section.settings.image != blank -%}
+<div class="superhumn-banner full-screen BannerID-{{ section.id }} {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" id="banner-Image-{{ section.id }}">
+    <div class="superhumn-banner__content text-center">
+        {%- if section.settings.image_2 != blank -%}
+        {{
         section.settings.image_2
         | image_url: width: 2000
         | image_tag
-      }}
-
-
-{% else %}
-
-    
-<div class="center-box-content center text-center">
-
-<h2 class="titleEffectStrock">ENTER THE</h2>
-
-<h1 class="title highlight">SUPER</h1>
-
-<div class="animation-strock-effect position-relative">
-      
-    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
-    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
-    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
-  
-  </div>
-
-
-</div>
-
-
-{% endif %}
-
-
-
-  {%- if section.settings.button_label != blank -%}
-
-
-           
-
-
-                    <a
-                      {% if section.settings.button_link == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ section.settings.button_link }}"
-                      {% endif %}
-                      class="pos-50 btn text-uppercase position-relative button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}
-
-                        custom{{ section.id }}-button
-                        
-                        
-                        "
-                      {{ section.shopify_attributes }}
-
-
-                    >
-
-                    
-<span class="layer-1 ">
-
-<span class="layer-2 text-center">
-                      {{ section.settings.button_label | escape }}
-
-
-                      
-
-                      
-
-                      </span></span>
-
-
-                    </a>
-                  {%- endif -%}
-             
-
-
-
-
-
-</div>
-
-  
-     
-     
+        }}
+        {% else %}
+        <div class="center-box-content center text-center">
+            <h2 class="titleEffectStrock">ENTER THE</h2>
+            <h1 class="title highlight">SUPER</h1>
+            <div class="animation-strock-effect position-relative">
+                <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+                <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+                <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+            </div>
+        </div>
+        {% endif %}
+        {%- if section.settings.button_label != blank -%}
+        <a {% if section.settings.button_link == blank %}role="link" aria-disabled="true"{% else %}href="{{ section.settings.button_link }}"{% endif %} class="pos-50 btn text-uppercase position-relative button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} custom{{ section.id }}-button">
+            <span class="layer-1 ">
+                <span class="layer-2 text-center">{{ section.settings.button_label | escape }}</span>
+            </span>
+        </a>
+        {%- endif -%}
     </div>
-
-  {%- endif -%}
-
+</div>
+{%- endif -%}
 
 
   
