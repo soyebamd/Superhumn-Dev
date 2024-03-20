@@ -15,7 +15,6 @@
     },
     "superhumn_image_scroller_GBEMaz": {
       "type": "superhumn-image-scroller",
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
