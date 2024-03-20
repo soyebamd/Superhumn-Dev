@@ -25,7 +25,7 @@
   {%- if section.settings.image != blank -%}
 
 
-  <div class="banner__media-new full-screen BannerID-{{ section.id }} {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  <div class="superhumn-banner full-screen BannerID-{{ section.id }} {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
         
         id="banner-Image-{{ section.id }}"
         
@@ -33,7 +33,55 @@
 
 
 
+<div class="superhumn-banner__content">
 
+
+  {%- if section.settings.image_2 != blank -%}
+ 
+img 
+
+
+{% else %}
+
+    
+<div class="center-box-content center text-center">
+
+<h2 class="titleEffectStrock">ENTER THE</h2>
+
+<h1 class="title highlight">SUPER</h1>
+
+<div class="animation-strock-effect position-relative">
+      
+    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+    <h3 class="h2 titleEffectStrock">DIMENSION</h3>
+  
+  </div>
+
+
+</div>
+
+
+{% endif %}
+
+
+
+<a href="#" class="btn text-uppercase position-relative mt-40">
+
+<span class="layer-1 ">
+
+<span class="layer-2 ">
+
+Activate
+</span>
+</span>
+</a>
+
+
+
+
+
+</div>
 
   
      
