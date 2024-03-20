@@ -637,3 +637,7 @@ h3,
   background-color: red;
   border: solid #fff 4px;
 }
+
+.header {
+  max-width: 100%;
+}
