@@ -511,6 +511,7 @@ h3,
 .email-field::placeholder,
 .field__input_superhumn::placeholder {
   color: white; /* Set the color of the placeholder text to white */
+  opacity: 1;
 }
 
 .superhumn-form,
