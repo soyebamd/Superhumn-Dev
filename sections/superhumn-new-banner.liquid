@@ -38,7 +38,12 @@
 
   {%- if section.settings.image_2 != blank -%}
  
-img 
+
+ {{
+        section.settings.image_2
+        | image_url: width: 3840
+        | image_tag
+      }}
 
 
 {% else %}
