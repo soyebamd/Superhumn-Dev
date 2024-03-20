@@ -317,9 +317,10 @@ h3,
 
 @media (min-width: 1800px) {
   .super-human-absolute {
-    top: 50%;
-    right: 0;
+    top: 050%;
+    right: auto;
     transform: translate(-50%, -50%);
+    left: 20%;
   }
 }
 .image-gallery {
@@ -328,7 +329,7 @@ h3,
   position: relative;
   display: block;
   transform: rotate(28deg);
-  right: -240px;
+  right: 0px;
   top: -157px;
 }
 
