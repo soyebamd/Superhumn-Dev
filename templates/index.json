@@ -8,8 +8,8 @@
         "button_label": "Button label",
         "button_link": "#",
         "button_style_secondary": true,
-        "button_color": "#432012",
-        "button_color_border": "#2e0318",
+        "button_color": "#00b2ff",
+        "button_color_border": "#0e0e0e",
         "image_overlay_opacity": 0
       }
     },
