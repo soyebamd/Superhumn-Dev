@@ -68,7 +68,7 @@
 
   <div class="banner__media full-screen {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
         
-        style="background:url({{  section.settings.image| image_url: width: 3840 }})"
+        style="background:url({{  section.settings.image| image_url:'master' }})"
         
         >
 
