@@ -392,7 +392,7 @@ h3,
   font-family: "Inter", sans-serif;
   line-height: normal;
   color: #fff;
-  font-family: Inter;
+
   text-align: left;
   font-size: 24px;
 }
@@ -496,7 +496,7 @@ h3,
 
   border-radius: 10px;
   border: 2px solid #3d3c3c;
-  background: #ff4667;
+  background: #ff004c;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3) inset;
   color: #fff;
   font-family: "Rubik", sans-serif;
@@ -506,6 +506,11 @@ h3,
   font-weight: 500;
   line-height: normal;
   text-decoration: none;
+}
+
+.email-field::placeholder,
+.field__input_superhumn::placeholder {
+  color: white; /* Set the color of the placeholder text to white */
 }
 
 .superhumn-form,
