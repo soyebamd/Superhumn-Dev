@@ -5,6 +5,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_2.png",
         "image_2": "shopify:\/\/shop_images\/Group_1000011060.svg",
+        "button_label": "Button label",
+        "button_link": "#",
+        "button_style_secondary": false,
+        "button_color": "#1b1243",
+        "button_color_border": "#1773b0",
         "image_overlay_opacity": 0
       }
     },
