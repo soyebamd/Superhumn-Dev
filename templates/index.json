@@ -315,6 +315,22 @@
         "background_image": "shopify:\/\/shop_images\/Group_24.svg",
         "background_image_color": "#161616"
       }
+    },
+    "superhumn_new_banner_tjRR4n": {
+      "type": "superhumn-new-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_1_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -323,6 +339,7 @@
     "superhumn_image_width_text_NJFYPX",
     "superhumn_testimonials_k6VXhh",
     "superhumn_banner_width_text_v2_gNzTyN",
-    "superhumn_power_slider_Ab7HF3"
+    "superhumn_power_slider_Ab7HF3",
+    "superhumn_new_banner_tjRR4n"
   ]
 }
