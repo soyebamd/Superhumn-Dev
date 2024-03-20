@@ -35,13 +35,13 @@
 
 
 
-  .custom{{ block.id }}-button{
+  .custom{{ section.id }}-button{
     background-color: 
 
      
        
 
-        {{ block.settings.button_color_border | escape }};
+        {{ section.settings.button_color_border | escape }};
 
         
 
@@ -53,22 +53,22 @@
 
   }
 
-  .custom{{ block.id }}-button .layer-1 {
+  .custom{{ section.id }}-button .layer-1 {
        width: calc(100% - 6px);
     height: calc(100% - 6px);
     background: #0E0E0E;
 }
 
- .custom{{ block.id }}-button .layer-2 {
+ .custom{{ section.id }}-button .layer-2 {
     
-    background:  {{ block.settings.button_color | escape }};
+    background:  {{ section.settings.button_color | escape }};
 
 }
 
-.custom{{ block.id }}-button:after {
+.custom{{ section.id }}-button:after {
        content: "";
     height: 3px;
-    background: {{ block.settings.button_color | escape }};
+    background: {{ section.settings.button_color | escape }};
     top: 0px;
     outline: none;
     box-shadow: none;
