@@ -18,6 +18,7 @@
     },
     "superhumn_image_scroller_GBEMaz": {
       "type": "superhumn-image-scroller",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3"
       }
@@ -55,6 +56,7 @@
         "text_wgxp3m",
         "button_kiLKVX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Moonshot_Graphic.png",
         "image_padding_top": 100,
@@ -113,6 +115,7 @@
         "text_Pbxn9L",
         "button_ndciEN"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Jerky_Graphic.png",
         "image_padding_top": 100,
@@ -183,6 +186,7 @@
         "column_WypeCN",
         "column_mcTtC6"
       ],
+      "disabled": true,
       "settings": {
         "title": "RAVING",
         "title_before": "everyone is",
@@ -250,6 +254,7 @@
         "text_NiQHWA",
         "button_CfUKTN"
       ],
+      "disabled": true,
       "settings": {
         "image_padding_top": 0,
         "image_padding_bottom": 0,
@@ -324,6 +329,7 @@
         "column_f6NmNk",
         "column_4X77Lg"
       ],
+      "disabled": true,
       "settings": {
         "padding_top": 144,
         "padding_bottom": 156,
