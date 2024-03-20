@@ -7,17 +7,13 @@
 
 .full-screen { height:100vh;  width:100%}
 
-  #Banner-{{ section.id }}::after {
-    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
-  }
-
-
 
   #banner-Image-{{ section.id }}{
 
         background:url({{  section.settings.image| image_url: width: 3840 }});
         background-repeat:no-repeat;
         background-position:center;
+        background-size: cover;
 
   }
 
@@ -31,14 +27,10 @@
 
 
 
-<div
-  id="Banner-{{ section.id }}"
- 
->
   {%- if section.settings.image != blank -%}
 
 
-  <div class="banner__media full-screen {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  <div class="banner__media full-screen BannerID-{{ section.id }} {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
         
         id="banner-Image-{{ section.id }}"
         
@@ -55,7 +47,7 @@
 
   {%- endif -%}
 
-</div>
+
 
   
 
