@@ -12,6 +12,13 @@
 
   }
 
+.superhumn-banner__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 {%- endstyle -%}
 
@@ -41,7 +48,7 @@
 
  {{
         section.settings.image_2
-        | image_url: width: 3840
+        | image_url: width: 1000
         | image_tag
       }}
 
