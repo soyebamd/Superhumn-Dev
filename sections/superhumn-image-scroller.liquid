@@ -26,6 +26,7 @@
 {%- style -%}
  
 
+ .pattern{ background:url({{ 'pattern.svg' |  asset_url }})}
 
 
   
@@ -36,7 +37,7 @@
   id="Banner-{{ section.id }}"
   class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}
     
-      color-{{ section.settings.color_scheme }}  position-relative
+      color-{{ section.settings.color_scheme }}  position-relative pattern
     
     "
 >
@@ -140,7 +141,7 @@ Squad </h1>
                       autocapitalize="off"
                       autocomplete="email"
                       placeholder="starlord_777@superhumn.co"
-                      
+
                       {% if form.errors %}
                         autofocus
                         aria-invalid="true"
