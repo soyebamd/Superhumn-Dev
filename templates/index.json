@@ -156,7 +156,7 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#352212",
+            "testi_svg_Strock_BG": "#ff7a00",
             "image": "shopify:\/\/shop_images\/Ellipse_16.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Paul Jacobs",
