@@ -288,8 +288,8 @@ h3,
   padding-left: 3rem;
 }
 
-.titleEffectStrock,
-.titleEffectStrock *,
+.titleEffectStrock span,
+.titleEffectStrock span *,
 .super-human-card__tag {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
