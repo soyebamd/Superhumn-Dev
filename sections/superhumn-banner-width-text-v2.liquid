@@ -6,7 +6,8 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  {% if section.settings.background_image  %}
+  
+{% if section.settings.background_image %}
   .section-{{ section.id }}-image-width-text__background-image{
     
 
@@ -362,7 +363,6 @@ line-height: normal; }
 
 }
 
-{% if block.settings.heading_image %}
 
 .title-bg-{{ block.id }}{
     background:url('{{ block.settings.heading_image | img_url: 'master' }}' );
@@ -375,8 +375,6 @@ line-height: normal; }
 
 
 }
-
-{% endif %}
 
 .arrow-bg {display:flex; align-items: flex-end;}
 
@@ -393,10 +391,7 @@ line-height: normal; }
 
 
 
-        <h1 class="heading-style-2 superhumn-title inline-richtext {{ block.heading_size }}
-       
-       
-        {{ block.shopify_attributes }}>
+        <h1 class="heading-style-2 superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
          {{ block.settings.heading }}
         </h1>
     
@@ -579,7 +574,7 @@ line-height: normal; }
      {
       "type": "image_picker",
       "id": "background_image",
-      "label": "Title Bakground Image"
+      "label": "Bakground Image"
     },
 
      {
