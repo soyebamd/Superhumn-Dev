@@ -52,7 +52,6 @@
         "text_wgxp3m",
         "button_kiLKVX"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
         "image_padding_top": 100,
@@ -111,7 +110,6 @@
         "text_EMz886",
         "button_kEFL6a"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_17.27.18_-_A_comic-style_illustration_of_a_woman_with_blue_hair_and_a_streetwear_vibe_flying_and_drinking_an_energy_shot_1.png",
         "image_padding_top": 36,
@@ -128,66 +126,6 @@
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "superhumn_image_width_text_NJFYPX": {
-      "type": "superhumn-image-width-text",
-      "blocks": {
-        "heading_HP8Kdx": {
-          "type": "heading",
-          "settings": {
-            "heading": "BEEF JERKY",
-            "heading_size": "h1"
-          }
-        },
-        "text_Pbxn9L": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fuel your inner superhero with our high protein beef jerky – the audacious, bold treat with an attitude that'll have your taste buds hooked!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_ndciEN": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "#",
-            "button_style_secondary": false,
-            "button_color": "#ff0000",
-            "button_color_border": "#990000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HP8Kdx",
-        "text_Pbxn9L",
-        "button_ndciEN"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Jerky_Graphic.png",
-        "image_padding_top": 100,
-        "image_padding_bottom": 100,
-        "image_padding_left": 100,
-        "image_padding_right": 0,
-        "full_width": false,
-        "background_image": "shopify:\/\/shop_images\/Frame.png",
-        "background_image_size": 55,
-        "background_image_align": "right",
-        "background_image_color": "#0c0c0c",
-        "background_image_alignment": "left",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -243,7 +181,6 @@
         "column_WypeCN",
         "column_mcTtC6"
       ],
-      "disabled": true,
       "settings": {
         "title": "RAVING",
         "title_before": "everyone is",
@@ -426,6 +363,7 @@
         "text_BbkbWj",
         "button_AEQEnA"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
         "height": "adapt",
@@ -448,7 +386,6 @@
     "superhumn_image_scroller_GBEMaz",
     "superhumn_image_width_text_dxr7Ba",
     "superhumn_image_width_text_L9n8wb",
-    "superhumn_image_width_text_NJFYPX",
     "superhumn_testimonials_k6VXhh",
     "superhumn_banner_width_text_v2_gNzTyN",
     "superhumn_power_slider_Ab7HF3",
