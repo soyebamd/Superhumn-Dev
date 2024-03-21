@@ -61,7 +61,7 @@
         "full_width": true,
         "background_image": "shopify:\/\/shop_images\/Group_24.png",
         "background_image_2": "shopify:\/\/shop_images\/Group_4.svg",
-        "background_image_size": 25,
+        "background_image_size": 100,
         "background_image_align": "right",
         "background_image_color": "rgba(0,0,0,0)",
         "background_image_alignment": "left",
@@ -335,6 +335,65 @@
         "background_image": "shopify:\/\/shop_images\/Group_24.svg",
         "background_image_color": "#161616"
       }
+    },
+    "superhumn_image_width_text_L9n8wb": {
+      "type": "superhumn-image-width-text",
+      "blocks": {
+        "heading_xQfrVG": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET HIGH\nNATURALLY",
+            "heading_size": "h1"
+          }
+        },
+        "text_EMz886": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's not X-ray vision, but our Moonshots liquid energy elixir is close enough. Just hit one or two a day to fight stress, gain immunity to bad guys, and toxic evil exes.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_kEFL6a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_color": "#8f00ff",
+            "button_color_border": "#0e0e0e"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xQfrVG",
+        "text_EMz886",
+        "button_kEFL6a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_17.27.18_-_A_comic-style_illustration_of_a_woman_with_blue_hair_and_a_streetwear_vibe_flying_and_drinking_an_energy_shot_1.png",
+        "image_padding_top": 36,
+        "image_padding_bottom": 36,
+        "image_padding_left": 36,
+        "image_padding_right": 36,
+        "full_width": true,
+        "background_image": "shopify:\/\/shop_images\/Group_4_2.png",
+        "background_image_size": 50,
+        "background_image_align": "left",
+        "background_image_color": "transparent",
+        "background_image_alignment": "left",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -344,6 +403,7 @@
     "superhumn_image_width_text_NJFYPX",
     "superhumn_testimonials_k6VXhh",
     "superhumn_banner_width_text_v2_gNzTyN",
-    "superhumn_power_slider_Ab7HF3"
+    "superhumn_power_slider_Ab7HF3",
+    "superhumn_image_width_text_L9n8wb"
   ]
 }
