@@ -8,15 +8,13 @@
 
   .section-{{ section.id }}-image-width-text__background-image{
     
-  background-color:{{ section.settings.background_image_color }};
-  
-  background: url('{{section.settings.background_image | img_url: 'master' }}' ),
-  
+  background-color: rgba(0, 0, 0, 0);
+background-image: url(//superhumn-dev.myshopify.com/cdn/shop/files/Group_24.png?v=1710999078), url(//superhumn-dev.myshopify.com/cdn/shop/files/Vector_4.svg?v=1709647475);
+background-position: left, left; /* Adjust as needed */
+background-size: contain, auto; /* Adjust as needed */
+background-repeat: no-repeat, repeat; /* Adjust as needed */
+position: relative;
 
- url('{{section.settings.background_image_2 | img_url: 'master' }}' )
-
-  
-  ; 
 
  background-position: {{ section.settings.background_image_alignment }};
     background-size: contain;
