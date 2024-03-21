@@ -6,6 +6,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  {% if {section.settings.background_image  %}
   .section-{{ section.id }}-image-width-text__background-image{
     
 
@@ -22,6 +23,8 @@
 
 
 }
+
+{% endif %}
 
  /* .section-{{ section.id }}-image-width-text__background-image:after{
         content: '';
@@ -570,7 +573,7 @@ line-height: normal; }
      {
       "type": "image_picker",
       "id": "background_image",
-      "label": "Bakground Image"
+      "label": "Title Bakground Image"
     },
 
      {
