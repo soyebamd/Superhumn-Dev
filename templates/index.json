@@ -25,8 +25,8 @@
         "heading_tRE4xr": {
           "type": "heading",
           "settings": {
-            "heading": "<span>SNAG OUR PROTEIN <\/span><br> <span class=\"effectText\">POWER UPS<\/span>",
-            "heading_size": "h1"
+            "heading": "<span>SNAG OUR<br> PROTEIN <\/span><br> <span class=\"effectText\">POWER UPS<\/span>",
+            "heading_size": "h0"
           }
         },
         "text_wgxp3m": {
@@ -58,6 +58,7 @@
         "image_padding_bottom": 88,
         "image_padding_left": 88,
         "image_padding_right": 100,
+        "full_width": true,
         "background_image": "shopify:\/\/shop_images\/Group_24.png",
         "background_image_size": 50,
         "background_image_align": "right",
@@ -117,6 +118,7 @@
         "image_padding_bottom": 100,
         "image_padding_left": 100,
         "image_padding_right": 0,
+        "full_width": false,
         "background_image": "shopify:\/\/shop_images\/Frame.png",
         "background_image_size": 55,
         "background_image_align": "right",
