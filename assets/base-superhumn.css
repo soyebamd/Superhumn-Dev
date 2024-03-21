@@ -291,6 +291,10 @@ h3,
 .titleEffectStrock span {
   display: none;
 }
+
+.titleEffectStrock span.effectText {
+  display: inline;
+}
 .titleEffectStrock .effectText,
 .titleEffectStrock *,
 .super-human-card__tag {
