@@ -395,7 +395,7 @@ h3,
 
 .super-human-card__content {
   margin: 0 0 20px;
-  max-width: 500;
+  max-width: 560px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
   line-height: normal;
@@ -416,8 +416,8 @@ h3,
 
 .block-v2 .animation-strock-effect {
   position: relative;
-  top: -106px;
-  left: -1px;
+  top: -147px;
+  left: 0;
 }
 
 .block-v2 .animation-strock-effect {
