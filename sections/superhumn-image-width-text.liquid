@@ -6,44 +6,8 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .section-{{ section.id }}-image-width-text__background-image{
-    
-  background-color:{{ section.settings.background_image_color }};
-  
-  background-image: url('{{section.settings.background_image | img_url: 'master' }}' ), url('{{section.settings.background_image_2 | img_url: 'master' }}'  )
-
-  
-  ; 
-
- background-position: {{ section.settings.background_image_alignment }};
-    background-size: contain;
-    
-    background-repeat: no-repeat, repeat;
-   
-
-    position:relative;
 
 
-}
-
- .section-{{ section.id }}-image-width-text__background-image:after{
-        content: '';
-        background: {{ section.settings.background_image_color }};
-        width: {{ section.settings.background_image_size  }}%;
-        
-        height: 100%;
-        position: absolute;
-        top: 0;
-
-        {% if section.settings.background_image_align == 'left' %}
-        left: 0;
-        right:auto;
-        {% else  %}
-         left: auto;
-        right:0;
-        {% endif %}
-        z-index: 1;
-  }
 
   .z-2{ z-index:2; position:relative;}
 
@@ -81,7 +45,7 @@
   endif
 -%}
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} section-{{ section.id }}-image-width-text__background-image">
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="
   {% if section.settings.full_width %}
     full-width
@@ -263,7 +227,7 @@
 
                     </a>
                   {%- endif -%}
-                  
+
               {%- endcase -%}
              
             {%- endfor -%}
@@ -387,7 +351,7 @@
 
       {
   "type": "color",
-  "id": "background_image_color",
+  "id": "background_color",
   "label": "Slider Background Color",
   "default": "#131313"
 },
