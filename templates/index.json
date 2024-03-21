@@ -182,12 +182,11 @@
         "column_mcTtC6"
       ],
       "settings": {
-        "title": "RAVING",
-        "title_before": "everyone is",
-        "title_after": "about our food",
+        "title": "everyone (AND YOUR MOM) IS raving !!!",
+        "title_before": "",
+        "title_after": "IS raving !!!",
         "heading_size": "h1",
         "background_image_color": "#0d0d0d",
-        "heading_image": "shopify:\/\/shop_images\/Vector_1.svg",
         "background_image": "shopify:\/\/shop_images\/Group_4_1.png",
         "image_width": "full",
         "image_ratio": "adapt",
