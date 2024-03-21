@@ -409,8 +409,9 @@ h3,
 }
 
 .block-v2 .h1 {
-  font-size: 48px !important;
+  font-size: 90px !important;
   font-family: "phonkregular_demo";
+  line-height: 90px;
 }
 
 .block-v2 .animation-strock-effect {
