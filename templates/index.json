@@ -53,6 +53,7 @@
         "button_kiLKVX"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
         "image_padding_top": 100,
         "image_padding_bottom": 88,
         "image_padding_left": 88,
@@ -62,9 +63,9 @@
         "background_image_align": "right",
         "background_image_color": "#161616",
         "background_image_alignment": "left",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
