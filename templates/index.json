@@ -85,7 +85,7 @@
         "heading_xQfrVG": {
           "type": "heading",
           "settings": {
-            "heading": "<span>GET HIGH<br> <span class=\"effectText\">NATURALLY<\/span><\/span>",
+            "heading": "<span>GET HIGH<\/span><br> <span class=\"effectText\">NATURALLY<\/span>",
             "heading_size": "h1"
           }
         },
