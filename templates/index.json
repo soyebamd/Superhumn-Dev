@@ -25,14 +25,14 @@
         "heading_tRE4xr": {
           "type": "heading",
           "settings": {
-            "heading": "MOONSHOTS",
+            "heading": "SNAG OUR PROTEIN POWER UPS",
             "heading_size": "h1"
           }
         },
         "text_wgxp3m": {
           "type": "text",
           "settings": {
-            "text": "<p>It's not X-ray vision, but a liquid energy elixir is close enough. Just hit one a day to fight stress, bad guys, and ward off evil and laundry.<\/p>",
+            "text": "<p>Fuel your inner superhero with our high protein beef jerky – the audacious, bold treat with an attitude that'll have your taste buds hooked!<\/p>",
             "text_style": "body"
           }
         },
@@ -52,7 +52,6 @@
         "text_wgxp3m",
         "button_kiLKVX"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Moonshot_Graphic.png",
         "image_padding_top": 100,
