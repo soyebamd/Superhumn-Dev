@@ -11,7 +11,7 @@
   
   background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' )
   
-  {% if section.settings.section.settings.background_image_2  %}
+  {% if section.settings.background_image_2  %}
   , url('{{section.settings.background_image_2 | img_url: 'master' }}' )
   {% endif %}
 
