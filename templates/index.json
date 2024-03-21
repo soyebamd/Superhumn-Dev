@@ -212,7 +212,7 @@
         "caption_HfMNWW": {
           "type": "caption",
           "settings": {
-            "caption": "Let's",
+            "caption": "",
             "text_style": "caption-with-letter-spacing",
             "text_size": "h1"
           }
@@ -220,7 +220,7 @@
         "heading_KAtyLd": {
           "type": "heading",
           "settings": {
-            "heading": "FRIENDS",
+            "heading": "Let’s be friends",
             "heading_image": "shopify:\/\/shop_images\/Vector_2.svg",
             "title_before": "",
             "title_after": "with benefits",
