@@ -70,12 +70,16 @@
                 
                 
                 
-                    <h2
-                    class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
-                    {{ block.shopify_attributes }}
-                  >
+                  <h1 class="heading-style-2 h1 super-human-card__title" {{ block.shopify_attributes }}>
+
                     {{ block.settings.heading }}
-                  </h2>
+                    
+                  </h1>                  
+                  
+
+
+
+
                 {%- when 'caption' -%}
                   <p
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
@@ -89,17 +93,107 @@
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
+
+
+
+
+
+                           <style>
+
+                        
+/* Custom Button */
+
+
+
+  .custom{{ block.id }}-button{
+    background-color: 
+
+     
+       
+
+        {{ block.settings.button_color_border | escape }};
+
+        
+
+        
+    
+    
+
+    color:#fff;
+
+  }
+
+  .custom{{ block.id }}-button .layer-1 {
+       width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background: #0E0E0E;
+}
+
+ .custom{{ block.id }}-button .layer-2 {
+    
+    background:  {{ block.settings.button_color | escape }};
+
+}
+
+.custom{{ block.id }}-button:after {
+       content: "";
+    height: 3px;
+    background: {{ block.settings.button_color | escape }};
+    top: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+
+                    </style>
+
+
+  {%- if block.settings.button_label != blank -%}
+
+
+           
+
+
                     <a
                       {% if block.settings.button_link == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}
+                        
+                        btn text-uppercase position-relative mt-40
+
+                        custom{{ block.id }}-button
+                        
+                        
+                        "
                       {{ block.shopify_attributes }}
+
+
                     >
+
+                    
+<span class="layer-1 ">
+
+<span class="layer-2 text-center">
                       {{ block.settings.button_label | escape }}
+
+
+                      
+
+                      
+
+                      </span></span>
+
+
                     </a>
+                  {%- endif -%}
+
+                      
+                   
+
+
                   {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
@@ -112,7 +206,7 @@
 
 {% schema %}
 {
-  "name": "Superhumn Image Width Text V2",
+  "name": "SuperHumn-Image-Text-2",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -333,7 +427,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "html",
           "id": "heading",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
@@ -439,7 +533,7 @@
       ]
     },
     {
-      "type": "button",
+      "type": "button", 
       "name": "t:sections.image-with-text.blocks.button.name",
       "limit": 1,
       "settings": [
@@ -466,7 +560,7 @@
   ],
   "presets": [
     {
-      "name": "Superhumn Image Width Text V2",
+      "name": "SuperHumn-Image-Text-2",
       "blocks": [
         {
           "type": "heading"
