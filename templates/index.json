@@ -25,14 +25,14 @@
         "heading_tRE4xr": {
           "type": "heading",
           "settings": {
-            "heading": "MOONSHOTS",
+            "heading": "SNAG OUR PROTEIN <span>POWER UPS<\/span>",
             "heading_size": "h1"
           }
         },
         "text_wgxp3m": {
           "type": "text",
           "settings": {
-            "text": "<p>It's not X-ray vision, but a liquid energy elixir is close enough. Just hit one a day to fight stress, bad guys, and ward off evil and laundry.<\/p>",
+            "text": "<p>Fuel your inner superhero with our high protein beef jerky – the audacious, bold treat with an attitude that'll have your taste buds hooked!<\/p>",
             "text_style": "body"
           }
         },
@@ -42,8 +42,8 @@
             "button_label": "BUY NOW",
             "button_link": "#",
             "button_style_secondary": false,
-            "button_color": "#836bea",
-            "button_color_border": "#51439b"
+            "button_color": "#ff0000",
+            "button_color_border": "#0e0e0e"
           }
         }
       },
@@ -52,21 +52,20 @@
         "text_wgxp3m",
         "button_kiLKVX"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Moonshot_Graphic.png",
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
         "image_padding_top": 100,
         "image_padding_bottom": 88,
         "image_padding_left": 88,
         "image_padding_right": 100,
-        "background_image": "shopify:\/\/shop_images\/Grid_Background.svg",
+        "background_image": "shopify:\/\/shop_images\/Group_24.png",
         "background_image_size": 50,
-        "background_image_align": "left",
+        "background_image_align": "right",
         "background_image_color": "#161616",
-        "background_image_alignment": "right",
+        "background_image_alignment": "left",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
