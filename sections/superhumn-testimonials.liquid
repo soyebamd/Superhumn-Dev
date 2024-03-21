@@ -201,19 +201,19 @@ margin:30px auto 0 auto;
         <div class="title-wrapper-with-link mb-100 title-wrapper--self-padded-mobile title-wrapper--no-top-margin testimonial-heading-block">
 
 
-
+<div class="testimonials-title-wrapper">
         <h2 class="superhumn-title inline-richtext {{ section.settings.heading_size }} title-bg-{{ section.id }}  ">
           {{ section.settings.title }}
-
-           <span class="animation-strock-effect position-relative">
+        </h2>
+       <div class="animation-strock-effect position-relative">
                     <h3 class="h2 titleEffectStrock m-0"> {{ section.settings.title }}</h3>
                     <h3 class="h2 titleEffectStrock m-0"> {{ section.settings.title }}</h3>
                   
-                  </span>
+                  </div>
+
+ </div>
 
 
-        </h2>
-      
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
             {{- section.settings.button_label | escape -}}
