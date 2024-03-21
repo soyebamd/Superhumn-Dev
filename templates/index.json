@@ -61,7 +61,7 @@
         "background_image_size": 50,
         "background_image_align": "left",
         "background_image_color": "#161616",
-        "background_image_alignment": "right",
+        "background_image_alignment": "left",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
