@@ -143,6 +143,7 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#3a1e1e",
+            "testi_svg_Strock_BG": "#ff4667",
             "image": "shopify:\/\/shop_images\/Ellipse_16_1.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Gwen Singer",
@@ -155,6 +156,7 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#352212",
+            "testi_svg_Strock_BG": "#ff4667",
             "image": "shopify:\/\/shop_images\/Ellipse_16.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Paul Jacobs",
@@ -167,6 +169,7 @@
           "type": "column",
           "settings": {
             "testi_svg_BG": "#38351b",
+            "testi_svg_Strock_BG": "#ffe500",
             "image": "shopify:\/\/shop_images\/Ellipse_16_2.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Tyrone Woods",
