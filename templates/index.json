@@ -52,6 +52,7 @@
         "text_wgxp3m",
         "button_kiLKVX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
         "image_padding_top": 100,
@@ -110,6 +111,7 @@
         "text_EMz886",
         "button_kEFL6a"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_17.27.18_-_A_comic-style_illustration_of_a_woman_with_blue_hair_and_a_streetwear_vibe_flying_and_drinking_an_energy_shot_1.png",
         "image_padding_top": 36,
