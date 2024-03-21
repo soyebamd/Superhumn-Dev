@@ -362,22 +362,6 @@ line-height: normal; }
 
 }
 
-{% if block.settings.heading_image %}
-
-.title-bg-{{ block.id }}{
-    background:url('{{ block.settings.heading_image | img_url: 'master' }}' );
-    repeat:no-repeat;
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-
-
-
-}
-
-{% endif %}
-
 .arrow-bg {display:flex; align-items: flex-end;}
 
 .arrow-bg img { max-width:80px!important;  }
