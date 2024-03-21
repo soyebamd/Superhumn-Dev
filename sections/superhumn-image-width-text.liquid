@@ -9,11 +9,18 @@
   .section-{{ section.id }}-image-width-text__background-image{
     
   
-  background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' ); 
+  background:{{ section.settings.background_image_color }}  url('{{section.settings.background_image | img_url: 'master' }}' )
+  
+  {% if section.settings.section.settings.background_image_2  %}
+  , url('{{section.settings.background_image_2 | img_url: 'master' }}' )
+  {% endif %}
+
+  
+  ; 
 
  background-position: {{ section.settings.background_image_alignment }};
     background-size: contain;
-    background-repeat: repeat;
+    background-repeat: no-repeat, repeat;
    
 
     position:relative;
@@ -339,6 +346,12 @@
      {
       "type": "image_picker",
       "id": "background_image",
+      "label": "Bakground Image"
+    },
+
+     {
+      "type": "image_picker",
+      "id": "background_image_2",
       "label": "Bakground Image"
     },
 
