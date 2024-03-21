@@ -32,7 +32,7 @@
 
 
 
-
+{% if section.settings.heading_image %}
 .title-bg-{{ section.id }}{
     background:url('{{section.settings.heading_image | img_url: 'master' }}' );
     repeat:no-repeat;
@@ -44,6 +44,8 @@
 
 
 }
+
+{% endif %}
 
 .superhumn-title{
     position:relative;
