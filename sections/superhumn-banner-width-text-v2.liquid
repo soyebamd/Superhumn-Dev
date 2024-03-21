@@ -363,7 +363,7 @@ line-height: normal; }
 
 }
 
-
+{% if block.settings.heading_image %}
 .title-bg-{{ block.id }}{
     background:url('{{ block.settings.heading_image | img_url: 'master' }}' );
     repeat:no-repeat;
@@ -375,6 +375,8 @@ line-height: normal; }
 
 
 }
+
+{% endif %}
 
 .arrow-bg {display:flex; align-items: flex-end;}
 
