@@ -88,7 +88,13 @@
     {% endif %}
 
 
-          <div class="slider__text " style="transform:rotate({{ block.settings.rotate_desc }}deg);">
+
+    {% comment %}
+      If want to rorate
+    style="transform:rotate({{ block.settings.rotate_desc }}deg);"
+    {% endcomment %}
+
+          <div class="slider__text " >
 {% if block.settings.title %}
           <h3>{{ block.settings.title  }}</h3>
   {% endif %}
