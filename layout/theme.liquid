@@ -389,7 +389,7 @@ $('.team-slider').slick({
  
    slidesToShow: 3,
    slidesToScroll: 1,
-   dots: false,
+   dots: true,
      arrows: true,
       prevArrow: '.power-navigation #moveLeft',
       nextArrow: '.power-navigation #moveRight',  
@@ -400,6 +400,8 @@ $('.team-slider').slick({
 
 
 
+
+   
   var slidesCount = $('.power-slider').slick('getSlick').slideCount;
   for (var i = 0; i < slidesCount; i++) {
     $('.custom-dots-container').append('<div class="custom-dot"></div>');
@@ -414,7 +416,10 @@ $('.team-slider').slick({
     $('.custom-dot').removeClass('active');
     $('.custom-dot').eq(nextSlide).addClass('active');
   });
-});
+
+
+
+
 
 
 
