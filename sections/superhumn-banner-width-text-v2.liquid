@@ -68,16 +68,16 @@
   }
 
   
-.superhumn-title{
+..super-human-card .superhumn-title{
     position:relative;
     margin:auto; 
     text-align:left;
     
  }
 
- .superhumn-title.h1{ font-size:64px;}
+ ..super-human-card .superhumn-title.h1{ font-size:64px;}
 
-.superhumn-title:before, .superhumn-title:after{
+..super-human-card .superhumn-title:before, ..super-human-card .superhumn-title:after{
 
 
 font-style: normal;
@@ -342,7 +342,7 @@ line-height: normal; }
 
                      <style>
                     
-.superhumn-title:before{
+..super-human-card .superhumn-title:before{
     content:  "{{ block.settings.title_before }}";
   
 
@@ -355,7 +355,7 @@ line-height: normal; }
 }
 
 
-.superhumn-title:after{
+..super-human-card .superhumn-title:after{
     content:  "{{ block.settings.title_after }}"; 
     text-align: left;
   right: auto;
@@ -394,7 +394,7 @@ font-size: 68px;
 
 
 
-        <h1 class="heading-style-2 superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
+        <h1 class="heading-style-2 .super-human-card .superhumn-title inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
          {{ block.settings.heading }}
         </h1>
     
