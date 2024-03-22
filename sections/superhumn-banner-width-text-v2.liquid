@@ -71,7 +71,7 @@
 .superhumn-title{
     position:relative;
     margin:auto; 
-    text-align:center;
+    text-align:left;
     
  }
 
@@ -90,7 +90,7 @@ text-transform: uppercase;
     text-transform:uppercase;
    font-size: 30px;
   
-  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-width: 1px;
   text-shadow: none;
 
     
@@ -356,9 +356,10 @@ line-height: normal; }
 
 
 .superhumn-title:after{
-    content:  "{{ block.settings.title_after }}"; text-align: right;
-  right: -109px;
-   
+    content:  "{{ block.settings.title_after }}"; 
+    text-align: left;
+  right: auto;
+  left: 0;
 
 
 }
