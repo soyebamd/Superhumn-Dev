@@ -277,6 +277,16 @@
     "superhumn_power_slider_Ab7HF3": {
       "type": "superhumn-power-slider",
       "blocks": {
+        "column_dxbwha": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "slider",
+            "text": "<p>Post Text<\/p>",
+            "link": "",
+            "rotate_desc": 1
+          }
+        },
         "column_rXKrE7": {
           "type": "column",
           "settings": {
@@ -319,6 +329,7 @@
         }
       },
       "block_order": [
+        "column_dxbwha",
         "column_rXKrE7",
         "column_AmbQTT",
         "column_f6NmNk",
