@@ -94,7 +94,7 @@
     style="transform:rotate({{ block.settings.rotate_desc }}deg);"
     {% endcomment %}
 
-          <div class="slider__text " >
+          <div class="slider__text " style="background:{{ block.settings.testi_svg_BG }}; border-color:{{ block.settings.testi_svg_Strock_BG }}" >
 {% if block.settings.title %}
           <h3>{{ block.settings.title  }}</h3>
   {% endif %}
@@ -280,6 +280,22 @@
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
+
+            {
+  "type": "color",
+  "id": "testi_svg_BG",
+  "label": "Testimonials color",
+  "default": "#ff4667"
+},
+
+   {
+  "type": "color",
+  "id": "testi_svg_Strock_BG",
+  "label": "Strock color",
+  "default": "#ff4667"
+},
+
+
         
         {
           "type": "inline_richtext",
