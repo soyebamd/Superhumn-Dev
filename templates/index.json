@@ -281,50 +281,55 @@
           "type": "column",
           "disabled": true,
           "settings": {
+            "testi_svg_BG": "#352212",
+            "testi_svg_Strock_BG": "#FF7A00",
             "title": "slider",
             "text": "<p>Post Text<\/p>",
-            "link": "",
-            "rotate_desc": 1
+            "link": ""
           }
         },
         "column_rXKrE7": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/arnold-protein-meme_1.png",
+            "testi_svg_BG": "#352212",
+            "testi_svg_Strock_BG": "#FF7A00",
             "title": "Why are mushroom and hemp protein the best plant based sources of protein?",
             "text": "",
-            "link": "#",
-            "rotate_desc": 1
+            "link": "#"
           }
         },
         "column_AmbQTT": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
+            "testi_svg_BG": "#2e2a09",
+            "testi_svg_Strock_BG": "#ffe500",
             "title": "The Last of Us: Maybe mushrooms taking over the world won't be a bad thing?",
             "text": "",
-            "link": "#",
-            "rotate_desc": 3
+            "link": "#"
           }
         },
         "column_f6NmNk": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1bbl7z_1.png",
+            "testi_svg_BG": "#421321",
+            "testi_svg_Strock_BG": "#ff004c",
             "title": "Cow Farts: The Epic Showdown",
             "text": "",
-            "link": "#",
-            "rotate_desc": 1
+            "link": "#"
           }
         },
         "column_4X77Lg": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
+            "testi_svg_BG": "#352212",
+            "testi_svg_Strock_BG": "#FF7A00",
             "title": "Greenhouse gases? More like Cowhouse gases.",
             "text": "",
-            "link": "#",
-            "rotate_desc": 1
+            "link": "#"
           }
         }
       },
