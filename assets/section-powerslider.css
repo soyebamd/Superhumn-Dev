@@ -4,18 +4,16 @@
 .slider {
   position: relative;
 }
-.slider__img {
-  min-height: 380px;
-}
+
 .slider__text {
-  position: absolute;
+  position: relative;
   bottom: 0;
   max-width: 418px;
   min-height: 87px;
   display: flex;
-  padding: 15px;
+  padding: 20px;
 
-  margin: 0 15px;
+  margin: 0 auto;
 
   border-radius: 4px;
   border: 10px solid #ff7a00;
