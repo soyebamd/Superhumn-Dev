@@ -253,7 +253,7 @@
       "settings": {
         "image_padding_top": 0,
         "image_padding_bottom": 0,
-        "image_padding_left": 84,
+        "image_padding_left": 100,
         "image_padding_right": 0,
         "background_image": "shopify:\/\/shop_images\/Group_1000011061.svg",
         "background_image_size": 0,
