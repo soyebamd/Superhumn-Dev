@@ -10,7 +10,7 @@
 .slider__text {
   position: absolute;
   bottom: 0;
-
+  max-width: 418px;
   min-height: 87px;
   display: flex;
   padding: 15px;
