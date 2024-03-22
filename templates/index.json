@@ -253,7 +253,7 @@
       "settings": {
         "image_padding_top": 0,
         "image_padding_bottom": 0,
-        "image_padding_left": 84,
+        "image_padding_left": 100,
         "image_padding_right": 0,
         "background_image": "shopify:\/\/shop_images\/Group_1000011061.svg",
         "background_image_size": 0,
@@ -281,8 +281,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/arnold-protein-meme_1.png",
-            "title": "WHY ARE SHROOM & HEMP PROTEINTHE BEST?",
-            "text": "<p>You may be familiar with the popular options like soy or pea protein. However...<\/p>",
+            "title": "Why are mushroom and hemp protein the best plant based sources of protein?",
+            "text": "",
             "link": "#",
             "rotate_desc": 1
           }
@@ -291,8 +291,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
-            "title": "THE LAST OF US",
-            "text": "<p>Maybe mushrooms taking over won’t be such a bad thing?<\/p>",
+            "title": "The Last of Us: Maybe mushrooms taking over the world won't be a bad thing?",
+            "text": "",
             "link": "#",
             "rotate_desc": 3
           }
@@ -301,8 +301,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1bbl7z_1.png",
-            "title": "COW FARTS",
-            "text": "<p>Greenhouse gases? More like Cowhouse gases.<\/p>",
+            "title": "Cow Farts: The Epic Showdown",
+            "text": "",
             "link": "#",
             "rotate_desc": 1
           }
@@ -310,9 +310,9 @@
         "column_4X77Lg": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
-            "title": "The is new test",
-            "text": "<p>Keep description here<\/p>",
+            "image": "shopify:\/\/shop_images\/saras-1_1.png",
+            "title": "Greenhouse gases? More like Cowhouse gases.",
+            "text": "",
             "link": "#",
             "rotate_desc": 1
           }
@@ -324,7 +324,6 @@
         "column_f6NmNk",
         "column_4X77Lg"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 144,
         "padding_bottom": 156,
