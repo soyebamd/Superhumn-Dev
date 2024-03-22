@@ -281,7 +281,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/arnold-protein-meme_1.png",
-            "title": "The Last of Us: Maybe mushrooms taking over the world won't be a bad thing?",
+            "title": "Why are mushroom and hemp protein the best plant based sources of protein?",
             "text": "",
             "link": "#",
             "rotate_desc": 1
@@ -291,8 +291,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
-            "title": "THE LAST OF US",
-            "text": "<p>Maybe mushrooms taking over won’t be such a bad thing?<\/p>",
+            "title": "The Last of Us: Maybe mushrooms taking over the world won't be a bad thing?",
+            "text": "",
             "link": "#",
             "rotate_desc": 3
           }
@@ -301,8 +301,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1bbl7z_1.png",
-            "title": "COW FARTS",
-            "text": "<p>Greenhouse gases? More like Cowhouse gases.<\/p>",
+            "title": "Cow Farts: The Epic Showdown",
+            "text": "",
             "link": "#",
             "rotate_desc": 1
           }
@@ -310,9 +310,9 @@
         "column_4X77Lg": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8a5b1769-aa63-44e3-ba7f-0250ba2627b7_1.png",
-            "title": "The is new test",
-            "text": "<p>Keep description here<\/p>",
+            "image": "shopify:\/\/shop_images\/saras-1_1.png",
+            "title": "Greenhouse gases? More like Cowhouse gases.",
+            "text": "",
             "link": "#",
             "rotate_desc": 1
           }
