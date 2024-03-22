@@ -49,6 +49,29 @@
 
 .sprite-4{right:63px; bottom: 92px;}
 
+
+.custom-dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dot.active {
+  background-color: #333;
+}
+
+
+
+
 {%- endstyle -%}
 
 <section class="position-relative section-{{ section.id }}-padding section-{{ section.id }}-image-width-text__background-image">
@@ -131,7 +154,12 @@
                 <a href="#" class="arrow" id="moveLeft"><img src="{{ 'arrow.svg' | file_url }}"></a>
 
                
-                <div class="dots dotnav"></div>
+               
+                <div class="custom-dots-container">
+  <!-- Custom dots will be added dynamically here -->
+</div>
+
+
                    
                {{ 'dot.svg' |  asset_url }}
   <li>
