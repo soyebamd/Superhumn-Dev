@@ -9,14 +9,16 @@
 }
 .slider__text {
   position: absolute;
-  bottom: 60px;
 
   min-height: 87px;
   display: flex;
-  padding: 15px;
-  border: 1px solid #fff;
-  background: #2d2d2d;
+  padding: 30px;
+
   margin: 0 15px;
+
+  border-radius: 4px;
+  border: 10px solid #ff7a00;
+  background: #352212;
 }
 
 .slider__img img {
@@ -26,8 +28,9 @@
 
 .slider__text h3 {
   color: #fff;
+  font-family: "Inter", sans-serif;
 
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .slider__text p {
