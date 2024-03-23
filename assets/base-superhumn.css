@@ -455,8 +455,7 @@ h3,
   min-height: 81px;
 }
 
-.animation-strock-effect h3,
-.animation-strock-effect span {
+.animation-strock-effect h3 {
   position: absolute;
   width: 100%;
   left: 50%;
@@ -464,14 +463,12 @@ h3,
   z-index: 3;
 }
 
-.animation-strock-effect h3:nth-child(2),
-.animation-strock-effect span:nth-child(2) {
+.animation-strock-effect h3:nth-child(2) {
   top: 13px;
   z-index: 2;
 }
 
-.animation-strock-effect h3:last-child,
-.animation-strock-effect span:last-child {
+.animation-strock-effect h3:last-child {
   top: 25px;
   z-index: 1;
 }
