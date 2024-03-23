@@ -185,6 +185,36 @@ margin:30px auto 0 auto;
 .dots li {    margin: 0 10px; }
 
 
+
+.custom-dots-container {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.custom-dot {
+  width: 30px;
+  height: 30px;
+  display:block!important;
+ 
+  margin: 0 5px;
+  cursor: pointer;
+  background:url({{ 'dot.svg' |  asset_url }});
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.custom-dot.active {
+   
+  background:url({{ 'dot-active.svg' |  asset_url }})!important;
+      background-repeat: no-repeat !important;
+    background-position: center !important;
+   
+}
+
+
+
+
 {%- endstyle -%}
 
 {%- liquid
