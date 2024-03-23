@@ -718,4 +718,10 @@ h3,
     max-width: 350px !important;
     min-width: 0 !important;
   }
+
+  .superhumn-form,
+  .superhumn-form .newsletter-form__field-wrapper {
+    display: block;
+    margin: auto;
+  }
 }
