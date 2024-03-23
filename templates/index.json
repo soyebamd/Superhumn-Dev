@@ -355,7 +355,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is SUPERHUMN Beef Jerky made of?",
-            "icon": "eye",
+            "icon": "none",
             "row_content": "<p>Mushrooms, organic hemp protein, organic coconut oil, spices and herbs, natural flavors and colors, and sea salt. That's it!<\/p>",
             "page": ""
           }
@@ -364,7 +364,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How much protein is in each serving?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
@@ -373,7 +373,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How much protein is in each serving?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
@@ -382,7 +382,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How much protein is in each serving?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
@@ -391,7 +391,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How much protein is in each serving?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
@@ -400,7 +400,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How much protein is in each serving?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
@@ -419,7 +419,7 @@
         "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "left",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
