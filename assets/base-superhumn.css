@@ -766,11 +766,13 @@ h3,
     font-size: 16px !important;
   }
 
-  .header__heading-logo {
+  .header__heading-logo,
+  body .header__heading-logo {
     max-width: 200px !important;
   }
   .header__heading-link header-drawer,
-  .header__search {
+  .header__search,
+  .menu-drawer-container {
     display: none;
   }
 }
