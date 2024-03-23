@@ -385,7 +385,7 @@ $('.team-slider').slick({
 
 
    //navigation
-   $('.power-slider, .testimonials-slider').slick({ 
+   $('.power-slider').slick({ 
  
    slidesToShow: 3,
    slidesToScroll: 1,
@@ -401,11 +401,15 @@ $('.team-slider').slick({
    //navigation
    $('.testimonials-slider').slick({ 
  
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   dots: false,
+     arrows: true,
       prevArrow: '.power-navigation #moveLeft1',
       nextArrow: '.power-navigation #moveRight1',  
       // appendDots: '.dots',
 
-   
+    autoplay: true,
    })
 
 
