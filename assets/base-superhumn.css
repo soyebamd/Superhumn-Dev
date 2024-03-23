@@ -707,7 +707,8 @@ h3,
   }
 
   .super-human-card__content,
-  p {
+  p,
+  .super-human-card__content p {
     font-size: 20px;
   }
 
@@ -723,5 +724,43 @@ h3,
   .superhumn-form .newsletter-form__field-wrapper {
     display: block;
     margin: auto !important;
+  }
+
+  .block-v2 .h1 {
+    font-size: 43px !important;
+
+    line-height: normal;
+  }
+
+  .superhumn-title.h1 {
+    font-size: 32px;
+  }
+
+  .testimonials-title-wrapper .titleEffectStrock {
+    font-size: 46px;
+    letter-spacing: normal;
+  }
+
+  .heading-style-2,
+  h1,
+  .h1 {
+    font-size: 4.4rem !important;
+  }
+
+  .super-human-card .superhumn-title:after {
+    font-size: 34px !important;
+  }
+
+  .title,
+  .title * {
+    font-size: 4.4rem !important;
+  }
+
+  .list-menu__item {
+    font-size: 14px !important;
+  }
+
+  .superhumn-footer p {
+    font-size: 16px !important;
   }
 }
