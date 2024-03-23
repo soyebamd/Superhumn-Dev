@@ -699,4 +699,20 @@ h3,
     flex-shrink: 0;
     font-size: 16px;
   }
+
+  .heading-style-2,
+  h1,
+  .h1 {
+    font-size: 5.4rem;
+  }
+
+  .super-human-card__content,
+  p {
+    font-size: 20px;
+  }
+
+  .superhumn-form,
+  .superhumn-form .newsletter-form__field-wrapper {
+    max-width: 350px !important;
+  }
 }
