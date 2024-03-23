@@ -722,6 +722,6 @@ h3,
   .superhumn-form,
   .superhumn-form .newsletter-form__field-wrapper {
     display: block;
-    margin: auto;
+    margin: auto !important;
   }
 }
