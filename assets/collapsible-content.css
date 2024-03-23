@@ -138,6 +138,10 @@
   column-count: 2;
 }
 
+.table-2 > * {
+  break-inside: avoid;
+}
+
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (min-width: 750px) {
