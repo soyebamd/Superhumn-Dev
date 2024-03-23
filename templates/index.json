@@ -342,56 +342,89 @@
       ],
       "settings": {
         "padding_top": 120,
-        "padding_bottom": 156,
+        "padding_bottom": 120,
         "heading_title": "POWER HOUR",
         "background_image": "shopify:\/\/shop_images\/Group_24_3.svg",
         "background_image_color": "#131313"
       }
     },
-    "superhumn_image_width_text_v2_YKy4DQ": {
-      "type": "superhumn-image-width-text-v2",
+    "collapsible_content_Wfyr8j": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_db86kg": {
-          "type": "heading",
+        "collapsible_row_bcqUMe": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "SNAG OURPROTEINPOWER UPS",
-            "heading_size": "h1"
+            "heading": "What is SUPERHUMN Beef Jerky made of?",
+            "icon": "eye",
+            "row_content": "<p>Mushrooms, organic hemp protein, organic coconut oil, spices and herbs, natural flavors and colors, and sea salt. That's it!<\/p>",
+            "page": ""
           }
         },
-        "text_BbkbWj": {
-          "type": "text",
+        "collapsible_row_a4TytX": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
           }
         },
-        "button_AEQEnA": {
-          "type": "button",
+        "collapsible_row_tJLHYw": {
+          "type": "collapsible_row",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VkFH4d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_z3gF69": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hfcXRE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "heading_db86kg",
-        "text_BbkbWj",
-        "button_AEQEnA"
+        "collapsible_row_bcqUMe",
+        "collapsible_row_a4TytX",
+        "collapsible_row_tJLHYw",
+        "collapsible_row_VkFH4d",
+        "collapsible_row_z3gF69",
+        "collapsible_row_hfcXRE"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_15.25.09_-_A_comic-style_illustration_of_a_man_with_a_streetwear_vibe_flying_and_eating_beef_jerky_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "caption": "Any questions? We have answers.",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -405,6 +438,6 @@
     "superhumn_testimonials_k6VXhh",
     "superhumn_banner_width_text_v2_gNzTyN",
     "superhumn_power_slider_Ab7HF3",
-    "superhumn_image_width_text_v2_YKy4DQ"
+    "collapsible_content_Wfyr8j"
   ]
 }
