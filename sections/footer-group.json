@@ -40,13 +40,21 @@
             "heading": "Heading",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
+        },
+        "link_list_UUKGMD": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "main-menu"
+          }
         }
       },
       "block_order": [
         "text_9BdQht",
         "text_XAD3g3",
         "text_CEmUnq",
-        "text_Ae8JkE"
+        "text_Ae8JkE",
+        "link_list_UUKGMD"
       ],
       "settings": {
         "color_scheme": "scheme-5",
