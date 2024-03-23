@@ -402,17 +402,17 @@ $('.team-slider').slick({
 
 
    
-  var slidesCount = $('.power-slider, .testimonials-slider ').slick('getSlick').slideCount;
+  var slidesCount = $('.power-slider').slick('getSlick').slideCount;
   for (var i = 0; i < slidesCount; i++) {
     $('.custom-dots-container').append('<div class="custom-dot"></div>');
   }
 
   $('.custom-dot').click(function(){
     var index = $(this).index();
-    $('.power-slider, .testimonials-slider').slick('slickGoTo', index);
+    $('.power-slider').slick('slickGoTo', index);
   });
 
-  $('.power-slider, .testimonials-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  $('.power-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     $('.custom-dot').removeClass('active');
     $('.custom-dot').eq(nextSlide).addClass('active');
   });
