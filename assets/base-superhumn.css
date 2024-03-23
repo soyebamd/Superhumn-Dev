@@ -765,4 +765,12 @@ h3,
   .superhumn-footer p {
     font-size: 16px !important;
   }
+
+  .header__heading-logo {
+    max-width: 200px !important;
+  }
+  header-drawer,
+  .header__search {
+    display: none;
+  }
 }
