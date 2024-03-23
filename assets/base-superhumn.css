@@ -77,6 +77,9 @@ h6,
 
   line-height: normal;
 }
+.h0 {
+  font-weight: 9rem;
+}
 h1,
 .h1 {
   font-size: 64px;
@@ -437,6 +440,10 @@ h3,
 
 .center-box-content .titleEffectStrock {
   margin: 0;
+}
+.title,
+.title * {
+  font-size: 9rem;
 }
 .center-box-content .title {
   margin: 0;
