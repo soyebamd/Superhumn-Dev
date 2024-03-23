@@ -455,6 +455,10 @@ h3,
   min-height: 81px;
 }
 
+.d-block {
+  display: block;
+}
+
 .animation-strock-effect h3 {
   position: absolute;
   width: 100%;
