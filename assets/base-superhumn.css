@@ -775,4 +775,30 @@ h3,
   .menu-drawer-container {
     display: none;
   }
+
+  .super-human-absolute {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: block;
+    margin: auto;
+    float: none;
+  }
+
+  .image-gallery {
+    max-width: 1160px;
+    width: 100%;
+    position: relative;
+    display: block;
+    transform: none;
+    right: 0;
+    top: 0;
+  }
+  .flex-mobile-down {
+    flex-direction: column;
+  }
+  .reverse-col {
+    flex-direction: column-reverse !important;
+  }
 }
