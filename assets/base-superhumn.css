@@ -441,6 +441,9 @@ h3,
 .center-box-content .titleEffectStrock {
   margin: 0;
 }
+.title {
+  z-index: 100;
+}
 .title,
 .title * {
   font-size: 9rem;
