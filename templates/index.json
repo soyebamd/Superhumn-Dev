@@ -354,9 +354,9 @@
         "collapsible_row_bcqUMe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "<p>asdsasadas<\/p>",
+            "heading": "What is SUPERHUMN Beef Jerky made of?",
+            "icon": "apple",
+            "row_content": "<p>Mushrooms, organic hemp protein, organic coconut oil, spices and herbs, natural flavors and colors, and sea salt. That's it!<\/p>",
             "page": ""
           }
         },
