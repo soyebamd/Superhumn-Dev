@@ -443,6 +443,7 @@ h3,
 }
 .title {
   z-index: 100;
+  position: relative;
 }
 .title,
 .title * {
