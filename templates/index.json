@@ -282,7 +282,7 @@
           "disabled": true,
           "settings": {
             "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#FF7A00",
+            "testi_svg_Strock_BG": "#ff7a00",
             "title": "slider",
             "text": "<p>Post Text<\/p>",
             "link": ""
@@ -293,7 +293,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/arnold-protein-meme_1.png",
             "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#FF7A00",
+            "testi_svg_Strock_BG": "#ff7a00",
             "title": "Why are mushroom and hemp protein the best plant based sources of protein?",
             "text": "",
             "link": "#"
@@ -326,7 +326,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
             "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#FF7A00",
+            "testi_svg_Strock_BG": "#ff7a00",
             "title": "Greenhouse gases? More like Cowhouse gases.",
             "text": "",
             "link": "#"
@@ -344,8 +344,8 @@
         "padding_top": 144,
         "padding_bottom": 156,
         "heading_title": "POWER HOUR",
-        "background_image": "shopify:\/\/shop_images\/Group_24.svg",
-        "background_image_color": "#161616"
+        "background_image": "shopify:\/\/shop_images\/Group_24_3.svg",
+        "background_image_color": "#131313"
       }
     },
     "superhumn_image_width_text_v2_YKy4DQ": {
