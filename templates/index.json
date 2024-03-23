@@ -419,7 +419,7 @@
         "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "left",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
