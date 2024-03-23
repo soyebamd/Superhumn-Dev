@@ -32,6 +32,8 @@
 
   .object-fit img{ object-fit:contain; }
 
+  .bg-sprite{ z-index:-1; }
+
 
 {%- endstyle -%}
 
@@ -95,9 +97,9 @@
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
+<img src=" {{ 'Group_1000011099.svg' |  file_url }}" class="bg-sprite">
 
-
-            {{ 'Group_1000011099.svg' |  file_url | img_tag }}
+           
 
 
           </div>
