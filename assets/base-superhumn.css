@@ -712,7 +712,9 @@ h3,
   }
 
   .superhumn-form,
-  .superhumn-form .newsletter-form__field-wrapper {
+  .superhumn-form .newsletter-form__field-wrapper,
+  .email-field,
+  .field__input_superhumn {
     max-width: 350px !important;
     min-width: 0 !important;
   }
