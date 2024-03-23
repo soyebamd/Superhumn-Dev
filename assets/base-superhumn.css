@@ -791,7 +791,7 @@ h3,
     width: 100%;
     position: relative;
     display: block;
-    transform: none;
+    transform: skew(-15deg, 27deg);
     right: 0;
     top: 0;
   }
