@@ -347,6 +347,67 @@
         "background_image": "shopify:\/\/shop_images\/Group_24_3.svg",
         "background_image_color": "#131313"
       }
+    },
+    "collapsible_content_Wfyr8j": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bcqUMe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>asdsasadas<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_a4TytX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_tJLHYw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VkFH4d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bcqUMe",
+        "collapsible_row_a4TytX",
+        "collapsible_row_tJLHYw",
+        "collapsible_row_VkFH4d"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -356,6 +417,7 @@
     "superhumn_image_width_text_L9n8wb",
     "superhumn_testimonials_k6VXhh",
     "superhumn_banner_width_text_v2_gNzTyN",
-    "superhumn_power_slider_Ab7HF3"
+    "superhumn_power_slider_Ab7HF3",
+    "collapsible_content_Wfyr8j"
   ]
 }
