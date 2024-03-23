@@ -28,6 +28,16 @@
   height: 43.5rem;
 }
 
+.caption-para {
+  margin-top: 50px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 @media screen and (min-width: 750px) {
   .collapsible-content__media--small {
     height: 31.4rem;
