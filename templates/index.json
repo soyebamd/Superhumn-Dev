@@ -372,18 +372,36 @@
         "collapsible_row_tJLHYw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How much protein is in each serving?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
         },
         "collapsible_row_VkFH4d": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How much protein is in each serving?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_z3gF69": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hfcXRE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much protein is in each serving?",
+            "icon": "check_mark",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
         }
@@ -392,7 +410,9 @@
         "collapsible_row_bcqUMe",
         "collapsible_row_a4TytX",
         "collapsible_row_tJLHYw",
-        "collapsible_row_VkFH4d"
+        "collapsible_row_VkFH4d",
+        "collapsible_row_z3gF69",
+        "collapsible_row_hfcXRE"
       ],
       "settings": {
         "caption": "Any questions? We have answers.",
