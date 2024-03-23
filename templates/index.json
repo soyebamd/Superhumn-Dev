@@ -325,8 +325,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/saras-1_1.png",
-            "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#ff7a00",
+            "testi_svg_BG": "#07406b",
+            "testi_svg_Strock_BG": "#3f93d3",
             "title": "Greenhouse gases? More like Cowhouse gases.",
             "text": "",
             "link": "#"
