@@ -463,8 +463,7 @@ h3,
 .animation-strock-effect span {
   position: absolute;
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
   z-index: 3;
 }
 
