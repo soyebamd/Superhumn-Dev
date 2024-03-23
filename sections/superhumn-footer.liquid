@@ -27,7 +27,20 @@
 
 <div class="grid grid--1-col grid--2-col grid--4-col-tablet">
 
-<div class="grid__item">First col </div>
+<div class="grid__item">
+
+<div class="copyright">
+  <small class="copyright__content"
+          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+        </small>
+</div>
+
+  {%- render 'social-icons', class: 'footer__list-social' -%}
+
+
+
+
+</div>
 
 <div class="grid__item">Sec col </div>
 
