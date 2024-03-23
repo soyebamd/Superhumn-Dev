@@ -179,12 +179,24 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_PWHdUw": {
+          "type": "column",
+          "settings": {
+            "testi_svg_BG": "#05465b",
+            "testi_svg_Strock_BG": "#109fa3",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_UbQFMD",
         "column_WypeCN",
-        "column_mcTtC6"
+        "column_mcTtC6",
+        "column_PWHdUw"
       ],
       "settings": {
         "title": "<span>everyone (AND YOUR MOM)<\/span><br> <span class=\"effectText\">IS raving !!! <\/span>",
