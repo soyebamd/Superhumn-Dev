@@ -97,7 +97,12 @@
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-<img src=" {{ 'Group_1000011099.svg' |  file_url }}" class="bg-sprite">
+
+           {%- if section.settings.image_2 != blank -%} 
+
+<img src="{{ section.settings.image_2 | image_url }}" class="bg-sprite">
+
+{% endif %}
 
            
 
@@ -260,6 +265,14 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+
+     {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Second Image"
+    },
+
+
 
    
    {
