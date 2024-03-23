@@ -769,7 +769,7 @@ h3,
   .header__heading-logo {
     max-width: 200px !important;
   }
-  header-drawer,
+  .header__heading-link header-drawer,
   .header__search {
     display: none;
   }
