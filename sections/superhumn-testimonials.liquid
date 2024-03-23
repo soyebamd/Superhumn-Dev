@@ -185,6 +185,9 @@ margin:30px auto 0 auto;
 .dots li {    margin: 0 10px; }
 
 
+.moveRight1 img{position: relative;
+    transform: rotate(180deg)}
+
 
 .custom-dots-container-1 {
   display: flex;
@@ -192,7 +195,7 @@ margin:30px auto 0 auto;
  
 }
 
-.custom-dots-container-1 .custom-dot {
+.testimonial__slider .custom-dot {
   width: 30px;
   height: 30px;
   display:block!important;
@@ -204,7 +207,7 @@ margin:30px auto 0 auto;
   background-position:center;
 }
 
-.custom-dots-container-1 .custom-dot.active {
+.testimonial__slider .custom-dot.active {
    
   background:url({{ 'dot-active.svg' |  asset_url }})!important;
       background-repeat: no-repeat !important;
@@ -427,7 +430,7 @@ margin:30px auto 0 auto;
 
    
 
-        <div class="navigation power-navigation navigation">
+        <div class="navigation power-navigation navigation testimonial__slider">
 
                 <a href="#" class="arrow" id="moveLeft1"><img src="{{ 'arrow.svg' | file_url }}"></a>
 
