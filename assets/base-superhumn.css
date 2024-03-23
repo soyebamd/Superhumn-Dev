@@ -714,6 +714,6 @@ h3,
   .superhumn-form,
   .superhumn-form .newsletter-form__field-wrapper {
     max-width: 350px !important;
-    min-width: auto;
+    min-width: 0 !important;
   }
 }
