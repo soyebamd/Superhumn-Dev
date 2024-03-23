@@ -29,7 +29,7 @@
             </p>
           {% endif %}
           {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
+            <h2 class="heading-style-2 collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
@@ -68,7 +68,7 @@
               </div>
             </div>
           {% endif %}
-          <div class="grid__item">
+          <div class="grid__item table-2">
             {%- for block in section.blocks -%}
               <div
                 class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
