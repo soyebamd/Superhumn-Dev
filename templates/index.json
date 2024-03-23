@@ -363,9 +363,9 @@
         "collapsible_row_a4TytX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How much protein is in each serving?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>How much protein is in each serving?<\/p>",
             "page": ""
           }
         },
