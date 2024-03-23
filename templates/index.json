@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_2.png",
         "image_2": "shopify:\/\/shop_images\/Group_1000011060.svg",
-        "button_label": "Button label",
+        "button_label": "Activate",
         "button_link": "#",
         "button_style_secondary": true,
         "button_color": "#00b2ff",
