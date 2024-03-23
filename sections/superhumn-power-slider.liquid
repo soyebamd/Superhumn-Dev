@@ -57,18 +57,19 @@
 }
 
 .custom-dot {
-  width: 10px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
   
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
   background:url({{ 'dot.svg' |  asset_url }});
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 .custom-dot.active {
-  background-color: #333;
+  background:url({{ 'dot-active.svg' |  asset_url }});
 }
 
 
