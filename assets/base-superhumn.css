@@ -944,6 +944,15 @@ h3,
   .accordion summary {
     justify-content: space-between;
   }
+  .accordion__content {
+    background-color: #171717;
+  }
+  h3.inline-richtext {
+    font-size: 20px !important;
+  }
+  .accordion p {
+    font-size: 18px !important;
+  }
 }
 
 .frame .field:after {
