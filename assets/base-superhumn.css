@@ -833,4 +833,7 @@ h3,
   .image-with-text__content {
     padding: 2rem !important;
   }
+  .navigation {
+    display: none;
+  }
 }
