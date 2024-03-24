@@ -190,7 +190,9 @@ margin:30px auto 0 auto;
     list-style: none;
 }
 
-
+.arrow:first-child {
+  transform: rotate(-180deg);
+}
 
 .dots li {    margin: 0 10px; }
 
@@ -557,6 +559,26 @@ jQuery(function($){
 
 
    })
+
+
+   
+  var slidesCount1 = $('.testimonials-slider').slick('getSlick').slideCount;
+  for (var i = 0; i < slidesCount1; i++) {
+    $('.custom-dots-container-1').append('<div class="custom-dot1"></div>');
+  }
+
+  $('.custom-dot1').click(function(){
+    var index = $(this).index();
+    $('.testimonials-slider').slick('slickGoTo', index);
+  });
+
+  $('.testimonials-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('.custom-dot1').removeClass('active');
+    $('.custom-dot1').eq(nextSlide).addClass('active');
+  });
+
+
+
    })
 
 
