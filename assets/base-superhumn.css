@@ -854,4 +854,11 @@ h3,
     width: 32px !important;
     height: 343px;
   }
+
+  .frame .emailForm {
+    width: 355px !important;
+    height: 47px !important;
+
+    left: 0 !important;
+  }
 }
