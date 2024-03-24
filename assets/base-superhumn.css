@@ -819,7 +819,7 @@ h3,
     left: 0;
   }
 
-  .super-human-card {
-    background: #131313;
+  .image-with-text__media-item {
+    padding: 0 !important;
   }
 }
