@@ -976,6 +976,9 @@ h3,
   .footer-news-letter p {
     font-size: 20px;
   }
+  .copyright {
+    margin: 70px 0 12px 0;
+  }
 }
 
 .frame .field:after {
