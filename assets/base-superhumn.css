@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap";
 
-@font-face {
-  font-family: "phonkcontrast_demo";
+/* @font-face {
+  font-family: "PhonkContrast";
   src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_contrast_demo-webfont.woff2?v=1708067204")
       format("woff2"),
     url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_contrast_demo-webfont.woff?v=1708067204")
@@ -11,13 +11,42 @@
 }
 
 @font-face {
-  font-family: "phonkregular_demo";
+  font-family: "PhonkRegular";
   src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_regular_demo-webfont.woff2?v=1708067204")
       format("woff2"),
     url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/phonk_regular_demo-webfont.woff?v=1708067204")
       format("woff");
   font-weight: normal;
   font-style: normal;
+} */
+
+@font-face {
+  font-family: "PhonkRegularItalic";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_07428854-ad7e-4134-bd8c-c42ffd0c2a7f.woff2?v=1711252354")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_1e62e46a-5212-4da8-830b-166373088bd2.woff?v=1711252353")
+      format("woff");
+}
+@font-face {
+  font-family: "PhonkContrast";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_9ed1e32f-597d-4cc1-9bba-8eebb4293c08.woff2?v=1711252229")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_8abe1618-0909-436f-8793-69ab7b029acd.woff?v=1711252229")
+      format("woff");
+}
+@font-face {
+  font-family: "PhonkRegular";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_f70f25b4-79d9-402a-a042-2379c740650a.woff2?v=1711252304")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font_a797e4e9-0cc5-43c7-ae46-7744e37a4ff6.woff?v=1711252304")
+      format("woff");
+}
+@font-face {
+  font-family: "PhonkContrastItalic";
+  src: url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font.woff2?v=1711252151")
+      format("woff2"),
+    url("https://cdn.shopify.com/s/files/1/0641/5033/9780/files/font.woff?v=1711252151")
+      format("woff");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
@@ -70,7 +99,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "phonkcontrast_demo";
+  font-family: "PhonkContrast";
   color: #fff;
   font-weight: 600;
   font-style: normal;
@@ -90,7 +119,7 @@ h1,
 h2,
 .h2 {
   font-size: 48px;
-  font-family: "phonkregular_demo";
+  font-family: "PhonkRegular";
 
   letter-spacing: 3.84px;
 }
@@ -413,7 +442,7 @@ h3,
 
 .block-v2 .h1 {
   font-size: 90px !important;
-  font-family: "phonkregular_demo";
+  font-family: "PhonkRegular";
   line-height: 90px;
 }
 
@@ -500,7 +529,7 @@ h3,
   flex-shrink: 0;
   color: #ff8a00;
   text-align: right;
-  font-family: phonkcontrast_demo;
+  font-family: PhonkContrast;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
