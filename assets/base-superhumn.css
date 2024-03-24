@@ -981,6 +981,10 @@ h3,
   }
 }
 
+.collapsible-content summary:hover {
+  background: transparent;
+}
+
 .frame .field:after {
   display: none;
 }
