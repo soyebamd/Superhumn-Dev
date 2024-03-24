@@ -722,6 +722,13 @@ h3,
   transform: translateY(-50%);
 }
 
+.for-desk {
+  display: block;
+}
+.for-mob {
+  display: none !important;
+}
+
 @media (max-width: 992px) {
 }
 
@@ -965,6 +972,9 @@ h3,
   }
   .for-desk {
     display: none;
+  }
+  .for-mob {
+    display: block !important;
   }
   .mob-footer {
     flex-direction: column-reverse;
