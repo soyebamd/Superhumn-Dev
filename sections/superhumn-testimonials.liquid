@@ -564,8 +564,8 @@ setTimeout(function(){
 
 
    
-  var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
-  for (var i = 0; i < slidesCount{{ section.id }}; i++) {
+  var slidesCount = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
+  for (var i = 0; i < slidesCount; i++) {
     $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot-{{ section.id }}"></div>');
   }
 
