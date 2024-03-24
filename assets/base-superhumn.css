@@ -988,3 +988,10 @@ h3,
 .frame .field:after {
   display: none;
 }
+
+summary[aria-expanded="false"] svg {
+  transition: all 600ms;
+}
+summary[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
