@@ -924,6 +924,12 @@ h3,
   .frame .join-btn {
     font-size: 15px !important;
   }
+
+  .table-2 {
+    display: block;
+    column-count: inherit;
+    background: #0f0f0f;
+  }
 }
 
 .frame .field:after {
