@@ -742,6 +742,10 @@ h3,
 }
 
 @media (max-width: 768px) {
+  .slider__text h3 {
+    font-size: 20px;
+  }
+
   .navigation {
     padding: 0px;
   }
