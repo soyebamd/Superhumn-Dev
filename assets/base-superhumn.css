@@ -967,7 +967,7 @@ h3,
     display: none;
   }
   .mob-footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
   }
   .mob-footer .grid__item {
