@@ -996,3 +996,8 @@ summary[aria-expanded="true"] svg {
   transform: rotate(180deg);
   transition: all 600ms;
 }
+
+.collapsible-content summary:hover {
+  background: transparent;
+  text-decoration: none;
+}
