@@ -839,4 +839,9 @@ h3,
   .testimonials {
     margin: 10px;
   }
+  .section-template--16571202273476__superhumn_banner_width_text_v2_gNzTyN-padding
+    .image-with-text__grid--reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
