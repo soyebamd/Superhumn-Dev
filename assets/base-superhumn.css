@@ -849,4 +849,8 @@ h3,
   .wow1 {
     width: 300px !important;
   }
+
+  .fill-frame {
+    height: 343px;
+  }
 }
