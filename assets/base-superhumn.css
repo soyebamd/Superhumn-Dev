@@ -869,6 +869,10 @@ h3,
     left: 0 !important;
   }
 
+  .frame:hover {
+    transform: none;
+  }
+
   .frame .field {
     width: 242px;
   }
