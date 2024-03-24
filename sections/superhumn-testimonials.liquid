@@ -199,7 +199,7 @@ margin:30px auto 0 auto;
 
 
 
-.custom-dots-container-1 {
+.custom-dots-container-{{ section.id }} {
   display: flex;
   justify-content: center;
  
@@ -442,18 +442,18 @@ margin:30px auto 0 auto;
 
         <div class="navigation power-navigation navigation testimonial__slider">
 
-                <a href="#" class="arrow" id="moveLeft1"><img src="{{ 'arrow.svg' | file_url }}"></a>
+                <a href="#" class="arrow" id="moveLeft-{{ section.id }}"><img src="{{ 'arrow.svg' | file_url }}"></a>
 
                
                
-                <div class="custom-dots-container-1">
+                <div class="custom-dots-container-{{ section.id }}">
   <!-- Custom dots will be added dynamically here -->
 </div>
 
 
         
 
-                <a href="#" class="arrow"  id="moveRight1"><img src="{{ 'arrow.svg' | file_url }}"></a>
+                <a href="#" class="arrow"  id="moveRight-{{ section.id }}"><img src="{{ 'arrow.svg' | file_url }}"></a>
 
              </div>
 
@@ -528,8 +528,8 @@ setTimeout(function(){
      
       // appendDots: '.dots',
 
-    prevArrow: '#moveLeft1',
-      nextArrow: '#moveRight1',
+    prevArrow: '#moveLeft-{{ section.id }}',
+      nextArrow: '#moveRight-{{ section.id }}',
       autoplay: false,
 
       
@@ -564,9 +564,9 @@ setTimeout(function(){
 
 
    
-  var slidesCount1 = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
-  for (var i = 0; i < slidesCount1; i++) {
-    $('.custom-dots-container-1').append('<div class="custom-dot1"></div>');
+  var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
+  for (var i = 0; i < slidesCount{{ section.id }}; i++) {
+    $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot1"></div>');
   }
 
   $('.custom-dot1').click(function(){
