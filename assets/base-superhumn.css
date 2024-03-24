@@ -742,6 +742,9 @@ h3,
 }
 
 @media (max-width: 768px) {
+  .navigation {
+    padding: 0px;
+  }
   .btn {
     width: 200px;
     height: 60px;
