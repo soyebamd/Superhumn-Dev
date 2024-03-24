@@ -882,6 +882,7 @@ h3,
 }
 .frame .field__label {
   font-size: 12px !important;
+  top: 16px;
 }
 
 .frame .join-btn {
