@@ -564,20 +564,20 @@ setTimeout(function(){
 
 
    
-  var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
-  for (var i = 0; i < slidesCount{{ section.id }}; i++) {
-    $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot1"></div>');
-  }
+  // var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
+  // for (var i = 0; i < slidesCount{{ section.id }}; i++) {
+  //   $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot1"></div>');
+  // }
 
-  $('.custom-dot1').click(function(){
-    var index = $(this).index();
-    $('.testimonials-slider-{{ section.id }}').slick('slickGoTo', index);
-  });
+  // $('.custom-dot1').click(function(){
+  //   var index = $(this).index();
+  //   $('.testimonials-slider-{{ section.id }}').slick('slickGoTo', index);
+  // });
 
-  $('.testimonials-slider-{{ section.id }}').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    $('.custom-dot1').removeClass('active');
-    $('.custom-dot1').eq(nextSlide).addClass('active');
-  });
+  // $('.testimonials-slider-{{ section.id }}').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  //   $('.custom-dot1').removeClass('active');
+  //   $('.custom-dot1').eq(nextSlide).addClass('active');
+  // });
 
  }, 1000)
 
