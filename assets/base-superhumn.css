@@ -909,17 +909,21 @@ h3,
   .frame .field {
     width: 242px;
   }
-}
-.newsletter-form__field-wrapper {
-  top: 0 !important;
-}
-.frame .field__label {
-  font-size: 12px !important;
-  top: 16px;
-}
+  .email-field,
+  .field__input_superhumn {
+    font-size: 16px !important;
+  }
+  .newsletter-form__field-wrapper {
+    top: 0 !important;
+  }
+  .frame .field__label {
+    font-size: 12px !important;
+    top: 16px;
+  }
 
-.frame .join-btn {
-  font-size: 15px !important;
+  .frame .join-btn {
+    font-size: 15px !important;
+  }
 }
 
 .frame .field:after {
