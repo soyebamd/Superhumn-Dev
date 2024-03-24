@@ -973,6 +973,9 @@ h3,
   .mob-footer .grid__item {
     width: 100%;
   }
+  .footer-news-letter p {
+    font-size: 20px;
+  }
 }
 
 .frame .field:after {
