@@ -738,6 +738,27 @@ h3,
   margin: 30px auto 0 auto;
 }
 
+.collapsible-content summary:hover {
+  background: transparent;
+}
+
+.frame .field:after {
+  display: none;
+}
+
+summary[aria-expanded="false"] svg {
+  transition: all 600ms;
+}
+summary[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+  transition: all 600ms;
+}
+
+.collapsible-content summary:hover {
+  background: transparent !important;
+  text-decoration: none !important;
+}
+
 @media (max-width: 992px) {
 }
 
@@ -1006,25 +1027,7 @@ h3,
   .sprite {
     z-index: -1;
   }
-}
-
-.collapsible-content summary:hover {
-  background: transparent;
-}
-
-.frame .field:after {
-  display: none;
-}
-
-summary[aria-expanded="false"] svg {
-  transition: all 600ms;
-}
-summary[aria-expanded="true"] svg {
-  transform: rotate(180deg);
-  transition: all 600ms;
-}
-
-.collapsible-content summary:hover {
-  background: transparent !important;
-  text-decoration: none !important;
+  .accordion:nth-child(n + 4) {
+    display: none;
+  }
 }
