@@ -834,6 +834,6 @@ h3,
     padding: 2rem !important;
   }
   .navigation {
-    display: none;
+    display: none !important;
   }
 }
