@@ -806,7 +806,7 @@ h3,
   .header__heading-link header-drawer,
   .header__search,
   .menu-drawer-container {
-    display: none;
+    display: none !important;
   }
 
   .super-human-absolute {
