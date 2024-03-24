@@ -861,6 +861,10 @@ h3,
     transform: none !important;
     left: 0 !important;
   }
+
+  .frame .field {
+    width: 242px;
+  }
 }
 
 frame .field:after {
