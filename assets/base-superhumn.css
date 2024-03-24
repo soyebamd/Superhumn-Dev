@@ -851,7 +851,7 @@ h3,
   }
 
   .fill-frame {
-    width: 32px;
+    width: 32px !important;
     height: 343px;
   }
 }
