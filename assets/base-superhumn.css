@@ -858,7 +858,7 @@ h3,
   .frame .emailForm {
     width: 355px !important;
     height: 47px !important;
-
+    transform: none !important;
     left: 0 !important;
   }
 }
