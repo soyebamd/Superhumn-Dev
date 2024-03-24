@@ -765,7 +765,10 @@ summary[aria-expanded="true"] svg {
 @media (max-width: 768px) {
   .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button,
   .header__search,
-  .header__icon {
+  .header__icon,
+  .custombutton_kiLKVX-button,
+  .custombutton_kEFL6a-button,
+  .testimonial__slider {
     display: none !important;
   }
 
