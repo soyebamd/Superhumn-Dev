@@ -870,11 +870,11 @@ h3,
   top: 0 !important;
 }
 .frame .field__label {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
-.join-btn {
-  font-size: 15px;
+.frame .join-btn {
+  font-size: 15px !important;
 }
 
 .frame .field:after {
