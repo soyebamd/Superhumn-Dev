@@ -11,6 +11,7 @@
     background-size: cover;
 }
 
+
 .superhumn-banner__content {
     position: absolute;
     top: calc(50% + 60px);
@@ -57,6 +58,17 @@
     .pos-50 {
         top: 0;
     }
+}
+
+@media(max-width:768px){
+  
+#banner-Image-{{ section.id }} {
+    background: url({{ section.settings.mob_image| image_url: width: 3840 }});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 }
 
 .superhumn-banner__content img {
@@ -119,6 +131,16 @@
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
     },
+
+     {
+      "type": "image_picker",
+      "id": "mob_image",
+      "label": "Mobile Banner"
+    },
+
+    
+
+
      {
           "type": "text",
           "id": "button_label",
