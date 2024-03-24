@@ -941,6 +941,9 @@ h3,
     width: 22px !important;
     height: 22px !important;
   }
+  .accordion summary {
+    justify-content: space-between;
+  }
 }
 
 .frame .field:after {
