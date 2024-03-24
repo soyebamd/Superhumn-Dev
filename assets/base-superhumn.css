@@ -970,7 +970,7 @@ h3,
     flex-direction: column;
     width: 100%;
   }
-  .mob-footer .grid--2-col .grid__item {
+  .mob-footer .grid__item {
     width: 100%;
   }
 }
