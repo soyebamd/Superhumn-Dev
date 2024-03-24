@@ -866,7 +866,9 @@ h3,
     width: 242px;
   }
 }
-
-frame .field:after {
+.newsletter-form__field-wrapper {
+  top: 0;
+}
+.frame .field:after {
   display: none;
 }
