@@ -826,4 +826,11 @@ h3,
   .animation-strock-effect {
     display: none;
   }
+
+  .super-human-card__content p {
+    font-size: 20px !important;
+  }
+  .image-with-text__content {
+    padding: 2rem !important;
+  }
 }
