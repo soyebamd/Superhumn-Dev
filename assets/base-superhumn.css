@@ -926,9 +926,9 @@ h3,
   }
 
   .table-2 {
-    display: block;
-    column-count: inherit;
-    background: #0f0f0f;
+    display: block !important;
+    column-count: inherit !important;
+    background: #0f0f0f !important;
   }
 }
 
