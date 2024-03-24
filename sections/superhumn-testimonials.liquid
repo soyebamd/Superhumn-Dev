@@ -205,7 +205,7 @@ margin:30px auto 0 auto;
  
 }
 
-.testimonial__slider .custom-dot1 {
+.testimonial__slider .custom-dot-{{ section.id }} {
   width: 30px;
   height: 30px;
   display:block!important;
@@ -217,7 +217,7 @@ margin:30px auto 0 auto;
   background-position:center;
 }
 
-.testimonial__slider .custom-dot1.active {
+.testimonial__slider .custom-dot-{{ section.id }}.active {
    
   background:url({{ 'dot-active.svg' |  asset_url }})!important;
       background-repeat: no-repeat !important;
@@ -564,20 +564,20 @@ setTimeout(function(){
 
 
    
-  // var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
-  // for (var i = 0; i < slidesCount{{ section.id }}; i++) {
-  //   $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot1"></div>');
-  // }
+  var slidesCount{{ section.id }} = $('.testimonials-slider-{{ section.id }}').slick('getSlick').slideCount;
+  for (var i = 0; i < slidesCount{{ section.id }}; i++) {
+    $('.custom-dots-container-{{ section.id }}').append('<div class="custom-dot-{{ section.id }}"></div>');
+  }
 
-  // $('.custom-dot1').click(function(){
-  //   var index = $(this).index();
-  //   $('.testimonials-slider-{{ section.id }}').slick('slickGoTo', index);
-  // });
+  $('.custom-dot-{{ section.id }}').click(function(){
+    var index = $(this).index();
+    $('.testimonials-slider-{{ section.id }}').slick('slickGoTo', index);
+  });
 
-  // $('.testimonials-slider-{{ section.id }}').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-  //   $('.custom-dot1').removeClass('active');
-  //   $('.custom-dot1').eq(nextSlide).addClass('active');
-  // });
+  $('.testimonials-slider-{{ section.id }}').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('.custom-dot-{{ section.id }}').removeClass('active');
+    $('.custom-dot-{{ section.id }}').eq(nextSlide).addClass('active');
+  });
 
  }, 1000)
 
