@@ -989,6 +989,9 @@ h3,
   .copyright {
     margin: 70px 0 12px 0 !important;
   }
+  .sprite {
+    z-index: -1;
+  }
 }
 
 .collapsible-content summary:hover {
