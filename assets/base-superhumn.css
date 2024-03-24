@@ -871,12 +871,13 @@ summary[aria-expanded="true"] svg {
 
   .image-gallery {
     max-width: 1160px;
+    height: 380px;
     width: 100%;
     position: relative;
     display: block;
     transform: skew(-15deg, 27deg);
     right: 0;
-    top: 0;
+    top: -100px;
   }
   .flex-mobile-down {
     flex-direction: column;
