@@ -186,8 +186,9 @@
           "settings": {
             "testi_svg_BG": "#05465b",
             "testi_svg_Strock_BG": "#109fa3",
+            "image": "shopify:\/\/shop_images\/Group_1000011096.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
-            "title": "Column",
+            "title": "Wow",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
