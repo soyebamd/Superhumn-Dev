@@ -867,7 +867,7 @@ h3,
   }
 }
 .newsletter-form__field-wrapper {
-  top: 0;
+  top: 0 !important;
 }
 .frame .field:after {
   display: none;
