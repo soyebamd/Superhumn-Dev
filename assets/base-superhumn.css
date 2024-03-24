@@ -957,6 +957,12 @@ h3,
   .accordion summery {
     padding-top: 22px;
   }
+  .collapsible-content__wrapper h2 {
+    font-size: 90px !important;
+  }
+  .caption-para {
+    margin: 50px auto 10px;
+  }
 }
 
 .frame .field:after {
