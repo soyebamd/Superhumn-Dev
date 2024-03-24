@@ -998,6 +998,6 @@ summary[aria-expanded="true"] svg {
 }
 
 .collapsible-content summary:hover {
-  background: transparent;
-  text-decoration: none;
+  background: transparent !important;
+  text-decoration: none !important;
 }
