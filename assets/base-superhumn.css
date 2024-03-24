@@ -851,8 +851,15 @@ h3,
   }
 
   .fill-frame {
-    width: 32px !important;
+    width: 49px !important;
     height: 343px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fill-frame img {
+    height: 270px;
   }
 
   .frame .emailForm {
