@@ -822,4 +822,8 @@ h3,
   .image-with-text__media-item {
     padding: 0 !important;
   }
+
+  .animation-strock-effect {
+    display: none;
+  }
 }
