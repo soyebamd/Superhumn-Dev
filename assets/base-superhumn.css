@@ -763,6 +763,12 @@ summary[aria-expanded="true"] svg {
 }
 
 @media (max-width: 768px) {
+  .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button,
+  .header__search,
+  .header__icon {
+    display: none !important;
+  }
+
   .slider__text h3 {
     font-size: 20px;
   }
