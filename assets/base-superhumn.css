@@ -994,4 +994,5 @@ summary[aria-expanded="false"] svg {
 }
 summary[aria-expanded="true"] svg {
   transform: rotate(180deg);
+  transition: all 600ms;
 }
