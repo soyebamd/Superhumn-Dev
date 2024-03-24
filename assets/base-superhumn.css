@@ -836,4 +836,7 @@ h3,
   .navigation {
     display: none !important;
   }
+  .testimonials {
+    margin: 10px;
+  }
 }
