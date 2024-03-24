@@ -869,6 +869,14 @@ h3,
 .newsletter-form__field-wrapper {
   top: 0 !important;
 }
+.frame .field__label {
+  font-size: 12px;
+}
+
+.join-btn {
+  font-size: 15px;
+}
+
 .frame .field:after {
   display: none;
 }
