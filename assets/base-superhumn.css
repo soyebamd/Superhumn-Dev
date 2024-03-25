@@ -850,7 +850,7 @@ summary[aria-expanded="true"] svg {
 
 #shopify-section-template--16571202273476__superhumn_power_slider_Ab7HF3
   .testimonial__slider {
-  display: block !important;
+  display: flex !important;
 }
 
 @media (max-width: 768px) {
