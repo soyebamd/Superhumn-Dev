@@ -361,10 +361,10 @@ h3,
 }
 
 .text-blue {
-  text-shadow: -1px 0px 1px #f99115, -2px 1px 1px #f99115, -3px 2px 1px #f99115,
-    -4px 3px 1px #f99115, -5px 4px 1px #f99115, -6px 5px 1px #f99115,
-    -8px 6px 1px #f99115, -8px 7px 1px #f99115, -9px 8px 1px #f99115,
-    -10px 9px 1px #f99115, -11px 10px 1px #f99115, -12px 11px 1px #f99115;
+  text-shadow: -1px 0px 1px #8f00ff, -2px 1px 1px #8f00ff, -3px 2px 1px #8f00ff,
+    -4px 3px 1px #8f00ff, -5px 4px 1px #8f00ff, -6px 5px 1px #8f00ff,
+    -8px 6px 1px #8f00ff, -8px 7px 1px #8f00ff, -9px 8px 1px #8f00ff,
+    -10px 9px 1px #8f00ff, -11px 10px 1px #8f00ff, -12px 11px 1px #8f00ff;
   font-size: 9rem;
 }
 
