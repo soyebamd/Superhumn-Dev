@@ -810,8 +810,12 @@ summary[aria-expanded="false"] svg {
   transition: all 600ms;
 }
 summary[aria-expanded="true"] svg {
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   transition: all 600ms;
+}
+
+.accordion summary {
+  justify-content: space-between !important;
 }
 
 .collapsible-content summary:hover {
