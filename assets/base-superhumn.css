@@ -806,9 +806,11 @@ h3,
 
 summary[aria-expanded="false"] svg {
   transition: all 600ms;
+  transform: rotate(180deg);
+  transition: all 600ms;
 }
 summary[aria-expanded="true"] svg {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
   transition: all 600ms;
 }
 
