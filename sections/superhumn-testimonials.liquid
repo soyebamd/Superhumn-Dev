@@ -108,11 +108,23 @@
         <div class="title-wrapper-with-link mb-100 title-wrapper--self-padded-mobile title-wrapper--no-top-margin testimonial-heading-block">
 
 
+
+        
+{% if block.settings.image_heading  %} 
+
+
+                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid for-desk">
+
+                   <img src="{{ block.settings.image_heading_mob | image_url }}" class="img-fluid for-mob">
+
+                 
+
+                  {% else %}
 <div class="testimonials-title-wrapper">
         <h2 class="superhumn-title inline-richtext {{ section.settings.heading_size }} title-bg-{{ section.id }}  ">
           {{ section.settings.title }}
         </h2>
-        
+
        <div class="animation-strock-effect position-relative">
                     <h3 class="h2 titleEffectStrock m-0"> {{ section.settings.title }}</h3>
                     <h3 class="h2 titleEffectStrock m-0"> {{ section.settings.title }}</h3>
@@ -120,6 +132,13 @@
                   </div>
 
  </div>
+
+
+                  {% endif %}
+
+
+
+
 
 
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -383,6 +402,23 @@
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
     },
+
+
+     {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "Heading Image"
+    },
+
+       {
+      "type": "image_picker",
+      "id": "heading_image_mob",
+      "label": "Heading Image Mob"
+    },
+
+
+
+
 
      {
       "type": "inline_richtext",
