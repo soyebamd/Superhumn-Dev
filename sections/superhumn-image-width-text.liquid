@@ -127,8 +127,17 @@
 {% comment  %}   <h2 class="super-human-card__tag text-uppercase">Join the </h2> {% endcomment %}
 
 
-                    
-                  <h1 class="h1 super-human-card__title" {{ block.shopify_attributes }}>
+
+{% if block.settings.image_heading  %} 
+
+
+                   <img src="{{ block.settings.image_heading | image_url }}" class="heading_img">
+
+                 
+
+                  {% else %}
+
+ <h1 class="h1 super-human-card__title" {{ block.shopify_attributes }}>
                     {{ block.settings.heading }}
                   </h1>                  
                    <div class="animation-strock-effect position-relative">
@@ -136,6 +145,9 @@
                     <h3 class="h1 titleEffectStrock m-0"> {{ block.settings.heading }}</h3>
                   
                   </div>
+
+
+                  {% endif %}
 
                 {%- when 'caption' -%}
                   <p
@@ -614,6 +626,13 @@
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
+
+         {
+      "type": "image_picker",
+      "id": "image_heading",
+      "label": "Image Heading"
+    },
+
         {
           "type": "select",
           "id": "heading_size",
