@@ -1067,6 +1067,10 @@ summary[aria-expanded="true"] svg {
     width: 22px !important;
     height: 22px !important;
   }
+
+  .accordion__title:hover {
+    text-decoration: none;
+  }
   .accordion summary {
     justify-content: space-between;
   }
