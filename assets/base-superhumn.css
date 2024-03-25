@@ -386,14 +386,14 @@ h3,
 }
 
 @media (max-width: 768px) {
-  .image-gallery {
+  /* .image-gallery {
     transform: rotate(-90deg) !important;
-  }
+  } */
 
   .image-gallery .slider {
     display: none;
   }
-  .image-gallery .slider:first-child {
+  /* .image-gallery .slider:first-child {
     opacity: 1;
     display: block;
   }
@@ -401,7 +401,7 @@ h3,
   .first-slider img,
   .third-slider img {
     transform: rotate(-90deg);
-  }
+  } */
 }
 
 .slider img {
