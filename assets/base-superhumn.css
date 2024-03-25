@@ -389,9 +389,7 @@ h3,
   .image-gallery {
     transform: rotate(-90deg) !important;
   }
-  .image-gallery .slider {
-    display: none;
-  }
+
   .first-slider img,
   .third-slider img {
     transform: rotate(-90deg);
