@@ -240,8 +240,9 @@
           "type": "heading",
           "settings": {
             "heading": "Let’s be friends",
+            "heading_image": "shopify:\/\/shop_images\/befriends-svg.svg",
             "title_before": "",
-            "title_after": "with benefits",
+            "title_after": "",
             "heading_size": "h0"
           }
         },
@@ -375,7 +376,7 @@
           "settings": {
             "heading": "What is SUPERHUMN Beef Jerky made of?",
             "icon": "none",
-            "row_content": "<p>Mushrooms, organic hemp protein, organic coconut oil, spices and herbs, natural flavors and colors, and sea salt. That's it!<\/p>",
+            "row_content": "<p>Mushrooms, organic hemp protein, organic coconut oil, spices and herbs, <br\/>allulose, natural flavors and colors, and sea salt. That's it!<\/p>",
             "page": ""
           }
         },
@@ -384,43 +385,43 @@
           "settings": {
             "heading": "How much protein is in each serving?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>There's 10g of high quality complete plant protein from hemp and mushrooms per serving!<\/p>",
             "page": ""
           }
         },
         "collapsible_row_tJLHYw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "When will pre-orders be delivered?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We'll be shipping our first drop in November!<\/p>",
             "page": ""
           }
         },
         "collapsible_row_VkFH4d": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "Why should I eat this instead of regular jerky?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We could answer this question for days! But basically:<\/p><ul><li>better health<\/li><li>over 98% reduction in water\/energy\/land usage and greenhouse gas emissions<\/li><li>no piggies involved<\/li><\/ul>",
             "page": ""
           }
         },
         "collapsible_row_z3gF69": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "Is it gluten free or soy free?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We don't use ingredients containing gluten or soy, however the facility <br\/>we use to make the bacon may handle allergen containing ingredients so <br\/>there is a potential risk of cross contamination<\/p>",
             "page": ""
           }
         },
         "collapsible_row_hfcXRE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "What's your refund policy?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We're 10000% confident in our product. If you don't love NEU Bacon and <br\/>want a refund, just ask within 30 days of your purchase date and we'll <br\/>refund you.<\/p>",
             "page": ""
           }
         }
