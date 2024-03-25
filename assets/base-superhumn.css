@@ -1125,6 +1125,10 @@ summary[aria-expanded="true"] svg {
   span.visually-hidden-hold {
     display: none;
   }
+
+  .footer__list-social li {
+    padding: 0 15px;
+  }
 }
 
 .super-human-card img {
