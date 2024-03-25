@@ -830,6 +830,31 @@ summary[aria-expanded="true"] svg {
   text-decoration: none !important;
 }
 
+.accordion__title {
+  font-family: "Inter", sans-serif !important;
+}
+
+.accordion__content p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.accordion__title + svg {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.accordion__title:hover {
+  text-decoration: none !important;
+}
+.accordion summary {
+  justify-content: space-between;
+}
+.accordion__content {
+  background-color: #171717;
+  padding: 20px 0;
+}
+
 @media (max-width: 992px) {
   .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button,
   .header__search,
@@ -1076,29 +1101,20 @@ summary[aria-expanded="true"] svg {
     background: #171717;
   }
 
-  .accordion__title {
-    font-family: "Inter", sans-serif !important;
-  }
-
-  .accordion__content p {
-    font-size: 20px;
-    color: #fff;
-  }
-
   .accordion__title + svg {
     width: 22px !important;
     height: 22px !important;
   }
 
   .accordion__title:hover {
-    text-decoration: none !important;
+    text-decoration: none;
   }
   .accordion summary {
     justify-content: space-between;
   }
   .accordion__content {
     background-color: #171717;
-    padding: 20px 0;
+    padding-bottom: 20px;
   }
   h3.inline-richtext {
     font-size: 20px !important;
