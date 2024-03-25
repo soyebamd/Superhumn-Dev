@@ -415,6 +415,11 @@ h3,
 .header__icons {
   display: none !important;
 }
+
+.section-template--16571202273476__superhumn_banner_width_text_v2_gNzTyN-padding {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .image-mob-slider {
     display: block;
