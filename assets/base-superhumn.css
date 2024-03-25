@@ -884,6 +884,12 @@ summary[aria-expanded="true"] svg {
   text-decoration: none !important;
 }
 
+.collapsible-row-layout .accordion summary,
+.collapsible-row-layout .accordion .accordion__content {
+  padding: 0px !important;
+  text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
   .slash_tag,
   .testimonials_tag {
