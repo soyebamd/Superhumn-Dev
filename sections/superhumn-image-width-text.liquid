@@ -77,8 +77,16 @@
 
 
         
+{% if section.settings.heading_image_1  %} 
 
-<div class="for-desk">
+
+                   <img src="{{ section.settings.heading_image_1 | image_url }}" class="img-fluid for-desk m-auto">
+
+                 
+                 
+
+                  {% else %}
+
 
 
             {%- if section.settings.image != blank -%}
@@ -110,16 +118,15 @@
 <img src="{{ section.settings.image_2 | image_url }}" class="bg-sprite">
 
 
-</div>
 
 
 
-<div class="for-mob">
-
-  <img src="{{ section.settings.heading_image_mob | image_url }}" class="img-fluid for-mob m-auto">
 
 
-</div>
+
+
+
+
 
 
 
@@ -317,11 +324,7 @@
       "id": "image_2",
       "label": "Second Image"
     },
- {
-      "type": "image_picker",
-      "id": "heading_image_mob",
-      "label": "Heading Image Mob"
-    },
+
 
 
    
