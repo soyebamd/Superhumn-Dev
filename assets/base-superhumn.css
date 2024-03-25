@@ -390,6 +390,13 @@ h3,
     transform: rotate(-90deg) !important;
   }
 
+  .image-gallery .slider {
+    display: none;
+  }
+  .image-gallery .slider:first-child {
+    display: block;
+  }
+
   .first-slider img,
   .third-slider img {
     transform: rotate(-90deg);
