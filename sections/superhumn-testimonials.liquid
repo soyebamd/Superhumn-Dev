@@ -110,12 +110,12 @@
 
 
         
-{% if block.settings.image_heading  %} 
+{% if block.settings.heading_image_1  %} 
 
 
-                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid for-desk">
+                   <img src="{{ block.settings.heading_image_1 | image_url }}" class="img-fluid for-desk">
 
-                   <img src="{{ block.settings.image_heading_mob | image_url }}" class="img-fluid for-mob">
+                   <img src="{{ block.settings.heading_image_mob | image_url }}" class="img-fluid for-mob">
 
                  
 
@@ -408,6 +408,17 @@
 
 
 
+   {
+      "type": "image_picker",
+      "id": "heading_image_1",
+      "label": "Heading Image"
+    },
+
+       {
+      "type": "image_picker",
+      "id": "heading_image_mob",
+      "label": "Heading Image Mob"
+    },
 
 
 
@@ -427,17 +438,6 @@
     },
 
 
-   {
-      "type": "image_picker",
-      "id": "heading_image",
-      "label": "Heading Image"
-    },
-
-       {
-      "type": "image_picker",
-      "id": "heading_image_mob",
-      "label": "Heading Image Mob"
-    },
      
     {
       "type": "select",
