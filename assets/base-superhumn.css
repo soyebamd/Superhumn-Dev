@@ -805,6 +805,7 @@ h3,
 
 .collapsible-content summary:hover {
   background: transparent;
+  text-decoration: none !important;
 }
 
 .frame .field:after {
