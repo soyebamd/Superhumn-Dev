@@ -1076,6 +1076,15 @@ summary[aria-expanded="true"] svg {
     background: #171717;
   }
 
+  .accordion__title {
+    font-family: "Inter", sans-serif !important;
+  }
+
+  .accordion__content {
+    font-size: 20px;
+    color: #fff;
+  }
+
   .accordion__title + svg {
     width: 22px !important;
     height: 22px !important;
