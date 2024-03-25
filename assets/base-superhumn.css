@@ -549,7 +549,7 @@ h3,
 
 .email-field,
 .field__input_superhumn {
-  width: 462px;
+  /* width: 462px; */
   height: 76px;
   width: 100%;
   padding: 24px 57px 24px;
