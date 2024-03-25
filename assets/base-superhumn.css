@@ -802,7 +802,7 @@ summary[aria-expanded="true"] svg {
   .superhumn-form .newsletter-form__field-wrapper,
   .email-field,
   .field__input_superhumn {
-    max-width: 350px;
+    /* max-width: 350px; */
     min-width: 0 !important;
   }
 
