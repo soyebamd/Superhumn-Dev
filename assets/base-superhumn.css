@@ -413,7 +413,7 @@ h3,
 
 .header__inline-menu,
 .header__icons {
-  display: none;
+  display: none !important;
 }
 @media (max-width: 768px) {
   .image-mob-slider {
