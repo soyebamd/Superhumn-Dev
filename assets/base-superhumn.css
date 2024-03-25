@@ -394,6 +394,7 @@ h3,
     display: none;
   }
   .image-gallery .slider:first-child {
+    opacity: 1;
     display: block;
   }
 
