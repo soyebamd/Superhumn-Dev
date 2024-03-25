@@ -773,6 +773,11 @@ summary[aria-expanded="true"] svg {
   display: none !important;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .slider__text h3 {
     font-size: 20px;
