@@ -86,6 +86,7 @@
           "type": "heading",
           "settings": {
             "heading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0641\/5033\/9780\/files\/get-high_3.svg?v=1711341321\">",
+            "image_heading": "shopify:\/\/shop_images\/get-high_3.svg",
             "heading_size": "h1"
           }
         },
