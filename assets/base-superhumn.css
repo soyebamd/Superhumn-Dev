@@ -391,6 +391,12 @@ h3,
   }
   .image-gallery .slider:first-child {
     display: block;
+    transform: rotate(-90deg);
+  }
+
+  .first-slider img,
+  .third-slider img {
+    transform: rotate(90deg);
   }
 }
 
