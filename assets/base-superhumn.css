@@ -1080,7 +1080,7 @@ summary[aria-expanded="true"] svg {
     font-family: "Inter", sans-serif !important;
   }
 
-  .accordion__content {
+  .accordion__content p {
     font-size: 20px;
     color: #fff;
   }
@@ -1091,7 +1091,7 @@ summary[aria-expanded="true"] svg {
   }
 
   .accordion__title:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .accordion summary {
     justify-content: space-between;
