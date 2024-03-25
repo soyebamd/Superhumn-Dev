@@ -391,7 +391,7 @@ h3,
   } */
 
   .image-gallery {
-    display: none;
+    display: none !important;
   }
   /* .image-gallery .slider:first-child {
     opacity: 1;
