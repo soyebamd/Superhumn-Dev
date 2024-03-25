@@ -1120,7 +1120,7 @@ summary[aria-expanded="true"] svg {
   }
 
   .list-social {
-    flex-direction: row;
+    flex-direction: row !important;
   }
   span.visually-hidden-hold {
     display: none;
