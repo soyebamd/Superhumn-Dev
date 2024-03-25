@@ -368,6 +368,13 @@ h3,
   font-size: 9rem;
 }
 
+.single-strock-effect {
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
 .super-human-absolute {
   position: absolute;
   top: 50%;
