@@ -575,7 +575,7 @@ h3,
 
 .superhumn-form,
 .superhumn-form .newsletter-form__field-wrapper {
-  width: 462px !important;
+  max-width: 462px !important;
   margin: 0 !important;
 }
 
