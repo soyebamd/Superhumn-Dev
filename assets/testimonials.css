@@ -29,14 +29,6 @@
   font-family: "phonkregular_demo";
 }
 
-.superhumn-title:before {
-  content: "{{ section.settings.title_before }}";
-}
-
-.superhumn-title:after {
-  content: "{{ section.settings.title_after }}";
-}
-
 .multicolumn-card__info {
   padding: 0.5em;
   background: transparent !important;

@@ -49,6 +49,15 @@
 {% endif %}
 
 
+.superhumn-title:before {
+  content: "{{ section.settings.title_before }}";
+}
+
+.superhumn-title:after {
+  content: "{{ section.settings.title_after }}";
+}
+
+
 .custom-dots-container-{{ section.id }} {
   display: flex;
   justify-content: center;
