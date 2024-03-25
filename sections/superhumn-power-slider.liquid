@@ -99,6 +99,11 @@
 }
 
 
+.image-text{
+  margin-bottom: 5.6rem;
+}
+
+
 
 
 
@@ -117,7 +122,7 @@
     
 {% if section.settings.image_heading  %} 
 
-<div class="mb-4">
+<div class="mb-4 image-text">
                    <img src="{{ section.settings.image_heading | image_url }}" class="img-fluid for-desk m-auto">
 
                    <img src="{{ section.settings.image_heading_mob | image_url }}" class="img-fluid for-mob m-auto">
