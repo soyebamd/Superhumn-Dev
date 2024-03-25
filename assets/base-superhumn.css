@@ -416,7 +416,7 @@ h3,
   }
 
   .arrow-bg {
-    display: none;
+    display: none !important;
   }
   #Banner-template--16571202273476__superhumn_image_scroller_GBEMaz {
     padding: 100px 0;
