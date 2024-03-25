@@ -410,6 +410,10 @@ h3,
 .image-mob-slider {
   display: none;
 }
+
+.header__inline-menu {
+  display: none;
+}
 @media (max-width: 768px) {
   .image-mob-slider {
     display: block;
