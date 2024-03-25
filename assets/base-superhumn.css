@@ -575,6 +575,10 @@ h3,
   text-decoration: none;
 }
 
+#NewsletterForm--template--16571202273476__superhumn_image_scroller_GBEMaz {
+  background: #f99115;
+}
+
 .email-field::placeholder,
 .field__input_superhumn::placeholder {
   color: white; /* Set the color of the placeholder text to white */
