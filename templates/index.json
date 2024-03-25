@@ -301,17 +301,6 @@
     "superhumn_power_slider_Ab7HF3": {
       "type": "superhumn-power-slider",
       "blocks": {
-        "column_dxbwha": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "testi_svg_BG": "#352212",
-            "testi_svg_Strock_BG": "#ff7a00",
-            "title": "slider",
-            "text": "<p>Post Text<\/p>",
-            "link": ""
-          }
-        },
         "column_rXKrE7": {
           "type": "column",
           "settings": {
@@ -358,7 +347,6 @@
         }
       },
       "block_order": [
-        "column_dxbwha",
         "column_rXKrE7",
         "column_AmbQTT",
         "column_f6NmNk",
