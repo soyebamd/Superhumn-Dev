@@ -380,10 +380,9 @@ h3,
   width: 100%;
   position: relative;
   display: block;
-  transform: rotate(15deg) translateX(-50%);
-  right: -50%;
-
-  top: -157px;
+  transform: skew(-15deg, 15deg);
+  right: -25%;
+  top: 0;
 }
 
 .slider img {
@@ -893,12 +892,13 @@ summary[aria-expanded="true"] svg {
 
   .image-gallery {
     max-width: 1160px;
+    height: 300px;
     width: 100%;
     position: relative;
     display: block;
-    transform: skew(-15deg, 15deg);
-    right: -25%;
-    top: 0;
+    transform: skew(-15deg, 27deg);
+    right: 0;
+    top: -100px;
   }
   .flex-mobile-down {
     flex-direction: column;
