@@ -1118,6 +1118,13 @@ summary[aria-expanded="true"] svg {
   .accordion:nth-child(n + 4) {
     display: none;
   }
+
+  .list-social {
+    flex-direction: row;
+  }
+  span.visually-hidden-hold {
+    display: none;
+  }
 }
 
 .super-human-card img {
