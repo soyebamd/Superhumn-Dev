@@ -900,6 +900,10 @@ summary[aria-expanded="true"] svg {
   text-decoration: none !important;
 }
 
+.button {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .collapsible-row-layout .accordion summary,
   .collapsible-row-layout .accordion .accordion__content {
