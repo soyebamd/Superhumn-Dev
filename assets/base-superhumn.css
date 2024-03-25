@@ -1115,3 +1115,7 @@ summary[aria-expanded="true"] svg {
     display: none;
   }
 }
+
+.super-human-card img {
+  margin-bottom: 3.7rem;
+}
