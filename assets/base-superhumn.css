@@ -414,6 +414,10 @@ h3,
   .image-mob-slider {
     display: block;
   }
+
+  .arrow-bg {
+    display: none;
+  }
   #Banner-template--16571202273476__superhumn_image_scroller_GBEMaz {
     padding: 100px 0;
   }
