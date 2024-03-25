@@ -847,6 +847,7 @@ summary[aria-expanded="true"] svg {
 .accordion__title:hover {
   text-decoration: none !important;
 }
+
 .accordion summary {
   justify-content: space-between;
 }
