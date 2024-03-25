@@ -57,6 +57,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1000011096.png",
+        "heading_image_mob": "shopify:\/\/shop_images\/Group_1000011106.png",
         "image_2": "shopify:\/\/shop_images\/Group_1000011099.svg",
         "image_padding_top": 100,
         "image_padding_bottom": 88,
@@ -117,6 +118,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DALL_E_2024-03-08_17.27.18_-_A_comic-style_illustration_of_a_woman_with_blue_hair_and_a_streetwear_vibe_flying_and_drinking_an_energy_shot_1.png",
+        "heading_image_mob": "shopify:\/\/shop_images\/Group_1000011093.png",
         "image_2": "shopify:\/\/shop_images\/Group_1000011104.png",
         "image_padding_top": 36,
         "image_padding_bottom": 36,
