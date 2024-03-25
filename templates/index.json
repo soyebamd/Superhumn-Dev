@@ -240,8 +240,9 @@
           "type": "heading",
           "settings": {
             "heading": "Let’s be friends",
+            "heading_image": "shopify:\/\/shop_images\/letsbefriends-desktop.svg",
             "title_before": "",
-            "title_after": "with benefits",
+            "title_after": "",
             "heading_size": "h0"
           }
         },
