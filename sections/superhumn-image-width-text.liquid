@@ -73,22 +73,6 @@
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
           >
-
-
-
-        
-{% if section.settings.heading_image_1  %} 
-
-
-                   <img src="{{ section.settings.heading_image_1 | image_url }}" class="img-fluid for-desk m-auto">
-
-                 
-                 
-
-                  {% else %}
-
-
-
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -117,19 +101,6 @@
 
 <img src="{{ section.settings.image_2 | image_url }}" class="bg-sprite">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 {% endif %}
 
            
@@ -137,17 +108,6 @@
 
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
         <div class="image-with-text__text-item grid__item">
           <div
             id="ImageWithText--{{ section.id }}"
@@ -170,9 +130,7 @@
 {% if block.settings.image_heading  %} 
 
 
-                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid for-desk">
-
-                   <img src="{{ block.settings.image_heading_mob | image_url }}" class="img-fluid for-mob">
+                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid">
 
                  
 
@@ -668,7 +626,7 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
 
-    {
+         {
       "type": "image_picker",
       "id": "image_heading",
       "label": "Image Heading"
