@@ -1098,7 +1098,7 @@ summary[aria-expanded="true"] svg {
   }
   .accordion__content {
     background-color: #171717;
-    padding-bottom: 20px;
+    padding: 20px 0;
   }
   h3.inline-richtext {
     font-size: 20px !important;
