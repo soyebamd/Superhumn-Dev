@@ -411,7 +411,8 @@ h3,
   display: none;
 }
 
-.header__inline-menu {
+.header__inline-menu,
+.header__icons {
   display: none;
 }
 @media (max-width: 768px) {
