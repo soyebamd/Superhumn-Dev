@@ -849,6 +849,11 @@ summary[aria-expanded="true"] svg {
 }
 
 @media (max-width: 768px) {
+  .slash_tag,
+  .testimonials_tag {
+    display: none;
+  }
+
   .slider__text h3 {
     font-size: 20px;
   }
