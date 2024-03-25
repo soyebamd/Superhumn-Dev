@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_1_2.png",
         "image_2": "shopify:\/\/shop_images\/logo_2.svg",
-        "mob_image": "shopify:\/\/shop_images\/header.jpg",
+        "mob_image": "shopify:\/\/shop_images\/header_1.jpg",
         "button_label": "Activate",
         "button_link": "#",
         "button_style_secondary": true,
