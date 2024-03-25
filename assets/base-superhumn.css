@@ -387,16 +387,11 @@ h3,
 
 @media (max-width: 768px) {
   .image-gallery .slider {
-    display: none !important;
+    display: none;
   }
   .image-gallery .slider:first-child {
-    display: block !important;
-    transform: rotate(-90deg) !important;
-  }
-
-  .first-slider img,
-  .third-slider img {
-    transform: rotate(90deg);
+    display: block;
+    transform: rotate(-180deg);
   }
 }
 
