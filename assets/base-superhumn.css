@@ -340,6 +340,10 @@ h3,
   color: #130d09;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 .highlight {
   text-shadow: -3px -3px 1px #f00, 3px 3px 1px #00ffd1;
 }
