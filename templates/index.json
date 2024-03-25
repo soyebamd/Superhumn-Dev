@@ -26,8 +26,9 @@
         "heading_tRE4xr": {
           "type": "heading",
           "settings": {
-            "heading": "<span>SNAG OUR<br> PROTEIN <\/span><br> <span class=\"effectText\">POWER UPS<\/span>",
-            "image_heading": "shopify:\/\/shop_images\/Group_1000011096_1.svg",
+            "heading": "",
+            "image_heading": "shopify:\/\/shop_images\/SNAG_OUR_PROTEIN_POWER_UPS_00e911ce-7cc5-43df-8253-583e4440c6d2.svg",
+            "image_heading_mob": "shopify:\/\/shop_images\/SNAG_OUR_PROTEIN_POWER_UPS_00e911ce-7cc5-43df-8253-583e4440c6d2.svg",
             "heading_size": "h0"
           }
         },
@@ -240,7 +241,8 @@
           "type": "heading",
           "settings": {
             "heading": "Let’s be friends",
-            "heading_image": "shopify:\/\/shop_images\/befriends-svg.svg",
+            "heading_image": "shopify:\/\/shop_images\/letsbefriends-desktop_ff658df1-8b6d-45ce-a141-bfd7aea25b21.svg",
+            "heading_image_mob": "shopify:\/\/shop_images\/letsbefriends-mobile_c2ab3547-92c1-4eb8-9783-9756ccef3476.svg",
             "title_before": "",
             "title_after": "",
             "heading_size": "h0"
