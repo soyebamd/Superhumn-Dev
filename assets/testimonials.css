@@ -9,6 +9,7 @@
 
 .superhumn-title.h1 {
   font-size: 74px;
+  z-index: 2;
 }
 
 .superhumn-title:before,
