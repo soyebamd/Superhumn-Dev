@@ -130,7 +130,9 @@
 {% if block.settings.image_heading  %} 
 
 
-                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid">
+                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid for-desk">
+
+                   <img src="{{ block.settings.image_heading_mob | image_url }}" class="img-fluid for-mob">
 
                  
 
@@ -631,6 +633,14 @@
       "id": "image_heading",
       "label": "Image Heading"
     },
+
+     {
+      "type": "image_picker",
+      "id": "image_heading_mob",
+      "label": "Image Heading Mob"
+    },
+
+
 
         {
           "type": "select",
