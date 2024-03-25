@@ -901,7 +901,8 @@ summary[aria-expanded="true"] svg {
 }
 
 @media (max-width: 768px) {
-  .accordion summary {
+  .collapsible-row-layout .accordion summary,
+  .collapsible-row-layout .accordion .accordion__content {
     padding: 3.5rem !important;
   }
   .slash_tag,
