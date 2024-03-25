@@ -57,6 +57,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_1000011096.png",
+        "heading_image_mob": "shopify:\/\/shop_images\/Group_1000011106.png",
         "image_2": "shopify:\/\/shop_images\/Group_1000011099.svg",
         "image_padding_top": 100,
         "image_padding_bottom": 88,
