@@ -410,18 +410,18 @@
         "collapsible_row_z3gF69": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "Is it gluten free or soy free?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We don't use ingredients containing gluten or soy, however the facility <br\/>we use to make the bacon may handle allergen containing ingredients so <br\/>there is a potential risk of cross contamination<\/p>",
             "page": ""
           }
         },
         "collapsible_row_hfcXRE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "What's your refund policy?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We're 10000% confident in our product. If you don't love NEU Bacon and <br\/>want a refund, just ask within 30 days of your purchase date and we'll <br\/>refund you.<\/p>",
             "page": ""
           }
         }
