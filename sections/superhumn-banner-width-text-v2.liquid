@@ -365,29 +365,8 @@ line-height: normal; }
 }
 
 
-.super-human-card .superhumn-title:after{
-    content:  "{{ block.settings.title_after }}"; 
-    text-align: left;
-  right: auto;
-  left: 0;
-font-size: 68px;
-
-}
-
-{% if block.settings.heading_image %}
-.title-bg-{{ block.id }}{
-    background:url('{{ block.settings.heading_image | img_url: 'master' }}' );
-    repeat:no-repeat;
-
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
 
 
-
-}
-
-{% endif %}
 
 .arrow-bg {display:flex; align-items: flex-start;}
 
@@ -404,13 +383,27 @@ font-size: 68px;
 
 
 
+
+
+
+{% if block.settings.heading_image  %} 
+
+
+                   <img src="{{ block.settings.heading_image | image_url }}" class="img-fluid">
+
+                 
+
+                  {% else %}
+
+
         <h1 class="heading-style-2 super-human-card superhumn-title text-uppercase inline-richtext {{ block.heading_size }} title-bg-{{ block.id }}" {{ block.shopify_attributes }}>
+          
          {{ block.settings.heading }}
         </h1>
-    
+    {% endif %}  
       </div>
                     
-                  
+   
 
                 {%- when 'text' -%}
                   <div class="super-human-card__content  d-flex align-content-end image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
@@ -870,7 +863,7 @@ font-size: 68px;
           {
       "type": "image_picker",
       "id": "heading_image",
-      "label": "Bakground Image"
+      "label": "Heading Image"
     },
 
          {
