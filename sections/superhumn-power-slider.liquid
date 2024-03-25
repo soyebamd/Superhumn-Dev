@@ -109,8 +109,24 @@
 <div class="page-width ">
  
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-   
 
+
+
+
+
+    
+{% if block.settings.image_heading  %} 
+
+
+                   <img src="{{ block.settings.image_heading | image_url }}" class="img-fluid for-desk">
+
+                   <img src="{{ block.settings.image_heading_mob | image_url }}" class="img-fluid for-mob">
+
+                 
+
+                  {% else %}
+
+ 
     {% if section.settings.heading_title %}
     <h1 class= "h0 text-center title">
       {{section.settings.heading_title}}
@@ -124,6 +140,11 @@
 </div>
 
     {% endif %}
+                  {% endif %}
+
+
+   
+
 
 
     <ul class="power-slider testimonials-slider-{{ section.id }}">
@@ -266,6 +287,20 @@
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
+
+
+      {
+      "type": "image_picker",
+      "id": "image_heading",
+      "label": "Image Heading"
+    },
+
+     {
+      "type": "image_picker",
+      "id": "image_heading_mob",
+      "label": "Image Heading Mob"
+    },
+
 
   
 
