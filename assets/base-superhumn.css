@@ -880,6 +880,10 @@ summary[aria-expanded="true"] svg {
   display: flex !important;
 }
 
+.accordion__title:hover {
+  text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
   .slash_tag,
   .testimonials_tag {
