@@ -67,8 +67,10 @@
         
         
         ">
+
+
           <div
-            class="object-fit image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            class="object-fit for-desk image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
             {% if section.settings.height == 'adapt' and section.settings.image != blank %}
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
@@ -107,6 +109,25 @@
 
 
           </div>
+
+
+
+{% if section.settings.heading_image_mob %}
+
+<div class="for-mob">
+
+
+  <img src="{{ section.settings.heading_image_mob | image_url }}" class="img-fluid for-mob m-auto">
+
+
+
+</div>
+
+{% endif %}
+
+
+
+
         </div>
         <div class="image-with-text__text-item grid__item">
           <div
@@ -276,6 +297,14 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+
+     {
+      "type": "image_picker",
+      "id": "heading_image_mob",
+      "label": "Mobile Image"
+    },
+
+    
 
      {
       "type": "image_picker",
