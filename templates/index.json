@@ -205,7 +205,9 @@
         "column_PWHdUw"
       ],
       "settings": {
-        "title": "<span>EVERYONE (AND YOUR MOM)<\/span><br> <span class=\"effectText\">IS RAVING !!!<\/span>",
+        "title": "Headomg",
+        "heading_image_1": "shopify:\/\/shop_images\/raving-desktop.svg",
+        "heading_image_mob": "shopify:\/\/shop_images\/raving-mobile.svg",
         "title_before": "",
         "title_after": "",
         "heading_size": "h1",
