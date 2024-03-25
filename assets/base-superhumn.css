@@ -886,7 +886,6 @@ summary[aria-expanded="true"] svg {
 
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
-  padding: 0px !important;
   text-decoration: none !important;
 }
 
