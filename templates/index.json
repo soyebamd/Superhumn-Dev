@@ -401,9 +401,9 @@
         "collapsible_row_VkFH4d": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much protein is in each serving?",
+            "heading": "Why should I eat this instead of regular jerky?",
             "icon": "none",
-            "row_content": "<p>How much protein is in each serving?<\/p>",
+            "row_content": "<p>We could answer this question for days! But basically:<\/p><ul><li>better health<\/li><li>over 98% reduction in water\/energy\/land usage and greenhouse gas emissions<\/li><li>no piggies involved<\/li><\/ul>",
             "page": ""
           }
         },
