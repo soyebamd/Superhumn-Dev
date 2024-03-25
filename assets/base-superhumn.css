@@ -352,6 +352,15 @@ h3,
   font-size: 9rem;
 }
 
+.text-orange {
+  text-shadow: -1px 0px 1px #f99115, -2px 1px 1px #f99115, -3px 2px 1px #f99115,
+    -4px 3px 1px #f99115, -5px 4px 1px #f99115, -6px 5px 1px #f99115,
+    -8px 6px 1px #f99115, -8px 7px 1px #f99115, -9px 8px 1px #f99115,
+    -10px 9px 1px #f99115, -11px 10px 1px #f99115, -12px 11px 1px #f99115;
+  font-size: 9rem;
+  color: #f99115; /* Set the text color to #F99115 */
+}
+
 .super-human-absolute {
   position: absolute;
   top: 50%;
