@@ -901,6 +901,9 @@ summary[aria-expanded="true"] svg {
 }
 
 @media (max-width: 768px) {
+  .accordion summary {
+    padding: 3.5rem !important;
+  }
   .slash_tag,
   .testimonials_tag {
     display: none;
