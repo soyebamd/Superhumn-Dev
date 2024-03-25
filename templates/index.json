@@ -240,7 +240,8 @@
           "type": "heading",
           "settings": {
             "heading": "Let’s be friends",
-            "heading_image": "shopify:\/\/shop_images\/befriends-svg.svg",
+            "heading_image": "shopify:\/\/shop_images\/letsbefriends-desktop_ff658df1-8b6d-45ce-a141-bfd7aea25b21.svg",
+            "heading_image_mob": "shopify:\/\/shop_images\/letsbefriends-mobile_c2ab3547-92c1-4eb8-9783-9756ccef3476.svg",
             "title_before": "",
             "title_after": "",
             "heading_size": "h0"
