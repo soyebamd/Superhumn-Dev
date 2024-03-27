@@ -33,7 +33,7 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
       background-color:{{ section.settings.background_color }};
-      background-image:{{ section.settings.background_color }} url({{ section.settings.background_image |  img_url: 'master' }})
+      background-image:url({{ section.settings.background_image |  img_url: 'master' }})
     }
 
   .object-fit img{ object-fit:contain; }
