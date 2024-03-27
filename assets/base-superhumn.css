@@ -362,6 +362,7 @@ h3,
     -8px 7px 1px red, -9px 8px 1px red, -10px 9px 1px red, -11px 10px 1px red,
     -12px 11px 1px red;
   font-size: 9rem;
+  line-height: 9rem;
 }
 
 .text-orange {
@@ -423,6 +424,10 @@ h3,
 
 .section-template--16571202273476__superhumn_banner_width_text_v2_gNzTyN-padding {
   overflow: hidden;
+}
+
+.slick-vertical .slick-slide {
+  margin: 11px 0;
 }
 
 @media (max-width: 768px) {
