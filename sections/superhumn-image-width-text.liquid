@@ -32,7 +32,7 @@
    .section-{{ section.id }}-background {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      background: url({{ section.settings.background_image }})!important;
+      background:{{ section.settings.background_color }}, url({{ section.settings.background_image }})
     }
 
   .object-fit img{ object-fit:contain; }
@@ -52,7 +52,7 @@
   endif
 -%}
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}  section-{{ section.id }}-background>
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}  section-{{ section.id }}-background">
   <div class="
   {% if section.settings.full_width %}
     full-width
