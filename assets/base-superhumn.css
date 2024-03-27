@@ -435,7 +435,7 @@ h3,
     display: block;
   }
   .pattern {
-    background-position: bottom center;
+    background-position: bottom center !important;
   }
 
   .image-gallery {
