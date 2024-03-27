@@ -434,6 +434,9 @@ h3,
   .image-mob-slider {
     display: block;
   }
+  .image-gallery {
+    display: none !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -447,9 +450,6 @@ h3,
     transform: rotate(-90deg) !important;
   } */
 
-  .image-gallery {
-    display: none !important;
-  }
   /* .image-gallery .slider:first-child {
     opacity: 1;
     display: block;
