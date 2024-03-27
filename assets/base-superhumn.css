@@ -446,15 +446,16 @@ h3,
     margin: auto;
     float: none;
   }
+  #Banner-template--16571202273476__superhumn_image_scroller_GBEMaz {
+    padding: 100px 0;
+  }
 }
 
 @media (max-width: 768px) {
   .arrow-bg {
     display: none !important;
   }
-  #Banner-template--16571202273476__superhumn_image_scroller_GBEMaz {
-    padding: 100px 0;
-  }
+
   /* .image-gallery {
     transform: rotate(-90deg) !important;
   } */
