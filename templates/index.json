@@ -57,7 +57,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/man.png",
-        "heading_image_mob": "shopify:\/\/shop_images\/protein_1.png",
+        "heading_image_mob": "shopify:\/\/shop_images\/man-mobile.png",
         "image_2": "shopify:\/\/shop_images\/power-up.svg",
         "image_padding_top": 100,
         "image_padding_bottom": 88,
