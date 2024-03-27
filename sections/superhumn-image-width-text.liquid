@@ -29,6 +29,12 @@
     }
   }
 
+   .section-{{ section.id }}-background {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      background:{{ section.settings.background_color }}, url({{ section.settings.background_image }})
+    }
+
   .object-fit img{ object-fit:contain; }
 
   .bg-sprite{ z-index:-1; }
@@ -46,7 +52,7 @@
   endif
 -%}
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}  section-{{ section.id }}-background">
   <div class="
   {% if section.settings.full_width %}
     full-width
@@ -373,22 +379,9 @@
       "label": "Bakground Image"
     },
 
-     {
-      "type": "image_picker",
-      "id": "background_image_2",
-      "label": "Bakground Image 2"
-    },
+    
 
-     {
-      "type": "range",
-      "id": "background_image_size",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "unit": "%",
-      "label": "Background Size",
-      "default": 50
-    },
+    
 
      {
       "type": "select",
