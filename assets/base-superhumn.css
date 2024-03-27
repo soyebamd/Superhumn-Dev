@@ -431,6 +431,9 @@ h3,
 }
 
 @media (max-width: 990px) {
+  .sprite {
+    display: none !important;
+  }
   .image-mob-slider {
     display: block;
   }
