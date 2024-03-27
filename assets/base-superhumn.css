@@ -1227,8 +1227,9 @@ summary[aria-expanded="true"] svg {
   margin-bottom: 3.7rem;
 }
 
+/* Temporary code */
 .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button::after {
-  background: #00ff0a;
+  background: #00ff0a !important;
 }
 
 .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button .layer-2 {
