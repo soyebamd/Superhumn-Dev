@@ -437,6 +437,15 @@ h3,
   .image-gallery {
     display: none !important;
   }
+  .super-human-absolute {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: block;
+    margin: auto;
+    float: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1018,16 +1027,6 @@ summary[aria-expanded="true"] svg {
   .header__search,
   .menu-drawer-container {
     display: none !important;
-  }
-
-  .super-human-absolute {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-    display: block;
-    margin: auto;
-    float: none;
   }
 
   .image-gallery {
