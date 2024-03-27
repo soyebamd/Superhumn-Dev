@@ -904,6 +904,10 @@ summary[aria-expanded="true"] svg {
   display: none;
 }
 
+#banner-Image-template--16571202273476__superhumn_new_banner_tjRR4n .button {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .collapsible-row-layout .accordion summary,
   .collapsible-row-layout .accordion .accordion__content {
