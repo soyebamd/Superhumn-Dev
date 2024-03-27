@@ -434,6 +434,10 @@ h3,
   .image-mob-slider {
     display: block;
   }
+  .pattern {
+    background-position: bottom center;
+  }
+
   .image-gallery {
     display: none !important;
   }
