@@ -958,6 +958,7 @@ summary[aria-expanded="true"] svg {
   h1,
   .h1 {
     font-size: 5.4rem;
+    line-height: normal !important;
   }
 
   .super-human-card__content,
