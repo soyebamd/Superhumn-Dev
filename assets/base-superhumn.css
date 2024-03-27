@@ -1097,6 +1097,8 @@ summary[aria-expanded="true"] svg {
     .image-with-text__grid--reverse {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .frame,
