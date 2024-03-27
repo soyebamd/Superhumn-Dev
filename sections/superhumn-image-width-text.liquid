@@ -32,7 +32,7 @@
    .section-{{ section.id }}-background {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      background:{{ section.settings.background_color }}, url({{ section.settings.background_image }})
+      background:{{ section.settings.background_color }}, url({{ section.settings.background_image |  img_url: 'master' }})
     }
 
   .object-fit img{ object-fit:contain; }
