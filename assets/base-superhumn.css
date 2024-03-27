@@ -905,7 +905,7 @@ summary[aria-expanded="true"] svg {
 }
 
 #banner-Image-template--16571202273476__superhumn_new_banner_tjRR4n .button {
-  display: flex;
+  display: flex !important;
 }
 
 @media (max-width: 768px) {
