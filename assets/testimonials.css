@@ -127,10 +127,10 @@ h3.inline-richtext {
 .dots li {
   margin: 0 10px;
 }
-
+/* 
 @media (max-width: 500px) {
   .testimonials svg {
     width: auto !important;
     height: auto !important;
   }
-}
+} */
