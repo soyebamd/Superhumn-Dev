@@ -1210,9 +1210,9 @@ summary[aria-expanded="true"] svg {
   .sprite {
     z-index: -1;
   }
-  .accordion:nth-child(n + 4) {
+  /* .accordion:nth-child(n + 4) {
     display: none;
-  }
+  } */
 
   .list-social {
     flex-direction: row !important;
