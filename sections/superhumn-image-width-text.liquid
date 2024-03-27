@@ -41,9 +41,21 @@
   background-position: center;
     }
 
+  
+
   .object-fit img{ object-fit:contain; }
 
   .bg-sprite{ z-index:-1; }
+
+  @media(max-width:768px){
+
+   .section-{{ section.id }}-background{
+
+      background-repeat:repeat-y; 
+
+   }
+
+  }
 
 
 {%- endstyle -%}
