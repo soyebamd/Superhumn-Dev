@@ -924,10 +924,6 @@ summary[aria-expanded="true"] svg {
   text-decoration: none !important;
 }
 
-.button {
-  display: none;
-}
-
 #banner-Image-template--16571202273476__superhumn_new_banner_tjRR4n .button {
   display: flex !important;
 }
@@ -1228,6 +1224,13 @@ summary[aria-expanded="true"] svg {
 }
 
 /* Temporary code */
+
+.customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button .layer-1 {
+  width: calc(100%) !important;
+  height: calc(100%) !important;
+  background: #000 !important;
+}
+
 .customtemplate--16571202273476__superhumn_new_banner_tjRR4n-button::after {
   background: #00ff0a !important;
 }
