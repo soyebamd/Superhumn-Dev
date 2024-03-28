@@ -42,7 +42,7 @@
         "button_kiLKVX": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
+            "button_label": "shop coming soon",
             "button_link": "#",
             "button_style_secondary": false,
             "button_color": "#ff0000",
@@ -103,7 +103,7 @@
         "button_kEFL6a": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "shop coming soon",
             "button_link": "#",
             "button_style_secondary": false,
             "button_color": "#8f00ff",
