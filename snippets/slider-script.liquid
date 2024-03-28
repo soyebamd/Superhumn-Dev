@@ -79,6 +79,19 @@ setTimeout(function(){
 
  }, 1000)
 
+
+  // Pause autoplay on hover
+    slider.on('mouseenter', function() {
+      slider.slick('slickPause');
+    });
+
+    // Resume autoplay on mouse leave
+    slider.on('mouseleave', function() {
+      slider.slick('slickPlay');
+    });
+
+    
+
    })
 
 
