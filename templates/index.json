@@ -151,7 +151,6 @@
           "settings": {
             "testi_svg_BG": "#3a1e1e",
             "testi_svg_Strock_BG": "#ff0000",
-            "image": "shopify:\/\/shop_images\/Rectangle_4858.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Gwen Singer",
             "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
@@ -164,10 +163,9 @@
           "settings": {
             "testi_svg_BG": "#352212",
             "testi_svg_Strock_BG": "#ff7a00",
-            "image": "shopify:\/\/shop_images\/Rectangle_4858_1.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Paul Jacobs",
-            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
+            "text": "<p>This is a game changer!! My son is a really picky eater. He is 4 years old and he demanded more<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -177,10 +175,9 @@
           "settings": {
             "testi_svg_BG": "#38351b",
             "testi_svg_Strock_BG": "#ffe500",
-            "image": "shopify:\/\/shop_images\/Rectangle_4858_2.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Tyrone Woods",
-            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
+            "text": "<p>Wow I'm shocked I'm so impressed<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -190,10 +187,9 @@
           "settings": {
             "testi_svg_BG": "#05465b",
             "testi_svg_Strock_BG": "#109fa3",
-            "image": "shopify:\/\/shop_images\/Group_1000011096.png",
             "start_image": "shopify:\/\/shop_images\/Trustpilot_ratings_5star_RGB.svg",
             "title": "Wow",
-            "text": "<p>So delicious, everyone thought it was real meat but somehow it’s even better! <\/p>",
+            "text": "<p>I didn't know it wasn't beef!<\/p>",
             "link_label": "",
             "link": ""
           }
