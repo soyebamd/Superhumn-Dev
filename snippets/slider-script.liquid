@@ -10,14 +10,13 @@
 jQuery(function($){
 setTimeout(function(){
    $('.testimonials-slider-{{ section.id }}').slick({ 
-  
-   speed: 9000,
-  autoplay: true,
-  autoplaySpeed: 0,
-  cssEase: 'linear',
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  variableWidth: true,
+  infinite: true, // Enable infinite loop
+      slidesToShow: 3, // Number of slides to show at a time
+      slidesToScroll: 1, // Number of slides to scroll
+      autoplay: true, // Enable autoplay
+      autoplaySpeed: 2000, // Autoplay speed in milliseconds
+      pauseOnHover: false, // Don't pause on hover
+      pauseOnFocus: false, // Don't pause on focus
     
       responsive: [ 
     {
