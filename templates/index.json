@@ -389,15 +389,6 @@
             "page": ""
           }
         },
-        "collapsible_row_VkFH4d": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Why should I eat this instead of regular jerky?",
-            "icon": "none",
-            "row_content": "<p>We could answer this question for days! But basically:<\/p><ul><li>better health<\/li><li>over 98% reduction in water\/energy\/land usage and greenhouse gas emissions<\/li><li>no piggies involved<\/li><\/ul>",
-            "page": ""
-          }
-        },
         "collapsible_row_z3gF69": {
           "type": "collapsible_row",
           "settings": {
@@ -421,7 +412,6 @@
         "collapsible_row_bcqUMe",
         "collapsible_row_a4TytX",
         "collapsible_row_tJLHYw",
-        "collapsible_row_VkFH4d",
         "collapsible_row_z3gF69",
         "collapsible_row_hfcXRE"
       ],
