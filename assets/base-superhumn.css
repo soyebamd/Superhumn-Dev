@@ -1247,3 +1247,8 @@ summary[aria-expanded="true"] svg {
 .slick-arrow {
   display: none;
 }
+
+.navigation,
+.slick-arrow {
+  display: none !important;
+}
